@@ -1,9 +1,3 @@
-import { Button } from "@nextui-org/button";
-
-export default function Home() {
-  return (
-    <div>
-      <Button>Click me</Button>
-    </div>
-  );
+export default function HomePage() {
+  return <div>Home page</div>;
 }
