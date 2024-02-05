@@ -21,7 +21,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
   const menuItems: { name: string; pathname: string }[] = [
     { name: "Hobbies", pathname: "/hobbies" },
     { name: "Sports", pathname: "/sports" },
-    { name: "IT", pathname: "/it" },
+    { name: "Programming", pathname: "/programming" },
     { name: "Education", pathname: "/education" },
   ];
   const pathname = usePathname();
