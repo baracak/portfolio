@@ -1,51 +1,55 @@
-import { Image, Link } from "@nextui-org/react";
+import { Image } from "@nextui-org/react";
 import classNames from "classnames";
-import { title } from "process";
+import { type } from "os";
+import { ReactNode } from "react";
 
-interface Props {
-  titles: {
-    text: string;
-    color?: {
-      from: string;
-      to: string;
-    };
-  }[];
+interface Title {
+  text: ReactNode;
+  color?: {
+    from: string;
+    to: string;
+  };
+  omitSpace?: boolean;
 }
 
-export default function PresentationBox({ titles }: Props) {
+type TitleRow = Title[];
+
+interface Props {
+  titleRows: TitleRow[];
+  description?: ReactNode;
+}
+
+export default function PresentationBox({ description, titleRows }: Props) {
   return (
     <div>
       <div className="flex flex-col gap-2 items-start justify-center w-full">
-        <h1 className="tracking-tight inline font-semibold from-[#5EA2EF] to-[#0072F5] text-3xl lg:text-6xl bg-clip-text text-transparent bg-gradient-to-b">
-          Climbing&nbsp;
-        </h1>
-        {titles.map(({ text, color }) => (
-          <h1
-            className={classNames(
-              "tracking-tight inline font-semibold text-3xl lg:text-6xl",
-              color
-                ? {
-                    "bg-clip-text text-transparent bg-gradient-to-b": true,
-                    [`from-[${color?.from}]`]: true,
-                    [`to-[${color?.to}]`]: true,
-                  }
-                : undefined
-            )}
-          >
-            {text}
-          </h1>
+        {titleRows.map((titles) => (
+          <div>
+            {titles.map(({ text, color, omitSpace }, index) => (
+              <h1
+                className={classNames(
+                  "tracking-tight inline font-semibold text-3xl lg:text-6xl",
+                  color
+                    ? {
+                        "bg-clip-text text-transparent bg-gradient-to-b": true,
+                        [`from-[${color?.from}]`]: true,
+                        [`to-[${color?.to}]`]: true,
+                      }
+                    : undefined
+                )}
+              >
+                {index > 0 && !omitSpace && " "}
+                {text}
+              </h1>
+            ))}
+          </div>
         ))}
       </div>
-      <p className="w-full  my-2 text-lg lg:text-xl font-normal text-default-500 block max-w-full">
-        I started climbing when I was 11 years old and I climb once a week.
-      </p>
-      <p className="w-full  my-2 text-lg lg:text-xl font-normal text-default-500 block max-w-full">
-        I climb in{" "}
-        <Link target="_blank" href={"https://www.ddmm.cz/"} size="lg">
-          DDM in Modřany
-        </Link>
-        .
-      </p>
+      {description && (
+        <p className="w-full md:w-1/2 my-2 text-lg lg:text-xl font-normal text-default-500 block max-w-full">
+          {description}
+        </p>
+      )}
       <Image width={300} alt="NextUI hero Image" src="/images/climbing.png" />
     </div>
   );
