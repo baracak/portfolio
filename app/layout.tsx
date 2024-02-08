@@ -19,8 +19,8 @@ import { usePathname } from "next/navigation";
 export default function RootLayout({ children }: { children: ReactNode }) {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const menuItems: { name: string; pathname: string }[] = [
-    { name: "Hobbies", pathname: "/hobbies" },
     { name: "Sports", pathname: "/sports" },
+    { name: "Hobbies", pathname: "/hobbies" },
     { name: "Programming", pathname: "/programming" },
     { name: "Education", pathname: "/education" },
   ];
