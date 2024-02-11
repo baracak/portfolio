@@ -1,13 +1,11 @@
-import { Image } from "@nextui-org/react";
 import classNames from "classnames";
-import { type } from "os";
 import { ReactNode } from "react";
 
 interface Title {
   text: ReactNode;
-  color?: {
-    from: string;
-    to: string;
+  gradient?: {
+    fromClassName: string;
+    toClassName: string;
   };
   omitSpace?: boolean;
 }
@@ -31,23 +29,24 @@ export default function PresentationBox({
     <div className={className}>
       <div>
         <div className="flex flex-col gap-2 items-start justify-center w-full">
-          {titleRows.map((titles) => (
-            <div>
-              {titles.map(({ text, color, omitSpace }, index) => (
+          {titleRows.map((titles, titleRowIndex) => (
+            <div key={titleRowIndex}>
+              {titles.map(({ text, gradient, omitSpace }, titleIndex) => (
                 <h1
+                  key={titleIndex}
                   className={classNames(
                     "tracking-tight inline font-semibold text-3xl lg:text-6xl",
-                    color
+                    gradient
                       ? {
                           "bg-clip-text text-transparent bg-gradient-to-b":
                             true,
-                          [`from-[${color?.from}]`]: true,
-                          [`to-[${color?.to}]`]: true,
+                          [gradient.fromClassName]: true,
+                          [gradient.toClassName]: true,
                         }
                       : undefined
                   )}
                 >
-                  {index > 0 && !omitSpace && " "}
+                  {titleIndex > 0 && !omitSpace && " "}
                   {text}
                 </h1>
               ))}

@@ -9,7 +9,7 @@ export default function HomePage() {
           <div className="flex flex-col gap-2 items-start justify-center w-full">
             <div>
               <h1 className="tracking-tight inline font-semibold text-3xl lg:text-6xl">
-                Hi I'm Barča.
+                Hi I&apos;m Barča.
               </h1>
             </div>
             <div>
@@ -34,14 +34,20 @@ export default function HomePage() {
             [
               {
                 text: "Climbing",
-                color: { from: "#6FEE8D", to: "#17c964" },
+                gradient: {
+                  fromClassName: "from-[#6FEE8D]",
+                  toClassName: "to-[#17c964]",
+                },
               },
               { text: "made my " },
             ],
             [
               {
                 text: "Muscles",
-                color: { from: "#6FEE8D", to: "#17c964" },
+                gradient: {
+                  fromClassName: "from-[#6FEE8D]",
+                  toClassName: "to-[#17c964]",
+                },
               },
             ],
           ]}
@@ -56,7 +62,7 @@ export default function HomePage() {
               little bit stronger which is very good.
             </>
           }
-          gridItems={[<Image src="/images/climbing.png" />]}
+          gridItems={[<Image key={0} alt="" src="/images/climbing.png" />]}
         ></PresentationBox>
 
         <PresentationBox
@@ -64,7 +70,10 @@ export default function HomePage() {
             [
               {
                 text: "Arial Hoop",
-                color: { from: "#FF1CF7", to: "#b249f8" },
+                gradient: {
+                  fromClassName: "from-[#FF1CF7]",
+                  toClassName: "to-[#b249f8]",
+                },
               },
               { text: "is just " },
             ],
@@ -81,11 +90,11 @@ export default function HomePage() {
                 Cvič.it
               </Link>
               . I have been doing Arial Hoop since I was 13 years old. I do it
-              with my friend from school. I do this sport just for fun and it's
-              mostly just doing some new skills on the hoop.
+              with my friend from school. I do this sport just for fun and
+              it&apos;s mostly just doing some new skills on the hoop.
             </>
           }
-          gridItems={[<Image src="/images/arialhoop.png" />]}
+          gridItems={[<Image key={0} alt="" src="/images/arialhoop.png" />]}
         ></PresentationBox>
 
         <PresentationBox
@@ -94,14 +103,17 @@ export default function HomePage() {
               { text: "From  " },
               {
                 text: "Yarn to Yarn",
-                color: { from: "#FF705B", to: "#FFB457" },
+                gradient: {
+                  fromClassName: "from-[#FF705B]",
+                  toClassName: "to-[#FFB457]",
+                },
               },
             ],
           ]}
           description={
             "I have been crocheting since I was 10 and I crochet all kind of things. From blankets to clothes and plushies. Wheter you're a beginner or an experienced crafter, crocheting brings a lot of relaxing and you can even watch films when you crochet so you don't have to to just sit infront of the TV but you can also do something."
           }
-          gridItems={[<Image src="/images/crocheting.jpeg" />]}
+          gridItems={[<Image key={0} alt="" src="/images/crocheting.jpeg" />]}
         ></PresentationBox>
 
         <PresentationBox
@@ -110,21 +122,27 @@ export default function HomePage() {
               { text: "Exploring the  " },
               {
                 text: "Art",
-                color: { from: "#FF72E1", to: "#F54C7A" },
+                gradient: {
+                  fromClassName: "from-[#FF72E1]",
+                  toClassName: "to-[#F54C7A]",
+                },
               },
               { text: "of  " },
             ],
             [
               {
                 text: "Painting",
-                color: { from: "#FF72E1", to: "#F54C7A" },
+                gradient: {
+                  fromClassName: "from-[#FF72E1]",
+                  toClassName: "to-[#F54C7A]",
+                },
               },
             ],
           ]}
           description={
             "Painting and drawing has been my passion for my whole life. I really like painting because it is relaxing and you can paint so many different things."
           }
-          gridItems={[<Image src="/images/painting.png" />]}
+          gridItems={[<Image key={0} alt="" src="/images/painting.png" />]}
         ></PresentationBox>
       </div>
     </>
