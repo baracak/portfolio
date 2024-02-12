@@ -25,6 +25,7 @@ export default function PresentationBox({
   gridItems,
   className,
 }: Props) {
+  const areGridItemsOdd = !!(gridItems && gridItems.length % 2);
   return (
     <div className={className}>
       <div>
@@ -59,8 +60,17 @@ export default function PresentationBox({
           </p>
         )}
       </div>
-      {gridItems?.length && (
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">{gridItems}</div>
+      {gridItems && (
+        <div className="mt-4">
+          {areGridItemsOdd && (
+            <div className="grid grid-cols-1 gap-4 mb-4">{gridItems[0]}</div>
+          )}
+          {(!areGridItemsOdd || gridItems.length > 1) && (
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
+              {areGridItemsOdd ? gridItems.slice(1) : gridItems}
+            </div>
+          )}
+        </div>
       )}
     </div>
   );

@@ -62,7 +62,11 @@ export default function HomePage() {
               little bit stronger which is very good.
             </>
           }
-          gridItems={[<Image key={0} alt="" src="/images/climbing.png" />]}
+          gridItems={[
+            <Image key={0} alt="" src="/images/climbing.png" />,
+            <Image key={1} alt="" src="/images/climbing.png" />,
+            <Image key={2} alt="" src="/images/climbing.png" />,
+          ]}
         ></PresentationBox>
 
         <PresentationBox
