@@ -1,5 +1,14 @@
-import { Image, Link } from "@nextui-org/react";
+import { Image, ImageProps, Link } from "@nextui-org/react";
 import PresentationBox from "./components/PresentationBox/PresentationBox";
+import styles from "./styles.module.css";
+
+const coverImageProps: ImageProps = {
+  width: "100%",
+  className: styles["cover-image"],
+  classNames: {
+    wrapper: "h-64",
+  },
+};
 
 export default function HomePage() {
   return (
@@ -39,7 +48,7 @@ export default function HomePage() {
                   toClassName: "to-[#17c964]",
                 },
               },
-              { text: "made my " },
+              { text: "made my" },
             ],
             [
               {
@@ -63,9 +72,24 @@ export default function HomePage() {
             </>
           }
           gridItems={[
-            <Image key={0} alt="" src="/images/climbing.png" />,
-            <Image key={1} alt="" src="/images/climbing.png" />,
-            <Image key={2} alt="" src="/images/climbing.png" />,
+            <Image
+              key={0}
+              alt=""
+              {...coverImageProps}
+              src="/images/climbing.png"
+            />,
+            <Image
+              key={1}
+              alt=""
+              {...coverImageProps}
+              src="/images/climbing.png"
+            />,
+            <Image
+              key={2}
+              alt=""
+              {...coverImageProps}
+              src="/images/climbing.png"
+            />,
           ]}
         ></PresentationBox>
 
@@ -98,7 +122,14 @@ export default function HomePage() {
               it&apos;s mostly just doing some new skills on the hoop.
             </>
           }
-          gridItems={[<Image key={0} alt="" src="/images/arialhoop.png" />]}
+          gridItems={[
+            <Image
+              key={0}
+              alt=""
+              {...coverImageProps}
+              src="/images/arialhoop.png"
+            />,
+          ]}
         ></PresentationBox>
 
         <PresentationBox
@@ -117,7 +148,14 @@ export default function HomePage() {
           description={
             "I have been crocheting since I was 10 and I crochet all kind of things. From blankets to clothes and plushies. Wheter you're a beginner or an experienced crafter, crocheting brings a lot of relaxing and you can even watch films when you crochet so you don't have to to just sit infront of the TV but you can also do something."
           }
-          gridItems={[<Image key={0} alt="" src="/images/crocheting.jpeg" />]}
+          gridItems={[
+            <Image
+              key={0}
+              alt=""
+              {...coverImageProps}
+              src="/images/crocheting.jpeg"
+            />,
+          ]}
         ></PresentationBox>
 
         <PresentationBox
@@ -146,7 +184,14 @@ export default function HomePage() {
           description={
             "Painting and drawing has been my passion for my whole life. I really like painting because it is relaxing and you can paint so many different things."
           }
-          gridItems={[<Image key={0} alt="" src="/images/painting.png" />]}
+          gridItems={[
+            <Image
+              key={0}
+              alt=""
+              {...coverImageProps}
+              src="/images/painting.png"
+            />,
+          ]}
         ></PresentationBox>
       </div>
     </>
