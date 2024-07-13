@@ -45,7 +45,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
               <NavbarContent className="sm:hidden pr-3" justify="center">
                 <NavbarBrand>
                   <AcmeLogo />
-                  <p className="font-bold text-inherit">ACME</p>
+                  <p className="font-bold text-inherit">Barča</p>
                 </NavbarBrand>
               </NavbarContent>
 
@@ -53,7 +53,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
                 <NavbarBrand>
                   <Link href="/" color="foreground">
                     <AcmeLogo />
-                    <p className="font-bold text-inherit">ACME</p>
+                    <p className="font-bold text-inherit">Barča</p>
                   </Link>
                 </NavbarBrand>
               </NavbarContent>

@@ -13,27 +13,26 @@ const coverImageProps: ImageProps = {
 export default function HomePage() {
   return (
     <>
-      <div className="my-44">
+      <div className="my-24">
         <div>
           <div className="flex flex-col gap-2 items-start justify-center w-full">
             <div>
-              <h1 className="tracking-tight inline font-semibold text-3xl lg:text-6xl">
+              <h1 className="tracking-tight inline font-semibold text-7xl ">
                 Hi I&apos;m Barča.
               </h1>
             </div>
             <div>
-              <h1 className="tracking-tight inline font-semibold text-3xl lg:text-6xl">
+              <h1 className="tracking-tight inline font-semibold text-6xl ">
                 This is my{" "}
               </h1>
-              <h1 className="tracking-tight inline font-semibold text-3xl lg:text-6xl bg-clip-text text-transparent bg-gradient-to-b from-[#5EA2EF] to-[#0072F5]">
+              <h1 className="tracking-tight inline font-semibold text-6xl  bg-clip-text text-transparent bg-gradient-to-b from-[#F7B750] to-[#62420E]">
                 Portfolio
               </h1>
             </div>
           </div>
-
           <p className="w-full md:w-1/2 my-2 text-lg lg:text-xl font-normal text-default-500 block max-w-full">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
-            mollis turpis ipsum, vel consectetur velit elementum quis.
+            I find passion in crocheting, programming, climbing and playing in a
+            band.
           </p>
         </div>
       </div>
@@ -44,8 +43,8 @@ export default function HomePage() {
               {
                 text: "Climbing",
                 gradient: {
-                  fromClassName: "from-[#6FEE8D]",
-                  toClassName: "to-[#17c964]",
+                  fromClassName: "from-[#610726]",
+                  toClassName: "to-[#0E8AAA]",
                 },
               },
               { text: "made my" },
@@ -54,8 +53,8 @@ export default function HomePage() {
               {
                 text: "Muscles",
                 gradient: {
-                  fromClassName: "from-[#6FEE8D]",
-                  toClassName: "to-[#17c964]",
+                  fromClassName: "from-[#610726]",
+                  toClassName: "to-[#0E8AAA]",
                 },
               },
             ],
@@ -68,7 +67,7 @@ export default function HomePage() {
               </Link>
               . I have been climbing for 4 years now and I even persuaded my dad
               to climb with me. I enjoy climbing very much and I am even a
-              little bit stronger which is very good.
+              little bit stronger which is a positive thing about it.
             </>
           }
           gridItems={[
@@ -76,19 +75,19 @@ export default function HomePage() {
               key={0}
               alt=""
               {...coverImageProps}
-              src="/images/climbing.png"
+              classNames={{
+                wrapper: "h-96",
+              }}
+              src="/images/lezeni.jpg"
             />,
             <Image
-              key={1}
+              key={0}
               alt=""
               {...coverImageProps}
-              src="/images/climbing.png"
-            />,
-            <Image
-              key={2}
-              alt=""
-              {...coverImageProps}
-              src="/images/climbing.png"
+              classNames={{
+                wrapper: "h-96",
+              }}
+              src="/images/lezeni2.jpg"
             />,
           ]}
         ></PresentationBox>
@@ -99,8 +98,8 @@ export default function HomePage() {
               {
                 text: "Arial Hoop",
                 gradient: {
-                  fromClassName: "from-[#FF1CF7]",
-                  toClassName: "to-[#b249f8]",
+                  fromClassName: "from-[#AE7EDE]",
+                  toClassName: "to-[#610726]",
                 },
               },
               { text: "is just " },
@@ -127,33 +126,62 @@ export default function HomePage() {
               key={0}
               alt=""
               {...coverImageProps}
-              src="/images/arialhoop.png"
+              classNames={{
+                wrapper: "h-96",
+              }}
+              src="/images/arialhoop-skill.jpg"
+            />,
+            <Image
+              key={0}
+              alt=""
+              {...coverImageProps}
+              classNames={{
+                wrapper: "h-96",
+              }}
+              src="/images/arialhoop4.jpeg"
             />,
           ]}
         ></PresentationBox>
 
         <PresentationBox
           titleRows={[
+            [{ text: "From  " }],
             [
-              { text: "From  " },
               {
                 text: "Yarn to Yarn",
                 gradient: {
-                  fromClassName: "from-[#FF705B]",
-                  toClassName: "to-[#FFB457]",
+                  fromClassName: "from-[#F871A0]",
+                  toClassName: "to-[#C20E4D]",
                 },
               },
             ],
           ]}
           description={
-            "I have been crocheting since I was 10 and I crochet all kind of things. From blankets to clothes and plushies. Wheter you're a beginner or an experienced crafter, crocheting brings a lot of relaxing and you can even watch films when you crochet so you don't have to to just sit infront of the TV but you can also do something."
+            <>
+              I have been crocheting a long time now, something about 5 years
+              and I think I am pretty good at it. I enjoy it because it brings
+              me peace and I can just sit down and do one thing and not worry
+              about other stuff. That is what I love about crocheting.
+            </>
           }
           gridItems={[
             <Image
               key={0}
               alt=""
               {...coverImageProps}
-              src="/images/crocheting.jpeg"
+              classNames={{
+                wrapper: "h-96",
+              }}
+              src="/images/crochet bunny.jpg"
+            />,
+            <Image
+              key={0}
+              alt=""
+              {...coverImageProps}
+              classNames={{
+                wrapper: "h-96",
+              }}
+              src="/images/crochet octopus.jpg"
             />,
           ]}
         ></PresentationBox>
@@ -165,8 +193,8 @@ export default function HomePage() {
               {
                 text: "Art",
                 gradient: {
-                  fromClassName: "from-[#FF72E1]",
-                  toClassName: "to-[#F54C7A]",
+                  fromClassName: "from-[#12A150]",
+                  toClassName: "to-[#002E62]",
                 },
               },
               { text: "of  " },
@@ -175,6 +203,106 @@ export default function HomePage() {
               {
                 text: "Painting",
                 gradient: {
+                  fromClassName: "from-[#12A150]",
+                  toClassName: "to-[#002E62]",
+                },
+              },
+            ],
+          ]}
+          description={
+            <>
+              I have been painting my whole life and but probably like 2 years
+              ago it started looking good. I like it because you can paint
+              anything you want and even when you do not paint you can paint
+              something because you can just paint some lines on the paper and
+              make it look good.
+            </>
+          }
+          gridItems={[
+            <Image
+              key={0}
+              alt=""
+              {...coverImageProps}
+              classNames={{
+                wrapper: "h-96",
+              }}
+              src="/images/nebe.jpg"
+            />,
+            <Image
+              key={0}
+              alt=""
+              {...coverImageProps}
+              classNames={{
+                wrapper: "h-96",
+              }}
+              src="/images/butterfly.jpg"
+            />,
+          ]}
+        ></PresentationBox>
+
+        <PresentationBox
+          titleRows={[
+            [
+              {
+                text: "Inside ",
+                gradient: {
+                  fromClassName: "from-[#301050]",
+                  toClassName: "to-[#920B3A]",
+                },
+              },
+              { text: "the world of" },
+              {
+                text: "My band",
+                gradient: {
+                  fromClassName: "from-[#301050]",
+                  toClassName: "to-[#920B3A]",
+                },
+              },
+            ],
+          ]}
+          description={
+            <>
+              My band is a afternoon course in{" "}
+              <Link target="_blank" href={"https://www.ddmm.cz/"} size="lg">
+                DDM in Modřany
+              </Link>
+              . It all started when I once went to a band course and we just
+              played some songs. Now we even write our own songs and I am
+              usually the one that is writing the lyrics and than someone else
+              from the band writes the music for it. We have some concerts for
+              our parents but we also play at some actions that are in DDM in
+              modřany.
+            </>
+          }
+          gridItems={[
+            <Image
+              key={0}
+              alt=""
+              {...coverImageProps}
+              classNames={{
+                wrapper: "h-96",
+              }}
+              src="/images/kapela.jpg"
+            />,
+            <Image
+              key={0}
+              alt=""
+              {...coverImageProps}
+              classNames={{
+                wrapper: "h-96",
+              }}
+              src="/images/Věčný-příběh-nás.png"
+            />,
+          ]}
+        ></PresentationBox>
+
+        <PresentationBox
+          titleRows={[
+            [
+              { text: "My path to  " },
+              {
+                text: "Knowledge",
+                gradient: {
                   fromClassName: "from-[#FF72E1]",
                   toClassName: "to-[#F54C7A]",
                 },
@@ -182,14 +310,37 @@ export default function HomePage() {
             ],
           ]}
           description={
-            "Painting and drawing has been my passion for my whole life. I really like painting because it is relaxing and you can paint so many different things."
+            <>
+              I study at{" "}
+              <Link target="_blank" href={"https://www.ddmm.cz/"} size="lg">
+                ZŠ Angel
+              </Link>
+              . It is a bilingual school so I speak English pretty good and I
+              also have a good acent because we have native speakers from
+              different countries were they speak English. I also have a
+              cambridge certificate from 5th grade in level A2 and I will do
+              another one in 9th grade but unfortunately I will not have the
+              results by the time of the entrance exams.
+            </>
           }
           gridItems={[
             <Image
               key={0}
               alt=""
               {...coverImageProps}
-              src="/images/painting.png"
+              classNames={{
+                wrapper: "h-96",
+              }}
+              src="/images/cambridge.jpg"
+            />,
+            <Image
+              key={0}
+              alt=""
+              {...coverImageProps}
+              classNames={{
+                wrapper: "h-96",
+              }}
+              src="/images/school.jpg"
             />,
           ]}
         ></PresentationBox>
