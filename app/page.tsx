@@ -30,13 +30,102 @@ export default function HomePage() {
               </h1>
             </div>
           </div>
-          <p className="w-full md:w-1/2 my-2 text-lg lg:text-xl font-normal text-default-500 block max-w-full">
-            I find passion in crocheting, programming, climbing and playing in a
-            band.
-          </p>
         </div>
       </div>
       <div className="grid grid-cols-1 gap-16 lg:gap-44"></div>
+      <div className="grid grid-cols-1 gap-16 lg:gap-44">
+        <PresentationBox
+          titleRows={[
+            [
+              {
+                text: "Sports",
+                gradient: {
+                  fromClassName: "from-[#99C7FB]",
+                  toClassName: "to-[#006FEE]",
+                },
+              },
+            ],
+          ]}
+          description={
+            <>
+              I do sports because it is a fun way to stay fit and healthy. Also
+              it's a great way to make new friends. Even when I don't do the
+              sports for the thrill of competition it still boosts my energy and
+              it makes me laugh.
+            </>
+          }
+          gridItems={[
+            <Image
+              key={0}
+              alt=""
+              {...coverImageProps}
+              classNames={{
+                wrapper: "h-96",
+              }}
+              src="/images/climbing-inddors.jpg"
+            />,
+            <Image
+              key={0}
+              alt=""
+              {...coverImageProps}
+              classNames={{
+                wrapper: "h-96",
+              }}
+              src="/images/arialhoop-aest1.jpg"
+            />,
+          ]}
+        ></PresentationBox>
+
+        <PresentationBox
+          titleRows={[
+            [
+              {
+                text: "Hobbies",
+                gradient: {
+                  fromClassName: "from-[#CC3EA4]",
+                  toClassName: "to-[#FF4ECD]",
+                },
+              },
+            ],
+          ]}
+          description={
+            <>
+              Hobbies are a way of relaxation for me. They help reduce stress,
+              help learn new skills, build confidence, and connect with other
+              people that share the same interests.
+            </>
+          }
+          gridItems={[
+            <Image
+              key={0}
+              alt=""
+              {...coverImageProps}
+              classNames={{
+                wrapper: "h-96",
+              }}
+              src="/images/band.jpg"
+            />,
+            <Image
+              key={0}
+              alt=""
+              {...coverImageProps}
+              classNames={{
+                wrapper: "h-96",
+              }}
+              src="/images/paint.jpg"
+            />,
+            <Image
+              key={0}
+              alt=""
+              {...coverImageProps}
+              classNames={{
+                wrapper: "h-96",
+              }}
+              src="/images/croch.jpg"
+            />,
+          ]}
+        ></PresentationBox>
+      </div>
     </>
   );
 }
