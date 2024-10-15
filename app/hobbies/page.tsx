@@ -81,11 +81,11 @@ export default function HobbiesPage() {
         ]}
         description={
           <>
-            I have been painting my whole life and but probably like 3 years ago
-            it started looking good. I like it because you can paint anything
-            you want and even when you do not paint you can paint something
-            because you can just paint some lines on the paper and make it look
-            good.
+            I have been painting my whole life, but probably like 3 years ago it
+            started looking good. I like it because you can paint anything you
+            want and even when you don&apos;t known how to paint you can paint
+            something because you can just paint some lines on the paper and
+            make it look good.
           </>
         }
         gridItems={[

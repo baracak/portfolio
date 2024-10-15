@@ -31,12 +31,140 @@ export default function HomePage() {
             </div>
           </div>
           <p className="w-full md:w-1/2 my-2 text-lg lg:text-xl font-normal text-default-500 block max-w-full">
-            I find passion in crocheting, programming, climbing and playing in a
-            band.
+            I find passion in sports, programming, playing in a band and
+            painting.
           </p>
         </div>
       </div>
       <div className="grid grid-cols-1 gap-16 lg:gap-44"></div>
+
+      <div>
+        <div className="grid grid-cols-1 gap-16 lg:gap-44">
+          <PresentationBox
+            titleRows={[
+              [
+                {
+                  text: "Sport",
+                  gradient: {
+                    fromClassName: "from-[#99C7FB]",
+                    toClassName: "to-[#006FEE]",
+                  },
+                },
+              ],
+            ]}
+            description={
+              <>
+                I do sport because it helps me build my physic and it helps me
+                mentally. It boost my mood and it chalenges me to try new things
+                and get sensational in them.
+              </>
+            }
+            gridItems={[
+              <Image
+                key={0}
+                alt=""
+                {...coverImageProps}
+                classNames={{
+                  wrapper: "h-96",
+                }}
+                src="/images/climbing-sunset.jpg"
+              />,
+              <Image
+                key={0}
+                alt=""
+                {...coverImageProps}
+                classNames={{
+                  wrapper: "h-96",
+                }}
+                src="/images/arial-hoop.jpg"
+              />,
+            ]}
+          ></PresentationBox>
+
+          <PresentationBox
+            titleRows={[
+              [
+                {
+                  text: "Programming",
+                  gradient: {
+                    fromClassName: "from-[#AE7EDE]",
+                    toClassName: "to-[#610726]",
+                  },
+                },
+              ],
+            ]}
+            description={
+              <>
+                I programm to solve problems, express creativity, and build
+                useful tools. It offers great career opportunities and
+                continuous learning as technology evolves. It empowers me to
+                turn my ideas into reality.
+              </>
+            }
+            gridItems={[
+              <Image
+                key={0}
+                alt=""
+                {...coverImageProps}
+                classNames={{
+                  wrapper: "h-96",
+                }}
+                src="/images/programm.jpg"
+              />,
+              <Image
+                key={0}
+                alt=""
+                {...coverImageProps}
+                classNames={{
+                  wrapper: "h-96",
+                }}
+                src="/images/programming.jpg"
+              />,
+            ]}
+          ></PresentationBox>
+          <PresentationBox
+            titleRows={[
+              [
+                {
+                  text: "Hobbies",
+                  gradient: {
+                    fromClassName: "from-[#12A150]",
+                    toClassName: "to-[#002E62]",
+                  },
+                },
+              ],
+            ]}
+            description={
+              <>
+                Hobbies are a way of relaxation and enjoyment for me. It helps
+                me with my creativity and it puts away the stress I have,
+                atleast for a while. It also makes new friends that have the
+                same interest as you.
+              </>
+            }
+            gridItems={[
+              <Image
+                key={0}
+                alt=""
+                {...coverImageProps}
+                classNames={{
+                  wrapper: "h-96",
+                }}
+                src="/images/kapela2.jpg"
+              />,
+              <Image
+                key={0}
+                alt=""
+                {...coverImageProps}
+                classNames={{
+                  wrapper: "h-96",
+                }}
+                src="/images/malovani.jpg"
+              />,
+            ]}
+          ></PresentationBox>
+        </div>
+      </div>
     </>
   );
 }
