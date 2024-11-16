@@ -35,9 +35,7 @@ export default function EducationPage() {
             . It is a bilingual school so I speak English pretty good and I also
             have a good acent because we have native speakers from different
             countries were they speak English. I also have a cambridge
-            certificate from 5th grade in level A2 and I will do another one in
-            the level B2 in 9th grade but unfortunately I will not have the
-            results by the time of the entrance exams.
+            certificate from 5th grade in level A2 and a B2 from 9th grade.
           </>
         }
         gridItems={[

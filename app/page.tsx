@@ -163,6 +163,48 @@ export default function HomePage() {
               />,
             ]}
           ></PresentationBox>
+          <PresentationBox
+            titleRows={[
+              [
+                {
+                  text: "Education",
+                  gradient: {
+                    fromClassName: "from-[#9353D3]",
+                    toClassName: "to-[#7828C8]",
+                  },
+                },
+              ],
+            ]}
+            description={
+              <>
+                I believe education is a cornerstone of personal growth and
+                social progress. I would like to expand my knowledge and skills
+                in informational technology. I am passionate about exploring new
+                ideas, trying out different challenges and applying what I learn
+                to real life.
+              </>
+            }
+            gridItems={[
+              <Image
+                key={0}
+                alt=""
+                {...coverImageProps}
+                classNames={{
+                  wrapper: "h-96",
+                }}
+                src="/images/educ.jpg"
+              />,
+              <Image
+                key={0}
+                alt=""
+                {...coverImageProps}
+                classNames={{
+                  wrapper: "h-96",
+                }}
+                src="/images/grad.jpg"
+              />,
+            ]}
+          ></PresentationBox>
         </div>
       </div>
     </>
