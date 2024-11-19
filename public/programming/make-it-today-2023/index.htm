@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="cz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Lets chrochet</title>
+</head>
+<body>
+  <header>
+    <h1>Welcome to lets crochet</h1>
+    <img src="header.jpg" alt="krabice s přízemi">
+  </header>
+  <nav>
+    
+   
+    <ul>
+       <li><a href="#basic_yarns">Basic yarns</a></li>
+       <li><a href="#hairy yarns">Hairy yarns</a></li>
+       <li><a href="#cotton yarns">Cotton yarns</a></li>
+       <li><a href="#which yarn to choose">Which yarn to choose</a></li>
+       <li><a href="">Contacts</a></li>
+    </ul>
+    <div class="🍔">
+      <div></div>
+      <div></div>
+      <div></div>
+   </div> 
+   
+</nav>
+<script >
+    const hamburger  = document.querySelector('nav > .🍔');
+    const nav = document.querySelector('nav');
+    const links = document.querySelectorAll("nav > ul > li > a");
+
+    hamburger.addEventListener('click', () => {
+        nav.classList.toggle('active');
+      })
+
+      links.forEach((link) =>{
+        link.addEventListener("click", () =>{
+          nav.classList.remove("active");          
+        })
+      })
+    
+</script>
+     <main>
+          <div class="grid-gallery">
+              <img class="prvni" src="basic yarn.jpg" alt="">
+              <img class="druhej" src="hairy yarn.avif" alt="">
+              <img class="treti" src="cotton yarn.jpg" alt="">
+              <img class="ctvrtej" src="yarn.jpg" alt="">
+              <img class="patej" src="crochet.png" alt="">
+          </div>
+          <section id="basic_yarns">
+             <h2>Basic yarns</h2>
+             <div class="grid-products">
+                <div>
+                   <img src="yarnart_violet_003.jpg" alt="yarn art violet 003">
+                   <h4>Yarn art violet 003</h4>
+                   <p class="cena">65 CZK</p>
+                   <p class="dostupnost">available in store</p>
+                 </div>
+                 <div>
+                  <img src="yarnart_violet_4653.jpg" alt="yarn art violet 4653">
+                  <h4>Yarn art violet 4653</h4>
+                  <p class="cena">65 CZK</p>
+                  <p class="nedostupnost"> not available in store</p>
+                 </div>
+                 <div>
+                  <img src="yarnart_violet_4917.jpg" alt="yarn art viloet 4917">
+                  <h4>Yarn art violet 4917</h4>
+                  <p class="cena">65 CZK</p>
+                  <p class="dostupnost"> available in store</p>
+                 </div>
+                 <div>
+                  <img src="yarnart_violet_4920.jpg" alt="yarn art violet 4920">
+                  <h4> Yarn art violet 4920</h4>
+                  <p class="cena">65 CZK</p>
+                  <p class="dostupnost">available in store</p>
+                 </div>
+                 <div>
+                  <img src="yarnart_violet_6358.jpg" alt="">
+                  <h4>Yarn art violet 6358</h4>
+                  <p class="cena">65 CZK</p>
+                  <p class="dostupnost">available in store</p>
+                 </div>
+                 <div>
+                  <img src="yarnart_violet_5307.jpg" alt="">
+                  <h4>Yarn art violet 5307</h4>
+                  <p class="cena">65 CZK</p>
+                  <p class="nedostupnost"> not available in store</p>
+                 </div>
+                 <div>
+                  <img src="yarnart_violet_6332.jpg" alt="">
+                  <h4>Zarn art violet 6332</h4>
+                  <p class="cena">65 CZK</p>
+                  <p class="nedostupnost"> not available in store</p>
+                 </div>
+                 <div>
+                  <img src="yarnart_violet_0008.jpg" alt="yarn art violet 0008">
+                  <h4>Yarn art viloet 0008</h4>
+                  <p class="cena">65 CZK</p>
+                  <p class="dostupnost">available in store</p>
+                 </div>
+              </div>
+          </section>
+          <section id="hairy yarns">
+            <h2>Hairy yarns</h2>
+              <div class="grid-products">
+                <div>
+                  <img src="dolphin baby 80301-bila.jpg" alt="dolphin baby 80301-white">
+                  <h4> Himalaya dolphin baby 80301 white</h4>
+                  <p class="cena">65 CZK</p>
+                  <p class="dostupnost">available in store</p>
+                </div>
+                <div>
+                  <img src="dolphin_baby_80311-black.jpg" alt="dolphin baby 80311-black">
+                  <h4>Himalaya dolphin baby 80311-black</h4>
+                  <p class="cena">65 CZK</p>
+                  <p class="nedostupnost">not available in store</p>
+                </div>
+                <div>
+                  <img src="dolphin_baby_80319-light pink.jpg" alt="dolphin baby 80319-light pink">
+                  <h4>Himalaya dolphin baby 80319-light pink</h4>
+                  <p class="cena">65 CZK</p>
+                  <p class="dostupnost">available in store</p>
+                </div>
+                <div>
+                  <img src="dolphin_baby_80337-nut brown.jpg" alt="dolphin baby 80337-nut brown">
+                  <h4>Himalya dolphin baby 80337-nut brown</h4>
+                  <p class="cena">65 CZK</p>
+                  <p class="dostupnost">available in store</p>
+                </div>
+                <div>
+                  <img src="dolphin_baby_80342-light cofee.jpg" alt="dolphin baby 80342-light cofee">
+                  <h4>Himalaya dolphin baby 80342-light cofee</h4>
+                  <p class="cena">65 CZK</p>
+                  <p class="dostupnost">available in store</p>
+                </div>
+                <div>
+                  <img src="dolphin_baby_80315-turquiose.jpg" alt="dolphin baby 80315-turquoise">
+                  <h4>Himalaya dolphin baby 80315-turquoise</h4>
+                  <p class="cena">65 CZK</p>
+                  <p class="nedostupnost">not available in store</p>
+                </div>
+                <div>
+                  <img src="dolphin_baby_80316-orange.jpg" alt="dolphin baby 80316-orange">
+                  <h4>Himalaya dolphin baby 80316-orange</h4>
+                  <p class="cena">65 CZK</p>
+                  <p class="dostupnost">available in store</p>
+                </div>
+                <div>
+                  <img src="dolphin_baby_80318-red.jpg" alt="dolphin baby 80318-red">
+                  <h4>Himalaya dolphin baby 80318-red</h4>
+                  <p class="cena">65 CZK</p>
+                  <p class="dostupnost">available in store</p>
+                </div>
+                <div>
+                  <img src="dolphin_baby_80325-light grey.jpg" alt="dolphin baby 80325-light grey">
+                  <h4>Himalya dolphin baby 80325-light grey</h4>
+                  <p class="cena">65 CZK</p>
+                  <p class="dostupnost">available in store</p>
+                </div>
+                <div>
+                  <img src="dolphin_baby_80368-dark yellow.jpg" alt="dolphin baby 80368-dark yellow">
+                  <h4>Himalya dolphin baby 80368-dark yellow</h4>
+                  <p class="cena">65 CZK</p>
+                  <p class="dostupnost">available in store</p>
+                </div>
+                <div>
+                  <img src="dolphin_baby_80305-pastel purple.jpg" alt="dolphin baby 80305-pastel purple">
+                  <h4>Himalya dolphin baby 80305-pastel purple</h4>
+                  <p class="cena">65 CZK</p>
+                  <p class="nedostupnost">not available in store</p>
+                </div>
+                <div>
+                  <img src="dolphin_baby_80327-sky blue.jpg" alt="dolphin baby 80327-sky blue">
+                  <h4>Himalya dolphin baby 80327-sky blue</h4>
+                  <p class="cena">65 CZK</p>
+                  <p class="dostupnost">available in store</p>
+                </div>
+              </div>
+          </section>
+                <section id="cotton yarns">
+                  <h2>Cotton yarns</h2>
+                  <div class="grid-products">
+                    <div>
+                      <img src="yarnart_cotton_club_7350-snow white.jpg" alt="Yarnart cotton club 7350-snow white">
+                      <h4>YarnArt Cotton Club 7350 - snow white</h4>  
+                      <p class="cena">260 CZK</p>
+                      <p class="dostupnost">available in store</p>
+                    </div>
+                    <div>
+                      <img src="yarnart_cotton_club_7300-black.jpg" alt="Yarnart cotton club 7300-black">
+                      <h4>YarnArt Cotton Club 7300 - black </h4>                     
+                      <p class="cena">260 CZK</p>
+                      <p class="dostupnost">available in store</p>
+                    </div>
+                    <div>
+                      <img src="yarnart_cotton_club_7304-stone.jpg" alt="Yarnart cotton club 7304-stone">
+                      <h4>YarnArt Cotton Club 7304 - stone</h4>                      
+                      <p class="cena">260 CZK</p>
+                      <p class="dostupnost">available in store</p>
+                    </div>
+                    <div>
+                      <img src="yarnart_cotton_club_7311-milky brown.jpg" alt="Yarnart cotton club 7311-milky brown">
+                      <h4>YarnArt Cotton Club 7311 - milky brown</h4>                      
+                      <p class="cena">260 CZK</p>
+                      <p class="dostupnost">available in store</p>
+                    </div>
+                    <div>
+                      <img src="yarnart_cotton_club_7346-pink.jpg" alt="Yarnart cotton club 7346-pink">
+                      <h4>YarnArt Cotton Club 7346 - pink</h4>                      
+                      <p class="cena">260 CZK</p>
+                      <p class="dostupnost">available in store</p>
+                    </div>
+                    <div>
+                      <img src="yarnart_cotton_club_7319-yellow.jpg" alt="Yarnart cotton club 7319-yellow">
+                      <h4>YarnArt Cotton Club 7319 - yellow</h4>                      
+                      <p class="cena">260 CZK</p>
+                      <p class="dostupnost">available in store</p>
+                    </div>
+                    <div>
+                      <img src="yarnart_cotton_club_7328-blue.jpg" alt="Yarnart cotton club 7328-blue">
+                      <h4>YarnArt Cotton Club 7328-blue</h4>                      
+                      <p class="cena">260 CZK</p>
+                      <p class="dostupnost">available in store</p>
+                    </div>
+          </section>
+          <section id="which yarn to choose">
+            <h2>Which yarn to choose</h2>
+            <div class="grid-products">
+              <div>
+                <img src="himalaya_dolphin_baby.jpeg" alt="4 colors of yarn">
+                <h3>Hairy yarn</h3>
+                <p>If you want to crochet something warm it's better to use hairy yarn because it holds heat inside.</p>
+              </div>
+              <div>
+                <img src="which yarn to choose.jpg" alt="4 colors of yarn">
+                <h3>Basic yarn</h3>
+                <p>If you want to crochet something light for spring or summer or even some stuffed toys it's better to use basic yarn because it's not that big. </p>
+              </div>
+              <div>
+                <img src="4401295902_w640_h640_yarnart-cotton-club.webp" alt="4 colors of yarn">
+                <h3>Cotton yarn</h3>
+                <p>If you want to make something harder for example a basket it's better to use cotton yarn because it's harder and it can't shape it self that much. Coton yarn is not good for crocheting toys because it is hard and then the toys are hard.</p>
+              </div>
+              
+     </main>
+     <footer id="patička">
+         <h4>Contact</h4>
+        <p> Address: Trojská 159 </p>
+        <p>phone number: 752 635 183</p>
+     </footer>
+</body>
+</html>  

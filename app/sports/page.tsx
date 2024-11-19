@@ -13,6 +13,11 @@ const coverImageProps: ImageProps = {
 export default function SportsPage() {
   return (
     <div className="grid grid-cols-1 gap-16 lg:gap-44">
+      <div>
+        <h1 className="tracking-tight inline font-semibold text-7xl ">
+          Sports
+        </h1>
+      </div>
       <PresentationBox
         titleRows={[
           [
@@ -38,7 +43,7 @@ export default function SportsPage() {
         description={
           <>
             I climb in{" "}
-            <Link target="_blank" href={"https://www.ddmm.cz/"} size="lg">
+            <Link isExternal href={"https://www.ddmm.cz/"} size="lg">
               DDM in Modřany
             </Link>
             . I have been climbing for 4 years now and I even persuaded my dad
@@ -54,7 +59,7 @@ export default function SportsPage() {
             classNames={{
               wrapper: "h-96",
             }}
-            src="/images/lezeni.jpg"
+            src="/images/climbing.jpg"
           />,
           <Image
             key={0}
@@ -63,7 +68,7 @@ export default function SportsPage() {
             classNames={{
               wrapper: "h-96",
             }}
-            src="/images/lezeni2.jpg"
+            src="/images/climbing1.jpg"
           />,
         ]}
       ></PresentationBox>

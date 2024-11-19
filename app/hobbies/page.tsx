@@ -13,6 +13,11 @@ const coverImageProps: ImageProps = {
 export default function HobbiesPage() {
   return (
     <div className="grid grid-cols-1 gap-16 lg:gap-44">
+      <div>
+        <h1 className="tracking-tight inline font-semibold text-7xl ">
+          Hobbies
+        </h1>
+      </div>
       <PresentationBox
         titleRows={[
           [{ text: "From  " }],
@@ -160,7 +165,7 @@ export default function HobbiesPage() {
             classNames={{
               wrapper: "h-96",
             }}
-            src="/images/Věčný-příběh-nás.png"
+            src="/images/vecny-pribeh-nas.png"
           />,
         ]}
       ></PresentationBox>

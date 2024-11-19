@@ -6,7 +6,7 @@ const coverImageProps: ImageProps = {
   width: "100%",
   className: styles["cover-image"],
   classNames: {
-    wrapper: "h-64",
+    wrapper: "h-96",
   },
 };
 
@@ -31,8 +31,7 @@ export default function HomePage() {
             </div>
           </div>
           <p className="w-full md:w-1/2 my-2 text-lg lg:text-xl font-normal text-default-500 block max-w-full">
-            I find passion in sports, programming, playing in a band and
-            painting.
+            I find passion in sports, programming, my hobbies and education.
           </p>
         </div>
       </div>
@@ -67,7 +66,7 @@ export default function HomePage() {
                 classNames={{
                   wrapper: "h-96",
                 }}
-                src="/images/climbing-sunset.jpg"
+                src="/images/bara.jpg"
               />,
               <Image
                 key={0}
@@ -118,7 +117,7 @@ export default function HomePage() {
                 classNames={{
                   wrapper: "h-96",
                 }}
-                src="/images/programming.jpg"
+                src="/images/code.jpg"
               />,
             ]}
           ></PresentationBox>
@@ -150,7 +149,7 @@ export default function HomePage() {
                 classNames={{
                   wrapper: "h-96",
                 }}
-                src="/images/kapela2.jpg"
+                src="/images/piano.jpg"
               />,
               <Image
                 key={0}
@@ -159,7 +158,7 @@ export default function HomePage() {
                 classNames={{
                   wrapper: "h-96",
                 }}
-                src="/images/malovani.jpg"
+                src="/images/kytka1.jpg"
               />,
             ]}
           ></PresentationBox>

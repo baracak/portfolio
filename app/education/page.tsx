@@ -13,6 +13,11 @@ const coverImageProps: ImageProps = {
 export default function EducationPage() {
   return (
     <div className="grid grid-cols-1 gap-16 lg:gap-44">
+      <div>
+        <h1 className="tracking-tight inline font-semibold text-7xl ">
+          Education
+        </h1>
+      </div>
       <PresentationBox
         titleRows={[
           [
