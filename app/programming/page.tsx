@@ -1,6 +1,7 @@
 import { Image, Link, ImageProps } from "@nextui-org/react";
 import PresentationBox from "../components/PresentationBox/PresentationBox";
 import styles from "../styles.module.css";
+import { link } from "fs";
 
 const coverImageProps: ImageProps = {
   width: "100%",
@@ -200,17 +201,24 @@ export default function SportsPage() {
           </>
         }
         gridItems={[
-          <Image
-            key={0}
-            alt=""
-            {...coverImageProps}
-            classNames={{
-              wrapper: "h-96",
-            }}
-            src="/images/udemy.png"
-          />,
           <Link
-            key={1}
+            key={0}
+            isExternal
+            href="/programming/javascript-for-kids/investmentCalculator.html"
+          >
+            <Image
+              key={1}
+              alt=""
+              {...coverImageProps}
+              classNames={{
+                wrapper: "h-96",
+              }}
+              src="/images/investmentCalculator.png"
+            />
+          </Link>,
+
+          <Link
+            key={2}
             isExternal
             href="/programming/javascript-for-kids/dragDraw.html"
           >
@@ -220,7 +228,7 @@ export default function SportsPage() {
               classNames={{
                 wrapper: "h-96",
               }}
-              src="/images/dragdraw.png"
+              src="/images/dragdraw1.png"
             />
           </Link>,
         ]}
@@ -262,6 +270,48 @@ export default function SportsPage() {
               wrapper: "h-96",
             }}
             src="/images/Say hello on Scratch.png"
+          />,
+        ]}
+      ></PresentationBox>
+      <PresentationBox
+        titleRows={[
+          [
+            { text: "CS" },
+            {
+              text: "50",
+              gradient: {
+                fromClassName: "from-[#F54180]",
+                toClassName: "to-[#920B3A]",
+              },
+            },
+          ],
+        ]}
+        description={
+          <>
+            I found this online course for programming from Harvard. It is free
+            and it is build very understandably and the teacher is very good at
+            teaching and he knows a lot of things about programming and makes it
+            fun.
+          </>
+        }
+        gridItems={[
+          <Image
+            key={0}
+            alt=""
+            {...coverImageProps}
+            classNames={{
+              wrapper: "h-96",
+            }}
+            src="/images/cs50-week0.png"
+          />,
+          <Image
+            key={0}
+            alt=""
+            {...coverImageProps}
+            classNames={{
+              wrapper: "h-96",
+            }}
+            src="/images/harvard.png"
           />,
         ]}
       ></PresentationBox>
