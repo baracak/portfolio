@@ -12,16 +12,22 @@ const coverImageProps: ImageProps = {
 
 export default function EducationPage() {
   return (
-    <div className="grid grid-cols-1 gap-16 lg:gap-44">
+    <div className="grid grid-cols-1 gap-16 lg:gap-4">
+      <div className="flex flex-col gap-2 items-start justify-center w-full">
+        <div>
+          <h1 className="tracking-tight inline font-semibold text-7xl ">
+            Education
+          </h1>
+        </div>
+      </div>
       <div>
-        <h1 className="tracking-tight inline font-semibold text-7xl ">
-          Education
-        </h1>
+        <p className="w-full md:w-1/2 my-2 text-lg lg:text-xl font-normal text-default-500 block max-w-full">
+          I study at ZŠ Angel and I have done 2 Cambridge exams
+        </p>
       </div>
       <PresentationBox
         titleRows={[
           [
-            { text: "My path to  " },
             {
               text: "Knowledge",
               gradient: {
@@ -37,10 +43,10 @@ export default function EducationPage() {
             <Link target="_blank" href={"https://www.ddmm.cz/"} size="lg">
               ZŠ Angel
             </Link>
-            . It is a bilingual school so I speak English pretty good and I also
-            have a good acent because we have native speakers from different
-            countries were they speak English. I also have a cambridge
-            certificate from 5th grade in level A2 and a B2 from 9th grade.
+            , a bilingual school where I’ve developed strong English skills and
+            a good accent thanks to native speakers from various
+            English-speaking countries. I also hold Cambridge certificates: A2
+            from 5th grade and B2 from 9th grade.
           </>
         }
         gridItems={[

@@ -12,18 +12,28 @@ const coverImageProps: ImageProps = {
 
 export default function HobbiesPage() {
   return (
-    <div className="grid grid-cols-1 gap-16 lg:gap-44">
+    <div className="grid grid-cols-1 gap-16 lg:gap-4">
+      <div className="flex flex-col gap-2 items-start justify-center w-full">
+        <div>
+          <h1 className="tracking-tight inline font-semibold text-7xl ">
+            Hobbies
+          </h1>
+        </div>
+      </div>
       <div>
-        <h1 className="tracking-tight inline font-semibold text-7xl ">
-          Hobbies
-        </h1>
+        <p className="w-full md:w-1/2 my-2 text-lg lg:text-xl font-normal text-default-500 block max-w-full">
+          I enjoy crocheting, painting, and being part of my band. Crocheting
+          brings me peace and helps me focus, while painting lets me express
+          creativity, even with simple lines. In my band at DDM in Modřany, I
+          write lyrics for our songs, and we perform at events and for our
+          families
+        </p>
       </div>
       <PresentationBox
         titleRows={[
-          [{ text: "From  " }],
           [
             {
-              text: "Yarn to Yarn",
+              text: "Crocheting",
               gradient: {
                 fromClassName: "from-[#F871A0]",
                 toClassName: "to-[#C20E4D]",
@@ -63,17 +73,6 @@ export default function HobbiesPage() {
 
       <PresentationBox
         titleRows={[
-          [
-            { text: "Exploring the  " },
-            {
-              text: "Art",
-              gradient: {
-                fromClassName: "from-[#12A150]",
-                toClassName: "to-[#002E62]",
-              },
-            },
-            { text: "of  " },
-          ],
           [
             {
               text: "Painting",
@@ -119,14 +118,6 @@ export default function HobbiesPage() {
         titleRows={[
           [
             {
-              text: "Inside ",
-              gradient: {
-                fromClassName: "from-[#301050]",
-                toClassName: "to-[#9353D3]",
-              },
-            },
-            { text: "the world of" },
-            {
               text: "My band",
               gradient: {
                 fromClassName: "from-[#301050]",
@@ -142,10 +133,20 @@ export default function HobbiesPage() {
               DDM in Modřany
             </Link>
             . It all started when I once went to a band course and we just
-            played some songs. Now we even write our own songs and I am usually
-            the one that is writing the lyrics and than someone else from the
-            band writes the music for it. We have some concerts for our parents
-            but we also play at some actions that are in DDM in modřany.
+            played some songs. Now we even write our own{" "}
+            <Link
+              isExternal
+              href={
+                "https://docs.google.com/document/d/10hpqWInVeC-pcQN-p_qf-11UdD5KBPRNJBopiXYEzpk/edit?usp=sharing"
+              }
+              size="lg"
+            >
+              songs
+            </Link>{" "}
+            and I am usually the one that is writing the lyrics and than someone
+            else from the band writes the music for it. We have some concerts
+            for our parents but we also play at some actions that are in DDM in
+            modřany.
           </>
         }
         gridItems={[

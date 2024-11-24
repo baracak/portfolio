@@ -12,27 +12,27 @@ const coverImageProps: ImageProps = {
 
 export default function SportsPage() {
   return (
-    <div className="grid grid-cols-1 gap-16 lg:gap-44">
+    <div className="grid grid-cols-1 gap-16 lg:gap-4">
+      <div className="flex flex-col gap-2 items-start justify-center w-full">
+        <div>
+          <h1 className="tracking-tight inline font-semibold text-7xl ">
+            Sports
+          </h1>
+        </div>
+      </div>
       <div>
-        <h1 className="tracking-tight inline font-semibold text-7xl ">
-          Sports
-        </h1>
+        <p className="w-full md:w-1/2 my-2 text-lg lg:text-xl font-normal text-default-500 block max-w-full">
+          I enjoy a variety of activities, including climbing and aerial hoop.
+          I’ve been climbing at DDM in Modřany, even convincing my dad to join
+          me, and it’s helped me get stronger. I’ve also been practicing aerial
+          hoop at Cvič.it, mostly for funs
+        </p>
       </div>
       <PresentationBox
         titleRows={[
           [
             {
               text: "Climbing",
-              gradient: {
-                fromClassName: "from-[#99C7FB]",
-                toClassName: "to-[#006FEE]",
-              },
-            },
-            { text: "made my" },
-          ],
-          [
-            {
-              text: "Muscles",
               gradient: {
                 fromClassName: "from-[#99C7FB]",
                 toClassName: "to-[#006FEE]",
@@ -82,12 +82,6 @@ export default function SportsPage() {
                 fromClassName: "from-[#AE7EDE]",
                 toClassName: "to-[#610726]",
               },
-            },
-            { text: "is just " },
-          ],
-          [
-            {
-              text: "fun",
             },
           ],
         ]}

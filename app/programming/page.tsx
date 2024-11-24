@@ -14,11 +14,24 @@ const coverImageProps: ImageProps = {
 
 export default function SportsPage() {
   return (
-    <div className="grid grid-cols-1 gap-16 lg:gap-44">
+    <div className="grid grid-cols-1 gap-16 lg:gap-4">
+      <div className="flex flex-col gap-2 items-start justify-center w-full">
+        <div>
+          <h1 className="tracking-tight inline font-semibold text-7xl ">
+            Programming
+          </h1>
+        </div>
+      </div>
       <div>
-        <h1 className="tracking-tight inline font-semibold text-7xl ">
-          Programming
-        </h1>
+        <p className="w-full md:w-1/2 my-2 text-lg lg:text-xl font-normal text-default-500 block max-w-full">
+          I’ve participated in various tech activities to enhance my skills. At
+          Make IT Today, I explored coding through robots, VR, and 3D modeling.
+          At the Úvod do IT camp, I learned IT basics, web development, and 3D
+          printing. During Mediální tvorba, I worked on photography, video
+          production, and podcasts. Through courses like JavaScript for Kids,
+          Scratch, and Harvard’s CS50, I developed programming skills, creating
+          games, animations, and interactive projects
+        </p>
       </div>
       <PresentationBox
         titleRows={[
@@ -145,7 +158,15 @@ export default function SportsPage() {
           <>
             I went on a summer school at the Smíchovská Secondary Technical
             School. We did things like digital photography, video production,
-            podcast creation and a lot of editing.
+            podcast creation and a lot of editing. We also recorded a{" "}
+            <Link
+              isExternal
+              href={"https://www.youtube.com/watch?v=GvglIRTgXnY"}
+              size="lg"
+            >
+              podcast
+            </Link>{" "}
+            about that school.
           </>
         }
         gridItems={[
