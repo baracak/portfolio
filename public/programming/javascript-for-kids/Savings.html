@@ -1,0 +1,54 @@
+<html>
+  <head>
+    <style>
+      button {
+        background-color: #6b8fa0;
+        color: black;
+        border-radius: 18px;
+        text-align: center;
+        font-size: 14px;
+      }
+    </style>
+    <title></title>
+    <script>
+      function calculate() {
+        var amount = parseInt(document.getElementById("amount").value);
+        var rate = parseFloat(document.getElementById("rate").value);
+        var years = parseInt(document.getElementById("years").value);
+        var total = 0;
+        for (var n = 0; n < years; n++) {
+          total = total * (1 + rate / 100) + amount * 12;
+        }
+        document.getElementById("output").innerHTML =
+          "After " +
+          years +
+          " years. you'll have saved " +
+          Math.round(total) +
+          "Kč";
+      }
+    </script>
+  </head>
+  <body bgcolor="#A7BDD1">
+    <h1>Barča's Savings Calculator</h1>
+    <form>
+      <table>
+        <tr>
+          <td>Enter your monthly savings amount:</td>
+          <td><input type="text" id="amount" /></td>
+        </tr>
+        <tr>
+          <td>Enter your annual interest rate:</td>
+          <td><input type="text" id="rate" /></td>
+        </tr>
+        <tr>
+          <td>Enter the number of years you'll save:</td>
+          <td><input type="text" id="years" /></td>
+        </tr>
+      </table>
+      <button type="button" onclick="calculate()">
+        Click to calculate your savings
+      </button>
+      <h3 id="output">See how much you'll save</h3>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,45 @@
+<html>
+  <head>
+    <title>Guessing game by Barunkaa!!</title>
+    <script>
+      var number = Math.floor(Math.random() * 20 + 0.1);
+      var tries = 0;
+      function newGame() {
+        number = Math.floor(Math.random() * 20 + 0.1);
+        document.getElementById("guess").focus;
+        document.getElementById("guess").select();
+        tries = 0;
+      }
+      function checkGuess() {
+        var guess = document.getElementById("guess").value;
+        var msg = "";
+        tries++;
+        if (guess > number) msg = guess + " was too high. Try again";
+        else if (guess < number) msg = guess + " was too low. Try again";
+        else {
+          msg = guess + " was the number! You win!";
+          msg = msg + " Try a new game :).";
+          msg = msg + " You won in " + tries + " tries.";
+          var scoreboard = document.getElementById("scoreboard");
+          scoreboard.innerHTML += "You won in " + tries + " tries.<br/>";
+          newGame();
+        }
+        var output = document.getElementById("output");
+        output.innerHTML = msg;
+        document.getElementById("guess").focus();
+        document.getElementById("guess").select();
+      }
+    </script>
+  </head>
+  <body onload="newGame()">
+    <h1>Barunka's Guessing game</h1>
+    <form onSubmit="checkGuess();return false;">
+      Enter a number between 1 and 20:
+      <input type="text" id="guess" size="5" />
+      <button type="button" onclick="checkGuess()">Guess!</button>
+    </form>
+    <h3 id="output">Guess a number and press the button.</h3>
+    <h3>Scoreboard</h3>
+    <p id="scoreboard"></p>
+  </body>
+</html>

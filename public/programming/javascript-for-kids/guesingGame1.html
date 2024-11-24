@@ -1,0 +1,37 @@
+<html>
+  <head>
+    <title>My guessingGame Web page</title>
+    <script>
+      function guessingGame() {
+        var number = Math.round(Math.random() * 20 + 0.1);
+        var guess = "";
+        while (guess != number) {
+          guess = prompt("Guess a number between 1 and 20: ");
+          if (guess > number) alert("Too high");
+          else if (guess < number) alert("Too low.");
+          else alert("Correct you win!");
+        }
+
+        var name = prompt(
+          "You won so now I will print your name on the screen. Just write your name in here"
+        );
+        for (var n = 1; n <= 300; n++) {
+          document.write(name + " wins! ");
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <h1>Barča's Guessing Game!!</h1>
+    <h3>
+      In this web page I am going to learn some javascript and a bit of HTML
+    </h3>
+    <p>
+      I can even mix JavaScript programs into my HTML pages - click the button
+      bellow to see one of my JavaScript programs!
+    </p>
+    <button onClick="guessingGame()">
+      Click to see my GuessingGame program!
+    </button>
+  </body>
+</html>

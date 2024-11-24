@@ -1,0 +1,29 @@
+<html>
+  <head>
+    <style>
+      button {
+        background-color: #715776;
+        border: none;
+        padding: 15px 32px;
+        text-align: center;
+        font-size: 16px;
+        margin: 6px 2px;
+        border-radius: 8px;
+        cursor: pointer;
+        outline: none;
+      }
+    </style>
+  </head>
+  <body bgcolor="#A9D3FA">
+    <h1>Barča's animated drawing program</h1>
+    <script src="bouncing.js"></script>
+    <button  id="btn-clear-screen " onclick="clearScreen()" >Clear screen</button></body><br>
+    <canvas
+      id="imgCanvas"
+      width="1000"
+      height="600"
+      onmousemove="draw(event)"
+    ></canvas>
+    <script src="bouncing.js"></script>
+  </body>
+</html>

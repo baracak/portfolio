@@ -1,0 +1,60 @@
+<html>
+  <head>
+    <style>
+      button {
+        background-color: #6b8fa0;
+        color: black;
+        border-radius: 18px;
+        text-align: center;
+        font-size: 14px;
+      }
+    </style>
+    <title></title>
+    <script>
+      function generateStory() {
+        var animal = document.getElementById("animal").value;
+        var adj = document.getElementById("adj").value;
+        var verb = document.getElementById("verb").value;
+        var story =
+          "There once was a " +
+          adj +
+          " knight who encountered a <br>" +
+          " might " +
+          animal +
+          ". The knight drew his sword and <br>" +
+          " began to " +
+          verb +
+          ". And they all lived happily ever after. <br> The end.";
+
+        document.getElementById("output").innerHTML = story;
+      }
+    </script>
+  </head>
+  <body bgcolor="#A7BDD1">
+    <h1>Barča's Funny story creator</h1>
+    <form>
+      <table>
+        <tr>
+          <td>Enter an adjective:</td>
+          <td><input type="text" id="adj" /></td>
+        </tr>
+        <tr>
+          <td>Enter an animal:</td>
+          <td><input type="text" id="animal" /></td>
+        </tr>
+        <tr>
+          <td>Enter a verb:</td>
+          <td><input type="text" id="verb" /></td>
+        </tr>
+      </table>
+      <button type="button" onclick="generateStory()">
+        Click to create a funny story
+      </button>
+      <h3 id="output">
+        There once was a smelly knight who encountered a<br />might bunny
+        rabbit. The knight drew his sword and<br />began to scream. And they all
+        lived hapiily ever after.<br />The end.
+      </h3>
+    </form>
+  </body>
+</html>
