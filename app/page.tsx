@@ -31,12 +31,11 @@ export default function HomePage() {
             </div>
           </div>
           <p className="w-full md:w-1/2 my-2 text-lg lg:text-xl font-normal text-default-500 block max-w-full">
-            I engage in sports to improve both my physical and mental health,
-            while programming allows me to solve problems and bring my creative
-            ideas to life. Hobbies help me relax, and connect with others. I
-            believe education is key to personal growth and I am passionate
-            about expanding my knowledge, especially in IT, to tackle real-world
-            challenges.
+            I engage in sports to improve my health, while programming allows me
+            to solve problems and think. Hobbies help me relax, and connect with
+            others. I believe education is key to personal growth and I am
+            passionate about expanding my knowledge, especially in IT, to tackle
+            real-world challenges.
           </p>
         </div>
       </div>

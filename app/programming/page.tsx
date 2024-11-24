@@ -309,10 +309,17 @@ export default function SportsPage() {
         ]}
         description={
           <>
-            I found this online course for programming from Harvard. It is free
-            and it is build very understandably and the teacher is very good at
-            teaching and he knows a lot of things about programming and makes it
-            fun.
+            I found this online{" "}
+            <Link
+              isExternal
+              href={"https://cs50.harvard.edu/x/2024/"}
+              size="lg"
+            >
+              course
+            </Link>{" "}
+            for programming from Harvard. It is free and it is build very
+            understandably and the teacher is very good at teaching and he knows
+            a lot of things about programming and makes it fun.
           </>
         }
         gridItems={[
