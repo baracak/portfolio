@@ -177,7 +177,7 @@ export default function SportsPage() {
             classNames={{
               wrapper: "h-96",
             }}
-            src="/images/mediapodcast.jpg"
+            src="/images/fotka-medialni-tvorba.jpg"
           />,
           <Image
             key={0}
@@ -186,7 +186,7 @@ export default function SportsPage() {
             classNames={{
               wrapper: "h-96",
             }}
-            src="/images/mediabara.jpg"
+            src="/images/medialni-tvorba-podcast.JPG"
           />,
         ]}
       ></PresentationBox>
