@@ -1,14 +1,6 @@
-import { Image, ImageProps, Link } from "@nextui-org/react";
+import { Image, Link } from "@nextui-org/react";
+import { coverImageProps } from "../components/common/cover-image.constants";
 import PresentationBox from "../components/PresentationBox/PresentationBox";
-import styles from "../styles.module.css";
-
-const coverImageProps: ImageProps = {
-  width: "100%",
-  className: styles["cover-image"],
-  classNames: {
-    wrapper: "h-64",
-  },
-};
 
 export default function SportsPage() {
   return (
@@ -56,18 +48,12 @@ export default function SportsPage() {
             key={0}
             alt=""
             {...coverImageProps}
-            classNames={{
-              wrapper: "h-96",
-            }}
             src="/images/climbing.jpg"
           />,
           <Image
             key={0}
             alt=""
             {...coverImageProps}
-            classNames={{
-              wrapper: "h-96",
-            }}
             src="/images/climbing1.jpg"
           />,
         ]}
@@ -101,18 +87,12 @@ export default function SportsPage() {
             key={0}
             alt=""
             {...coverImageProps}
-            classNames={{
-              wrapper: "h-96",
-            }}
             src="/images/arialhoop-skill.jpg"
           />,
           <Image
             key={0}
             alt=""
             {...coverImageProps}
-            classNames={{
-              wrapper: "h-96",
-            }}
             src="/images/arialhoop4.jpeg"
           />,
         ]}

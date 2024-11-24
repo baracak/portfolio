@@ -1,14 +1,6 @@
-import { Image, ImageProps, Link } from "@nextui-org/react";
-import styles from "../styles.module.css";
+import { Image, Link } from "@nextui-org/react";
 import PresentationBox from "../components/PresentationBox/PresentationBox";
-
-const coverImageProps: ImageProps = {
-  width: "100%",
-  className: styles["cover-image"],
-  classNames: {
-    wrapper: "h-64",
-  },
-};
+import { coverImageProps } from "../components/common/cover-image.constants";
 
 export default function HobbiesPage() {
   return (
@@ -54,18 +46,12 @@ export default function HobbiesPage() {
             key={0}
             alt=""
             {...coverImageProps}
-            classNames={{
-              wrapper: "h-96",
-            }}
             src="/images/crochet bunny.jpg"
           />,
           <Image
             key={0}
             alt=""
             {...coverImageProps}
-            classNames={{
-              wrapper: "h-96",
-            }}
             src="/images/crochet octopus.jpg"
           />,
         ]}
@@ -93,22 +79,11 @@ export default function HobbiesPage() {
           </>
         }
         gridItems={[
+          <Image key={0} alt="" {...coverImageProps} src="/images/nebe.jpg" />,
           <Image
             key={0}
             alt=""
             {...coverImageProps}
-            classNames={{
-              wrapper: "h-96",
-            }}
-            src="/images/nebe.jpg"
-          />,
-          <Image
-            key={0}
-            alt=""
-            {...coverImageProps}
-            classNames={{
-              wrapper: "h-96",
-            }}
             src="/images/butterfly.jpg"
           />,
         ]}
@@ -154,18 +129,12 @@ export default function HobbiesPage() {
             key={0}
             alt=""
             {...coverImageProps}
-            classNames={{
-              wrapper: "h-96",
-            }}
             src="/images/kapela.jpg"
           />,
           <Image
             key={0}
             alt=""
             {...coverImageProps}
-            classNames={{
-              wrapper: "h-96",
-            }}
             src="/images/vecny-pribeh-nas.png"
           />,
         ]}

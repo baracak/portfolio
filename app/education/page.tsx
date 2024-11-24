@@ -1,14 +1,6 @@
-import styles from "../styles.module.css";
-import { Image, ImageProps, Link } from "@nextui-org/react";
+import { Image, Link } from "@nextui-org/react";
 import PresentationBox from "../components/PresentationBox/PresentationBox";
-
-const coverImageProps: ImageProps = {
-  width: "100%",
-  className: styles["cover-image"],
-  classNames: {
-    wrapper: "h-64",
-  },
-};
+import { coverImageProps } from "../components/common/cover-image.constants";
 
 export default function EducationPage() {
   return (
@@ -54,18 +46,12 @@ export default function EducationPage() {
             key={0}
             alt=""
             {...coverImageProps}
-            classNames={{
-              wrapper: "h-96",
-            }}
             src="/images/cambridge.jpg"
           />,
           <Image
             key={0}
             alt=""
             {...coverImageProps}
-            classNames={{
-              wrapper: "h-96",
-            }}
             src="/images/school.jpg"
           />,
         ]}

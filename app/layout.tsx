@@ -15,6 +15,7 @@ import { AcmeLogo } from "./AcmeLogo";
 import "./globals.css";
 import { Providers } from "./providers";
 import { usePathname } from "next/navigation";
+import { Analytics } from "@vercel/analytics/next";
 
 export default function RootLayout({ children }: { children: ReactNode }) {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -93,6 +94,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
             <div className="mx-auto max-w-[1280px] w-full p-6">{children}</div>
           </div>
         </Providers>
+        <Analytics />
       </body>
     </html>
   );

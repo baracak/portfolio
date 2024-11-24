@@ -1,14 +1,6 @@
-import { Image, ImageProps, Link } from "@nextui-org/react";
+import { Image } from "@nextui-org/react";
 import PresentationBox from "./components/PresentationBox/PresentationBox";
-import styles from "./styles.module.css";
-
-const coverImageProps: ImageProps = {
-  width: "100%",
-  className: styles["cover-image"],
-  classNames: {
-    wrapper: "h-96",
-  },
-};
+import { coverImageProps } from "./components/common/cover-image.constants";
 
 export default function HomePage() {
   return (
@@ -67,18 +59,12 @@ export default function HomePage() {
                 key={0}
                 alt=""
                 {...coverImageProps}
-                classNames={{
-                  wrapper: "h-96",
-                }}
                 src="/images/bara.jpg"
               />,
               <Image
                 key={0}
                 alt=""
                 {...coverImageProps}
-                classNames={{
-                  wrapper: "h-96",
-                }}
                 src="/images/arial-hoop.jpg"
               />,
             ]}
@@ -109,18 +95,12 @@ export default function HomePage() {
                 key={0}
                 alt=""
                 {...coverImageProps}
-                classNames={{
-                  wrapper: "h-96",
-                }}
                 src="/images/programm.jpg"
               />,
               <Image
                 key={0}
                 alt=""
                 {...coverImageProps}
-                classNames={{
-                  wrapper: "h-96",
-                }}
                 src="/images/code.jpg"
               />,
             ]}
@@ -150,18 +130,12 @@ export default function HomePage() {
                 key={0}
                 alt=""
                 {...coverImageProps}
-                classNames={{
-                  wrapper: "h-96",
-                }}
                 src="/images/piano.jpg"
               />,
               <Image
                 key={0}
                 alt=""
                 {...coverImageProps}
-                classNames={{
-                  wrapper: "h-96",
-                }}
                 src="/images/kytka1.jpg"
               />,
             ]}
@@ -192,18 +166,12 @@ export default function HomePage() {
                 key={0}
                 alt=""
                 {...coverImageProps}
-                classNames={{
-                  wrapper: "h-96",
-                }}
                 src="/images/educ.jpg"
               />,
               <Image
                 key={0}
                 alt=""
                 {...coverImageProps}
-                classNames={{
-                  wrapper: "h-96",
-                }}
                 src="/images/grad.jpg"
               />,
             ]}
