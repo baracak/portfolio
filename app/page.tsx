@@ -31,152 +31,149 @@ export default function HomePage() {
           </p>
         </div>
       </div>
-      <div className="grid grid-cols-1 gap-16 lg:gap-44"></div>
 
-      <div>
-        <div className="grid grid-cols-1 gap-16 lg:gap-44">
-          <PresentationBox
-            titleRows={[
-              [
-                {
-                  text: "Sport",
-                  gradient: {
-                    fromClassName: "from-[#99C7FB]",
-                    toClassName: "to-[#006FEE]",
-                  },
+      <div className="grid grid-cols-1 gap-20">
+        <PresentationBox
+          titleRows={[
+            [
+              {
+                text: "Sport",
+                gradient: {
+                  fromClassName: "from-[#99C7FB]",
+                  toClassName: "to-[#006FEE]",
                 },
-              ],
-            ]}
-            description={
-              <>
-                I do sport because it helps me build my physic and it helps me
-                mentally. It boost my mood and it chalenges me to try new things
-                and get sensational in them.
-              </>
-            }
-            gridItems={[
-              <Image
-                key={0}
-                alt=""
-                {...coverImageProps}
-                src="/images/bara.jpg"
-              />,
-              <Image
-                key={0}
-                alt=""
-                {...coverImageProps}
-                src="/images/arial-hoop.jpg"
-              />,
-            ]}
-          ></PresentationBox>
+              },
+            ],
+          ]}
+          description={
+            <>
+              I do sport because it helps me build my physic and it helps me
+              mentally. It boost my mood and it chalenges me to try new things
+              and get sensational in them.
+            </>
+          }
+          gridItems={[
+            <Image
+              key={0}
+              alt=""
+              {...coverImageProps}
+              src="/images/bara.jpg"
+            />,
+            <Image
+              key={0}
+              alt=""
+              {...coverImageProps}
+              src="/images/arial-hoop.jpg"
+            />,
+          ]}
+        ></PresentationBox>
 
-          <PresentationBox
-            titleRows={[
-              [
-                {
-                  text: "Programming",
-                  gradient: {
-                    fromClassName: "from-[#AE7EDE]",
-                    toClassName: "to-[#610726]",
-                  },
+        <PresentationBox
+          titleRows={[
+            [
+              {
+                text: "Programming",
+                gradient: {
+                  fromClassName: "from-[#AE7EDE]",
+                  toClassName: "to-[#610726]",
                 },
-              ],
-            ]}
-            description={
-              <>
-                I programm to solve problems, express creativity, and build
-                useful tools. It offers great career opportunities and
-                continuous learning as technology evolves. It empowers me to
-                turn my ideas into reality.
-              </>
-            }
-            gridItems={[
-              <Image
-                key={0}
-                alt=""
-                {...coverImageProps}
-                src="/images/programm.jpg"
-              />,
-              <Image
-                key={0}
-                alt=""
-                {...coverImageProps}
-                src="/images/code.jpg"
-              />,
-            ]}
-          ></PresentationBox>
-          <PresentationBox
-            titleRows={[
-              [
-                {
-                  text: "Hobbies",
-                  gradient: {
-                    fromClassName: "from-[#12A150]",
-                    toClassName: "to-[#002E62]",
-                  },
+              },
+            ],
+          ]}
+          description={
+            <>
+              I programm to solve problems, express creativity, and build useful
+              tools. It offers great career opportunities and continuous
+              learning as technology evolves. It empowers me to turn my ideas
+              into reality.
+            </>
+          }
+          gridItems={[
+            <Image
+              key={0}
+              alt=""
+              {...coverImageProps}
+              src="/images/programm.jpg"
+            />,
+            <Image
+              key={0}
+              alt=""
+              {...coverImageProps}
+              src="/images/code.jpg"
+            />,
+          ]}
+        ></PresentationBox>
+        <PresentationBox
+          titleRows={[
+            [
+              {
+                text: "Hobbies",
+                gradient: {
+                  fromClassName: "from-[#12A150]",
+                  toClassName: "to-[#002E62]",
                 },
-              ],
-            ]}
-            description={
-              <>
-                Hobbies are a way of relaxation and enjoyment for me. It helps
-                me with my creativity and it puts away the stress I have,
-                atleast for a while. It also makes new friends that have the
-                same interest as you.
-              </>
-            }
-            gridItems={[
-              <Image
-                key={0}
-                alt=""
-                {...coverImageProps}
-                src="/images/piano.jpg"
-              />,
-              <Image
-                key={0}
-                alt=""
-                {...coverImageProps}
-                src="/images/kytka1.jpg"
-              />,
-            ]}
-          ></PresentationBox>
-          <PresentationBox
-            titleRows={[
-              [
-                {
-                  text: "Education",
-                  gradient: {
-                    fromClassName: "from-[#9353D3]",
-                    toClassName: "to-[#7828C8]",
-                  },
+              },
+            ],
+          ]}
+          description={
+            <>
+              Hobbies are a way of relaxation and enjoyment for me. It helps me
+              with my creativity and it puts away the stress I have, atleast for
+              a while. It also makes new friends that have the same interest as
+              you.
+            </>
+          }
+          gridItems={[
+            <Image
+              key={0}
+              alt=""
+              {...coverImageProps}
+              src="/images/piano.jpg"
+            />,
+            <Image
+              key={0}
+              alt=""
+              {...coverImageProps}
+              src="/images/kytka1.jpg"
+            />,
+          ]}
+        ></PresentationBox>
+        <PresentationBox
+          titleRows={[
+            [
+              {
+                text: "Education",
+                gradient: {
+                  fromClassName: "from-[#9353D3]",
+                  toClassName: "to-[#7828C8]",
                 },
-              ],
-            ]}
-            description={
-              <>
-                I believe education is a cornerstone of personal growth and
-                social progress. I would like to expand my knowledge and skills
-                in informational technology. I am passionate about exploring new
-                ideas, trying out different challenges and applying what I learn
-                to real life.
-              </>
-            }
-            gridItems={[
-              <Image
-                key={0}
-                alt=""
-                {...coverImageProps}
-                src="/images/educ.jpg"
-              />,
-              <Image
-                key={0}
-                alt=""
-                {...coverImageProps}
-                src="/images/grad.jpg"
-              />,
-            ]}
-          ></PresentationBox>
-        </div>
+              },
+            ],
+          ]}
+          description={
+            <>
+              I believe education is a cornerstone of personal growth and social
+              progress. I would like to expand my knowledge and skills in
+              informational technology. I am passionate about exploring new
+              ideas, trying out different challenges and applying what I learn
+              to real life.
+            </>
+          }
+          gridItems={[
+            <Image
+              key={0}
+              alt=""
+              {...coverImageProps}
+              src="/images/educ.jpg"
+            />,
+            <Image
+              key={0}
+              alt=""
+              {...coverImageProps}
+              src="/images/grad.jpg"
+            />,
+          ]}
+        ></PresentationBox>
       </div>
     </>
   );
