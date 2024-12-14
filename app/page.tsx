@@ -60,7 +60,7 @@ export default function HomePage() {
               src="/images/bara.jpg"
             />,
             <Image
-              key={0}
+              key={1}
               alt=""
               {...coverImageProps}
               src="/images/arial-hoop.jpg"
@@ -96,7 +96,7 @@ export default function HomePage() {
               src="/images/programm.jpg"
             />,
             <Image
-              key={0}
+              key={1}
               alt=""
               {...coverImageProps}
               src="/images/code.jpg"
@@ -131,7 +131,7 @@ export default function HomePage() {
               src="/images/piano.jpg"
             />,
             <Image
-              key={0}
+              key={1}
               alt=""
               {...coverImageProps}
               src="/images/kytka1.jpg"
@@ -167,7 +167,7 @@ export default function HomePage() {
               src="/images/educ.jpg"
             />,
             <Image
-              key={0}
+              key={1}
               alt=""
               {...coverImageProps}
               src="/images/grad.jpg"

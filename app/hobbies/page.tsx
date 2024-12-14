@@ -4,24 +4,26 @@ import { coverImageProps } from "../components/common/cover-image.constants";
 
 export default function HobbiesPage() {
   return (
-    <div className="grid grid-cols-1 gap-16 lg:gap-4">
-      <div className="flex flex-col gap-2 items-start justify-center w-full">
+    <>
+      <div className="my-24">
+        <div className="flex flex-col gap-2 items-start justify-center w-full">
+          <div>
+            <h1 className="tracking-tight inline font-semibold text-7xl ">
+              Hobbies
+            </h1>
+          </div>
+        </div>
         <div>
-          <h1 className="tracking-tight inline font-semibold text-7xl ">
-            Hobbies
-          </h1>
+          <p className="w-full md:w-1/2 my-2 text-lg lg:text-xl font-normal text-default-500 block max-w-full">
+            I enjoy crocheting, painting, and being part of my band. Crocheting
+            brings me peace and helps me focus, while painting lets me express
+            creativity, even with simple lines. In my band at DDM in Modřany, I
+            write lyrics for our songs, and we perform at events and for our
+            families
+          </p>
         </div>
       </div>
-      <div>
-        <p className="w-full md:w-1/2 my-2 text-lg lg:text-xl font-normal text-default-500 block max-w-full">
-          I enjoy crocheting, painting, and being part of my band. Crocheting
-          brings me peace and helps me focus, while painting lets me express
-          creativity, even with simple lines. In my band at DDM in Modřany, I
-          write lyrics for our songs, and we perform at events and for our
-          families
-        </p>
-      </div>
-      <div className="grid grid-cols-1 gap-16 lg:gap-44">
+      <div className="grid grid-cols-1 gap-20">
         <PresentationBox
           titleRows={[
             [
@@ -50,7 +52,7 @@ export default function HobbiesPage() {
               src="/images/crochet bunny.jpg"
             />,
             <Image
-              key={0}
+              key={1}
               alt=""
               {...coverImageProps}
               src="/images/crochet octopus.jpg"
@@ -87,7 +89,7 @@ export default function HobbiesPage() {
               src="/images/nebe.jpg"
             />,
             <Image
-              key={0}
+              key={1}
               alt=""
               {...coverImageProps}
               src="/images/butterfly.jpg"
@@ -138,7 +140,7 @@ export default function HobbiesPage() {
               src="/images/kapela.jpg"
             />,
             <Image
-              key={0}
+              key={1}
               alt=""
               {...coverImageProps}
               src="/images/vecny-pribeh-nas.png"
@@ -146,6 +148,6 @@ export default function HobbiesPage() {
           ]}
         ></PresentationBox>
       </div>
-    </div>
+    </>
   );
 }

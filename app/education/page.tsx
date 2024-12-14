@@ -4,18 +4,20 @@ import { coverImageProps } from "../components/common/cover-image.constants";
 
 export default function EducationPage() {
   return (
-    <div className="grid grid-cols-1 gap-16 lg:gap-4">
-      <div className="flex flex-col gap-2 items-start justify-center w-full">
-        <div>
-          <h1 className="tracking-tight inline font-semibold text-7xl ">
-            Education
-          </h1>
+    <>
+      <div className="my-24">
+        <div className="flex flex-col gap-2 items-start justify-center w-full">
+          <div>
+            <h1 className="tracking-tight inline font-semibold text-7xl ">
+              Education
+            </h1>
+          </div>
         </div>
-      </div>
-      <div>
-        <p className="w-full md:w-1/2 my-2 text-lg lg:text-xl font-normal text-default-500 block max-w-full">
-          I study at ZŠ Angel and I have done 2 Cambridge exams
-        </p>
+        <div>
+          <p className="w-full md:w-1/2 my-2 text-lg lg:text-xl font-normal text-default-500 block max-w-full">
+            I study at ZŠ Angel and I have done 2 Cambridge exams
+          </p>
+        </div>
       </div>
       <div className="grid grid-cols-1 gap-16 lg:gap-44">
         <PresentationBox
@@ -50,7 +52,7 @@ export default function EducationPage() {
               src="/images/cambridge.jpg"
             />,
             <Image
-              key={0}
+              key={1}
               alt=""
               {...coverImageProps}
               src="/images/school.jpg"
@@ -85,7 +87,7 @@ export default function EducationPage() {
               src="/images/cambridge.jpg"
             />,
             <Image
-              key={0}
+              key={1}
               alt=""
               {...coverImageProps}
               src="/images/school.jpg"
@@ -120,7 +122,7 @@ export default function EducationPage() {
               src="/images/cambridge.jpg"
             />,
             <Image
-              key={0}
+              key={1}
               alt=""
               {...coverImageProps}
               src="/images/school.jpg"
@@ -128,6 +130,6 @@ export default function EducationPage() {
           ]}
         ></PresentationBox>
       </div>
-    </div>
+    </>
   );
 }
