@@ -1,3 +1,4 @@
+import { Button, Link } from "@nextui-org/react";
 import classNames from "classnames";
 import { ReactNode } from "react";
 
@@ -17,6 +18,9 @@ interface Props {
   description?: ReactNode;
   gridItems?: ReactNode[];
   className?: string | undefined;
+  titleClassName?: string | undefined;
+  isPageTitle?: boolean;
+  detailLink?: string;
 }
 
 export default function PresentationBox({
@@ -24,6 +28,9 @@ export default function PresentationBox({
   titleRows,
   gridItems,
   className,
+  titleClassName,
+  isPageTitle = false,
+  detailLink,
 }: Props) {
   const areGridItemsOdd = !!(gridItems && gridItems.length % 2);
   return (
@@ -36,7 +43,11 @@ export default function PresentationBox({
                 <h1
                   key={titleIndex}
                   className={classNames(
-                    "tracking-tight inline font-semibold text-3xl lg:text-6xl",
+                    "tracking-tight inline font-semibold",
+                    isPageTitle
+                      ? "text-6xl lg:text-7xl"
+                      : "text-5xl lg:text-6xl",
+                    titleClassName,
                     gradient
                       ? {
                           "bg-clip-text text-transparent bg-gradient-to-b":
@@ -71,6 +82,17 @@ export default function PresentationBox({
             </div>
           )}
         </div>
+      )}
+      {detailLink && (
+        <Button
+          color="primary"
+          variant="ghost"
+          className="mt-4"
+          as={Link}
+          href={detailLink}
+        >
+          Read more
+        </Button>
       )}
     </div>
   );

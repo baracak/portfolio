@@ -2,23 +2,22 @@ import { Image, Link } from "@nextui-org/react";
 import { coverImageProps } from "../components/common/cover-image.constants";
 import PresentationBox from "../components/PresentationBox/PresentationBox";
 
-export default function SportsPage() {
+export default function SportPage() {
   return (
     <>
       <div className="my-24">
-        <div className="flex flex-col gap-2 items-start justify-center w-full">
-          <div>
-            <h1 className="tracking-tight inline font-semibold text-7xl ">
-              Sports
-            </h1>
-          </div>
-        </div>
-
-        <div className="grid grid-cols-1 gap-16 lg:gap-44">
-          <p className="w-full md:w-1/2 my-2 text-lg lg:text-xl font-normal text-default-500 block max-w-full">
-            I enjoy a variety of activities, including climbing and aerial hoop.
-          </p>
-        </div>
+        <PresentationBox
+          titleRows={[[{ text: "Sport" }]]}
+          description={
+            <>
+              I enjoy a variety of activities, including climbing and aerial
+              hoop. From my young age I participated in various sport
+              competitions like running, climbing and cross-country skiing. My
+              parents always led me to sports and we did them together.
+            </>
+          }
+          isPageTitle
+        ></PresentationBox>
       </div>
       <div className="grid grid-cols-1 gap-20">
         <PresentationBox

@@ -11,18 +11,18 @@ import {
   NavbarMenuToggle,
 } from "@nextui-org/react";
 import { ReactNode, useState } from "react";
-import { AcmeLogo } from "./AcmeLogo";
 import "./globals.css";
 import { Providers } from "./providers";
 import { usePathname } from "next/navigation";
 import { Analytics } from "@vercel/analytics/next";
+import { BaraLogo } from "./BaraLogo";
 
 export default function RootLayout({ children }: { children: ReactNode }) {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const menuItems: { name: string; pathname: string }[] = [
-    { name: "Sports", pathname: "/sports" },
+    { name: "Sport", pathname: "/sport" },
+    { name: "Technology", pathname: "/technology" },
     { name: "Hobbies", pathname: "/hobbies" },
-    { name: "Programming", pathname: "/programming" },
     { name: "Education", pathname: "/education" },
   ];
   const pathname = usePathname();
@@ -36,25 +36,26 @@ export default function RootLayout({ children }: { children: ReactNode }) {
               isBordered
               isMenuOpen={isMenuOpen}
               onMenuOpenChange={setIsMenuOpen}
+              maxWidth="xl"
             >
-              <NavbarContent className="sm:hidden" justify="start">
+              <NavbarContent className="sm:hidden pr-3" justify="start">
+                <NavbarBrand>
+                  <BaraLogo />
+                  <p className="font-bold text-inherit ml-2 ">Barča</p>
+                </NavbarBrand>
+              </NavbarContent>
+
+              <NavbarContent className="sm:hidden" justify="center">
                 <NavbarMenuToggle
                   aria-label={isMenuOpen ? "Close menu" : "Open menu"}
                 />
               </NavbarContent>
 
-              <NavbarContent className="sm:hidden pr-3" justify="center">
-                <NavbarBrand>
-                  <AcmeLogo />
-                  <p className="font-bold text-inherit">Barča</p>
-                </NavbarBrand>
-              </NavbarContent>
-
               <NavbarContent className="hidden sm:flex gap-4" justify="start">
                 <NavbarBrand>
                   <Link href="/" color="foreground">
-                    <AcmeLogo />
-                    <p className="font-bold text-inherit">Barča</p>
+                    <BaraLogo />
+                    <p className=" text-inherit ml-2 text-2xl">Barča</p>
                   </Link>
                 </NavbarBrand>
               </NavbarContent>
@@ -82,6 +83,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
                       color={
                         pathname === item.pathname ? "primary" : "foreground"
                       }
+                      onClick={() => setIsMenuOpen(false)}
                       href={item.pathname}
                       size="lg"
                     >

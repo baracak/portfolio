@@ -9,15 +9,15 @@ export default function HomePage() {
         <div>
           <div className="flex flex-col gap-2 items-start justify-center w-full">
             <div>
-              <h1 className="tracking-tight inline font-semibold text-7xl ">
-                Hi I&apos;m Barča.
+              <h1 className="tracking-tight inline font-semibold text-6xl lg:text-7xl ">
+                Hi I&apos;m Barča
               </h1>
             </div>
             <div>
-              <h1 className="tracking-tight inline font-semibold text-6xl ">
+              <h1 className="tracking-tight inline font-semibold text-5xl lg:text-6xl ">
                 This is my{" "}
               </h1>
-              <h1 className="tracking-tight inline font-semibold text-6xl  bg-clip-text text-transparent bg-gradient-to-b from-[#F7B750] to-[#62420E]">
+              <h1 className="tracking-tight inline font-semibold  text-5xl lg:text-6xl  bg-clip-text text-transparent bg-gradient-to-b from-[#F7B750] to-[#62420E]">
                 Portfolio
               </h1>
             </div>
@@ -34,6 +34,7 @@ export default function HomePage() {
 
       <div className="grid grid-cols-1 gap-20">
         <PresentationBox
+          detailLink="/sport"
           titleRows={[
             [
               {
@@ -69,10 +70,11 @@ export default function HomePage() {
         ></PresentationBox>
 
         <PresentationBox
+          detailLink="/technology"
           titleRows={[
             [
               {
-                text: "Programming",
+                text: "Technology",
                 gradient: {
                   fromClassName: "from-[#AE7EDE]",
                   toClassName: "to-[#610726]",
@@ -104,6 +106,7 @@ export default function HomePage() {
           ]}
         ></PresentationBox>
         <PresentationBox
+          detailLink="/hobbies"
           titleRows={[
             [
               {
@@ -128,17 +131,18 @@ export default function HomePage() {
               key={0}
               alt=""
               {...coverImageProps}
-              src="/images/piano.jpg"
+              src="/images/piano.jpeg"
             />,
             <Image
               key={1}
               alt=""
               {...coverImageProps}
-              src="/images/kytka1.jpg"
+              src="/images/kytka1.jpeg"
             />,
           ]}
         ></PresentationBox>
         <PresentationBox
+          detailLink="/education"
           titleRows={[
             [
               {

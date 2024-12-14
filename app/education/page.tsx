@@ -6,20 +6,15 @@ export default function EducationPage() {
   return (
     <>
       <div className="my-24">
-        <div className="flex flex-col gap-2 items-start justify-center w-full">
-          <div>
-            <h1 className="tracking-tight inline font-semibold text-7xl ">
-              Education
-            </h1>
-          </div>
-        </div>
-        <div>
-          <p className="w-full md:w-1/2 my-2 text-lg lg:text-xl font-normal text-default-500 block max-w-full">
-            I study at ZŠ Angel and I have done 2 Cambridge exams
-          </p>
-        </div>
+        <PresentationBox
+          titleRows={[[{ text: "Education" }]]}
+          description={
+            <>I study at ZŠ Angel and I have done 2 Cambridge exams.</>
+          }
+          isPageTitle
+        ></PresentationBox>
       </div>
-      <div className="grid grid-cols-1 gap-16 lg:gap-44">
+      <div className="grid grid-cols-1 gap-20">
         <PresentationBox
           titleRows={[
             [

@@ -2,20 +2,14 @@ import { Image, Link } from "@nextui-org/react";
 import { coverImageProps } from "../components/common/cover-image.constants";
 import PresentationBox from "../components/PresentationBox/PresentationBox";
 
-export default function SportsPage() {
+export default function TechnologyPage() {
   return (
     <>
       <div className="my-24">
-        <div className="grid grid-cols-1 gap-16 lg:gap-4">
-          <div className="flex flex-col gap-2 items-start justify-center w-full">
-            <div>
-              <h1 className="tracking-tight inline font-semibold text-7xl ">
-                Programming
-              </h1>
-            </div>
-          </div>
-          <div>
-            <p className="w-full md:w-1/2 my-2 text-lg lg:text-xl font-normal text-default-500 block max-w-full">
+        <PresentationBox
+          titleRows={[[{ text: "Technology" }]]}
+          description={
+            <>
               I&apos;ve participated in various tech activities to enhance my
               skills. At Make IT Today, I explored coding through robots, VR,
               and 3D modeling. At the Úvod do IT camp, I learned IT basics, web
@@ -23,10 +17,11 @@ export default function SportsPage() {
               photography, video production, and podcasts. Through courses like
               JavaScript for Kids, Scratch, and Harvard&apos;s CS50, I developed
               programming skills, creating games, animations, and interactive
-              projects
-            </p>
-          </div>
-        </div>
+              projects.
+            </>
+          }
+          isPageTitle
+        ></PresentationBox>
       </div>
       <div className="grid grid-cols-1 gap-20">
         <PresentationBox
