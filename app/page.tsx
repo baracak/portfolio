@@ -1,6 +1,10 @@
 import { Image } from "@nextui-org/react";
 import PresentationBox from "./components/PresentationBox/PresentationBox";
 import { coverImageProps } from "./components/common/cover-image.constants";
+import { Metadata } from "next";
+import { getMetadata } from "./helpers/metadata.helper";
+
+export const metadata = getMetadata();
 
 export default function HomePage() {
   return (

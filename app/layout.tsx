@@ -10,12 +10,12 @@ import {
   NavbarMenuItem,
   NavbarMenuToggle,
 } from "@nextui-org/react";
+import { Analytics } from "@vercel/analytics/next";
+import { usePathname } from "next/navigation";
 import { ReactNode, useState } from "react";
+import { BaraLogo } from "./BaraLogo";
 import "./globals.css";
 import { Providers } from "./providers";
-import { usePathname } from "next/navigation";
-import { Analytics } from "@vercel/analytics/next";
-import { BaraLogo } from "./BaraLogo";
 
 export default function RootLayout({ children }: { children: ReactNode }) {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -40,8 +40,10 @@ export default function RootLayout({ children }: { children: ReactNode }) {
             >
               <NavbarContent className="sm:hidden pr-3" justify="start">
                 <NavbarBrand>
-                  <BaraLogo />
-                  <p className="font-bold text-inherit ml-2 ">Barča</p>
+                  <Link href="/" color="foreground">
+                    <BaraLogo />
+                    <p className=" text-inherit ml-2 text-2xl">Barča</p>
+                  </Link>
                 </NavbarBrand>
               </NavbarContent>
 
