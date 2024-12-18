@@ -1,6 +1,11 @@
 import { Image, Link } from "@nextui-org/react";
 import { coverImageProps } from "../components/common/cover-image.constants";
 import PresentationBox from "../components/PresentationBox/PresentationBox";
+import { getMetadata } from "../helpers/metadata.helper";
+
+export const metadata = getMetadata({
+  subTitle: "Sports",
+});
 
 export default function SportPage() {
   return (

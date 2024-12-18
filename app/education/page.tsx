@@ -14,12 +14,76 @@ export default function EducationPage() {
         <PresentationBox
           titleRows={[[{ text: "Education" }]]}
           description={
-            <>I study at ZŠ Angel and I have done 2 Cambridge exams.</>
+            <>
+              I study at ZŠ Angel and I have done 2 Cambridge exams. I have
+              competed in several sport competitions organised by my primary
+              school. I have been learning English from a very early age.
+            </>
           }
           isPageTitle
         ></PresentationBox>
       </div>
       <div className="grid grid-cols-1 gap-20">
+        <PresentationBox
+          titleRows={[
+            [
+              { text: "Second" },
+              {
+                text: "Cambridge",
+                gradient: {
+                  fromClassName: "from-[#AE7EDE]",
+                  toClassName: "to-[#301050]",
+                },
+              },
+              { text: "exam" },
+            ],
+          ]}
+          description={
+            <>
+              I have done my second Cambridge exam in 9th grade and it was level
+              B2.
+            </>
+          }
+          gridItems={[
+            <Image
+              key={0}
+              alt=""
+              {...coverImageProps}
+              src="/images/cambridge-certificate-b2.png"
+            />,
+            <Image key={0} alt="" {...coverImageProps} src="/images/fce.jpg" />,
+          ]}
+        ></PresentationBox>
+        <PresentationBox
+          titleRows={[
+            [
+              { text: "First " },
+              {
+                text: "Cambridge",
+                gradient: {
+                  fromClassName: "from-[#66AAF9]",
+                  toClassName: "to-[#004493]",
+                },
+              },
+              { text: "exam" },
+            ],
+          ]}
+          description={
+            <>
+              I have done my first Cambridge exam in 5th grade and it was level
+              A2.
+            </>
+          }
+          gridItems={[
+            <Image
+              key={0}
+              alt=""
+              {...coverImageProps}
+              src="/images/cambridge-certificate-b2.png"
+            />,
+            <Image key={0} alt="" {...coverImageProps} src="/images/ket.jpg" />,
+          ]}
+        ></PresentationBox>
         <PresentationBox
           titleRows={[
             [
@@ -49,83 +113,13 @@ export default function EducationPage() {
               key={0}
               alt=""
               {...coverImageProps}
-              src="/images/cambridge.jpg"
+              src="/images/zsangel-logo3.png"
             />,
             <Image
               key={1}
               alt=""
               {...coverImageProps}
-              src="/images/school.jpg"
-            />,
-          ]}
-        ></PresentationBox>
-        <PresentationBox
-          titleRows={[
-            [
-              { text: "First " },
-              {
-                text: "Cambridge",
-                gradient: {
-                  fromClassName: "from-[#66AAF9]",
-                  toClassName: "to-[#004493]",
-                },
-              },
-              { text: "exam" },
-            ],
-          ]}
-          description={
-            <>
-              I have done my first Cambridge exam in 5th grade and it was level
-              A2.
-            </>
-          }
-          gridItems={[
-            <Image
-              key={0}
-              alt=""
-              {...coverImageProps}
-              src="/images/cambridge.jpg"
-            />,
-            <Image
-              key={1}
-              alt=""
-              {...coverImageProps}
-              src="/images/school.jpg"
-            />,
-          ]}
-        ></PresentationBox>
-        <PresentationBox
-          titleRows={[
-            [
-              { text: "Second" },
-              {
-                text: "Cambridge",
-                gradient: {
-                  fromClassName: "from-[#AE7EDE]",
-                  toClassName: "to-[#301050]",
-                },
-              },
-              { text: "exam" },
-            ],
-          ]}
-          description={
-            <>
-              I have done my second Cambridge exam in 9th grade at it was level
-              B2.
-            </>
-          }
-          gridItems={[
-            <Image
-              key={0}
-              alt=""
-              {...coverImageProps}
-              src="/images/cambridge.jpg"
-            />,
-            <Image
-              key={1}
-              alt=""
-              {...coverImageProps}
-              src="/images/school.jpg"
+              src="/images/zsangel-8a.png"
             />,
           ]}
         ></PresentationBox>
