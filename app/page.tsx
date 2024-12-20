@@ -172,13 +172,13 @@ export default function HomePage() {
               key={0}
               alt=""
               {...coverImageProps}
-              src="/images/educ.jpg"
+              src="/images/education.jpg"
             />,
             <Image
               key={1}
               alt=""
               {...coverImageProps}
-              src="/images/grad.jpg"
+              src="/images/education1.jpg"
             />,
           ]}
         ></PresentationBox>
