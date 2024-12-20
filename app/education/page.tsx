@@ -24,7 +24,7 @@ export default function EducationPage() {
         ></PresentationBox>
       </div>
       <div className="grid grid-cols-1 gap-20">
-        <PresentationBox
+        {/*<PresentationBox
           titleRows={[
             [
               { text: "Second" },
@@ -53,7 +53,7 @@ export default function EducationPage() {
             />,
             <Image key={1} alt="" {...coverImageProps} src="/images/fce.jpg" />,
           ]}
-        ></PresentationBox>
+        ></PresentationBox>*/}
         <PresentationBox
           titleRows={[
             [
