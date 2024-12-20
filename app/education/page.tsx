@@ -75,12 +75,18 @@ export default function EducationPage() {
             </>
           }
           gridItems={[
-            <Image
+            <Link
               key={0}
-              alt=""
-              {...coverImageProps}
-              src="/images/cambridge-certificate-b2.jpeg"
-            />,
+              isExternal
+              href="/docs/cambridge-english-certificate-2021-a2.pdf"
+            >
+              <Image
+                alt=""
+                {...coverImageProps}
+                src="/images/cambridge-certificate-b2.jpeg"
+              />
+            </Link>,
+
             <Image key={1} alt="" {...coverImageProps} src="/images/ket.jpg" />,
           ]}
         ></PresentationBox>
