@@ -72,6 +72,42 @@ export default function HomePage() {
             />,
           ]}
         ></PresentationBox>
+        <PresentationBox
+          detailLink="/hobbies"
+          titleRows={[
+            [
+              {
+                text: "Hobbies",
+                gradient: {
+                  fromClassName: "from-[#12A150]",
+                  toClassName: "to-[#002E62]",
+                },
+              },
+            ],
+          ]}
+          description={
+            <>
+              Hobbies are a way of relaxation and enjoyment for me. It helps me
+              with my creativity and it puts away the stress I have, atleast for
+              a while. It also makes new friends that have the same interest as
+              you.
+            </>
+          }
+          gridItems={[
+            <Image
+              key={0}
+              alt=""
+              {...coverImageProps}
+              src="/images/piano.jpeg"
+            />,
+            <Image
+              key={1}
+              alt=""
+              {...coverImageProps}
+              src="/images/kytka1.jpeg"
+            />,
+          ]}
+        ></PresentationBox>
 
         <PresentationBox
           detailLink="/technology"
@@ -106,42 +142,6 @@ export default function HomePage() {
               alt=""
               {...coverImageProps}
               src="/images/code.jpg"
-            />,
-          ]}
-        ></PresentationBox>
-        <PresentationBox
-          detailLink="/hobbies"
-          titleRows={[
-            [
-              {
-                text: "Hobbies",
-                gradient: {
-                  fromClassName: "from-[#12A150]",
-                  toClassName: "to-[#002E62]",
-                },
-              },
-            ],
-          ]}
-          description={
-            <>
-              Hobbies are a way of relaxation and enjoyment for me. It helps me
-              with my creativity and it puts away the stress I have, atleast for
-              a while. It also makes new friends that have the same interest as
-              you.
-            </>
-          }
-          gridItems={[
-            <Image
-              key={0}
-              alt=""
-              {...coverImageProps}
-              src="/images/piano.jpeg"
-            />,
-            <Image
-              key={1}
-              alt=""
-              {...coverImageProps}
-              src="/images/kytka1.jpeg"
             />,
           ]}
         ></PresentationBox>

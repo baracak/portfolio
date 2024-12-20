@@ -44,9 +44,39 @@ export default function TechnologyPage() {
           description={
             <>
               I made this portfolio with my dad&apos;s help. The code is written
-              in next.js and the programming language is typescript. Because of
-              next.js I learned basics of react. It is styled with next ui and
-              tailwind. And it is versioned in github.
+              in{" "}
+              <Link isExternal href={"https://nextjs.org/"} size="lg">
+                Next.js
+              </Link>{" "}
+              and the programming language is{" "}
+              <Link
+                isExternal
+                href={"https://www.typescriptlang.org/"}
+                size="lg"
+              >
+                TypeScript
+              </Link>
+              . Because of Next.js I learned basics of{" "}
+              <Link isExternal href={"https://react.dev/"} size="lg">
+                React
+              </Link>
+              . It is styled with{" "}
+              <Link isExternal href={"https://nextui.org/"} size="lg">
+                NextUI
+              </Link>{" "}
+              and{" "}
+              <Link isExternal href={"https://tailwindcss.com/"} size="lg">
+                Tailwind
+              </Link>
+              . And it is versioned in{" "}
+              <Link
+                isExternal
+                href={"https://github.com/baracak/portfolio"}
+                size="lg"
+              >
+                GitHub
+              </Link>
+              .
             </>
           }
           gridItems={[
@@ -54,7 +84,7 @@ export default function TechnologyPage() {
               key={1}
               alt=""
               {...coverImageProps}
-              src="/images/code-portfolio.png"
+              src="/images/code2.png"
             />,
           ]}
         ></PresentationBox>
@@ -187,26 +217,33 @@ export default function TechnologyPage() {
         ></PresentationBox>
         <PresentationBox
           titleRows={[
-            [{ text: "Make" }],
+            [{ text: "Úvod do" }],
             [
               {
-                text: "IT",
+                text: "programování",
                 gradient: {
                   fromClassName: "from-[#F9C97C]",
                   toClassName: "to-[#C4841D]",
                 },
               },
-              { text: "Today" },
+              { text: "webu" },
             ],
           ]}
           description={
             <>
-              It is a day camp for basic coding that I took. It is designed to
-              enhance programming skills through fun and interactiv pojects. We
-              had exciting activities such as working with robots, virtual
-              reality and 3D modeling. We made codes for simple games and web
-              pages, and we solved a lot of challenges. I created a web page
-              about yarns.
+              It is a day camp from{" "}
+              <Link
+                isExternal
+                href={"https://makeittoday.cz/tabory/camp.html?id=15"}
+                size="lg"
+              >
+                Make IT Today
+              </Link>{" "}
+              for basic coding that I took. It is designed to enhance
+              programming skills through fun and interactive pojects. We had
+              exciting activities such as working with robots, virtual reality
+              and 3D modeling. We made codes for simple games and web pages, and
+              we solved a lot of challenges. I created a web page about yarns.
             </>
           }
           gridItems={[
