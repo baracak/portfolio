@@ -88,9 +88,9 @@ export default function HomePage() {
           description={
             <>
               Hobbies are a way of relaxation and enjoyment for me. It helps me
-              with my creativity and it puts away the stress I have, atleast for
-              a while. It also makes new friends that have the same interest as
-              you.
+              with my creativity and it puts away the stress I have, at least
+              for a while. It also makes new friends that have the same interest
+              as you.
             </>
           }
           gridItems={[

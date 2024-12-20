@@ -40,7 +40,7 @@ export default function SportPage() {
           description={
             <>
               I climb in{" "}
-              <Link isExternal href={"https://www.ddmm.cz/"} size="lg">
+              <Link isExternal href={"https://www.ddmm.cz/"}>
                 DDM in Modřany
               </Link>
               . I have been climbing for 4 years now and I even persuaded my dad

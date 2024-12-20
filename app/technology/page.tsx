@@ -45,35 +45,27 @@ export default function TechnologyPage() {
             <>
               I made this portfolio with my dad&apos;s help. The code is written
               in{" "}
-              <Link isExternal href={"https://nextjs.org/"} size="lg">
+              <Link isExternal href={"https://nextjs.org/"}>
                 Next.js
               </Link>{" "}
               and the programming language is{" "}
-              <Link
-                isExternal
-                href={"https://www.typescriptlang.org/"}
-                size="lg"
-              >
+              <Link isExternal href={"https://www.typescriptlang.org/"}>
                 TypeScript
               </Link>
               . Because of Next.js I learned basics of{" "}
-              <Link isExternal href={"https://react.dev/"} size="lg">
+              <Link isExternal href={"https://react.dev/"}>
                 React
               </Link>
               . It is styled with{" "}
-              <Link isExternal href={"https://nextui.org/"} size="lg">
+              <Link isExternal href={"https://nextui.org/"}>
                 NextUI
               </Link>{" "}
               and{" "}
-              <Link isExternal href={"https://tailwindcss.com/"} size="lg">
+              <Link isExternal href={"https://tailwindcss.com/"}>
                 Tailwind
               </Link>
               . And it is versioned in{" "}
-              <Link
-                isExternal
-                href={"https://github.com/baracak/portfolio"}
-                size="lg"
-              >
+              <Link isExternal href={"https://github.com/baracak/portfolio"}>
                 GitHub
               </Link>
               .
@@ -84,7 +76,7 @@ export default function TechnologyPage() {
               key={1}
               alt=""
               {...coverImageProps}
-              src="/images/code2.png"
+              src="/images/code2.jpeg"
             />,
           ]}
         ></PresentationBox>
@@ -107,13 +99,13 @@ export default function TechnologyPage() {
               <Link
                 isExternal
                 href={"https://cs50.harvard.edu/x/2024/"}
-                size="lg"
+                className="text-lg lg:text-xl"
               >
                 course
               </Link>{" "}
               for programming from Harvard. It is free and it is build very
-              understandably and the teacher is very good at teaching and he
-              knows a lot of things about programming and makes it fun.
+              understandably. The teacher is very good at teaching and he knows
+              a lot of things about programming and makes it fun.
             </>
           }
           gridItems={[
@@ -121,7 +113,7 @@ export default function TechnologyPage() {
               key={0}
               alt=""
               {...coverImageProps}
-              src="/images/cs50-week0.png"
+              src="/images/cs50-week0.jpeg"
             />,
           ]}
         ></PresentationBox>
@@ -193,7 +185,6 @@ export default function TechnologyPage() {
               <Link
                 isExternal
                 href={"https://www.youtube.com/watch?v=GvglIRTgXnY"}
-                size="lg"
               >
                 podcast
               </Link>{" "}
@@ -235,7 +226,6 @@ export default function TechnologyPage() {
               <Link
                 isExternal
                 href={"https://makeittoday.cz/tabory/camp.html?id=15"}
-                size="lg"
               >
                 Make IT Today
               </Link>{" "}
@@ -255,7 +245,7 @@ export default function TechnologyPage() {
               <Image
                 alt=""
                 {...coverImageProps}
-                src="/images/lets-crochet.png"
+                src="/images/lets-crochet.jpeg"
               />
             </Link>,
           ]}
@@ -311,7 +301,7 @@ export default function TechnologyPage() {
               isExternal
               href="/programming/javascript-for-kids/dragDraw.html"
             >
-              <Image alt="" {...coverImageProps} src="/images/dragdraw1.png" />
+              <Image alt="" {...coverImageProps} src="/images/dragdraw1.jpeg" />
             </Link>,
           ]}
         ></PresentationBox>
@@ -350,7 +340,7 @@ export default function TechnologyPage() {
               <Image
                 alt=""
                 {...coverImageProps}
-                src="/images/Say hello on Scratch.png"
+                src="/images/say-hello-on-scratch.png"
               />
             </Link>,
           ]}

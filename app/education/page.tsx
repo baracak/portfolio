@@ -49,9 +49,9 @@ export default function EducationPage() {
               key={0}
               alt=""
               {...coverImageProps}
-              src="/images/cambridge-certificate-b2.png"
+              src="/images/cambridge-certificate-b2.jpeg"
             />,
-            <Image key={0} alt="" {...coverImageProps} src="/images/fce.jpg" />,
+            <Image key={1} alt="" {...coverImageProps} src="/images/fce.jpg" />,
           ]}
         ></PresentationBox>
         <PresentationBox
@@ -79,9 +79,9 @@ export default function EducationPage() {
               key={0}
               alt=""
               {...coverImageProps}
-              src="/images/cambridge-certificate-b2.png"
+              src="/images/cambridge-certificate-b2.jpeg"
             />,
-            <Image key={0} alt="" {...coverImageProps} src="/images/ket.jpg" />,
+            <Image key={1} alt="" {...coverImageProps} src="/images/ket.jpg" />,
           ]}
         ></PresentationBox>
         <PresentationBox
@@ -100,7 +100,7 @@ export default function EducationPage() {
           description={
             <>
               I study at{" "}
-              <Link target="_blank" href={"https://www.ddmm.cz/"} size="lg">
+              <Link target="_blank" href={"https://www.ddmm.cz/"}>
                 ZŠ Angel
               </Link>
               , a bilingual school where I’ve developed strong English skills
@@ -119,7 +119,7 @@ export default function EducationPage() {
               key={1}
               alt=""
               {...coverImageProps}
-              src="/images/zsangel-8a.png"
+              src="/images/zsangel-8a.jpeg"
             />,
           ]}
         ></PresentationBox>

@@ -115,7 +115,7 @@ export default function HobbiesPage() {
           description={
             <>
               My band is a afternoon course in{" "}
-              <Link target="_blank" href={"https://www.ddmm.cz/"} size="lg">
+              <Link target="_blank" href={"https://www.ddmm.cz/"}>
                 DDM in Modřany
               </Link>
               . It all started when I once went to a band course and we just
@@ -125,7 +125,6 @@ export default function HobbiesPage() {
                 href={
                   "https://docs.google.com/document/d/10hpqWInVeC-pcQN-p_qf-11UdD5KBPRNJBopiXYEzpk/edit?usp=sharing"
                 }
-                size="lg"
               >
                 songs
               </Link>{" "}

@@ -70,6 +70,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
                       color={
                         pathname === item.pathname ? "primary" : "foreground"
                       }
+                      className="text-lg lg:text-xl"
                     >
                       {item.name}
                     </Link>
@@ -81,13 +82,12 @@ export default function RootLayout({ children }: { children: ReactNode }) {
                 {menuItems.map((item, index) => (
                   <NavbarMenuItem key={`${item}-${index}`}>
                     <Link
-                      className="w-full"
+                      className="w-full text-2xl"
                       color={
                         pathname === item.pathname ? "primary" : "foreground"
                       }
                       onClick={() => setIsMenuOpen(false)}
                       href={item.pathname}
-                      size="lg"
                     >
                       {item.name}
                     </Link>
