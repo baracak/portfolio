@@ -82,7 +82,7 @@ export default function SportPage() {
               13 years old. At first I did it with my friend from school at an
               afternoon club but now I have an aerial hoop at home and I train
               at home. I do this sport just for fun and it&apos;s mostly just
-              doing some new skills on the hoop.
+              about doing some new skills on the hoop.
             </>
           }
           gridItems={[

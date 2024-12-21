@@ -15,14 +15,14 @@ export default function TechnologyPage() {
           titleRows={[[{ text: "Technology" }]]}
           description={
             <>
-              I&apos;ve participated in various tech activities to enhance my
-              skills. At Make IT Today, I explored coding through robots, VR,
-              and 3D modeling. At the Úvod do IT camp, I learned IT basics, web
-              development, and 3D printing. During Mediální tvorba, I worked on
-              photography, video production, and podcasts. Through courses like
-              JavaScript for Kids, Scratch, and Harvard&apos;s CS50, I developed
-              programming skills, creating games, animations, and interactive
-              projects.
+              I have explored technology through courses like Make IT Today and
+              Úvod do IT, learning coding, web development, 3D printing, and
+              robotics. I attended Mediální tvorba for photography, video
+              production, and podcasts. My programming journey began with
+              Scratch at age 8, followed by JavaScript for Kids and
+              Harvard&apos;s CS50 course, where I created games, animations, and
+              web pages. I also built my portfolio using Next.js, TypeScript,
+              and Tailwind, gaining experience in React and GitHub.
             </>
           }
           isPageTitle
@@ -77,6 +77,55 @@ export default function TechnologyPage() {
               alt=""
               {...coverImageProps}
               src="/images/code2.jpeg"
+            />,
+          ]}
+        ></PresentationBox>
+        <PresentationBox
+          titleRows={[
+            [
+              { text: "Uvod do " },
+              {
+                text: "programování",
+                gradient: {
+                  fromClassName: "from-[#006FEE]",
+                  toClassName: "to-[#002E62]",
+                },
+              },
+              { text: "a" },
+              {
+                text: "IT světa",
+                gradient: {
+                  fromClassName: "from-[#006FEE]",
+                  toClassName: "to-[#002E62]",
+                },
+              },
+            ],
+          ]}
+          description={
+            <>
+              I have attended this programming{" "}
+              <Link
+                isExternal
+                href={
+                  "https://www.ssps.cz/kurz-od-skillify-uvod-do-programovani-a-it-sveta/"
+                }
+              >
+                course
+              </Link>{" "}
+              from{" "}
+              <Link isExternal href={"https://www.ssps.cz/"}>
+                SSPŠ
+              </Link>
+              . We learned there basics of phyton. The teachers were very nice
+              and they made it fun.
+            </>
+          }
+          gridItems={[
+            <Image
+              key={1}
+              alt=""
+              {...coverImageProps}
+              src="/images/ssps-kurz-it-code.png"
             />,
           ]}
         ></PresentationBox>
@@ -158,7 +207,7 @@ export default function TechnologyPage() {
               key={0}
               alt=""
               {...coverImageProps}
-              src="/images/divcispolekbara.jpg"
+              src="/images/uvod-do-it-od-divciho-spolku.jpg"
             />,
             <Image
               key={1}
@@ -172,7 +221,7 @@ export default function TechnologyPage() {
           titleRows={[
             [
               {
-                text: "Medální",
+                text: "Mediální",
                 gradient: {
                   fromClassName: "from-[#7EE7FC]",
                   toClassName: "to-[#06B7DB]",
@@ -246,7 +295,8 @@ export default function TechnologyPage() {
                 }
               >
                 certificate
-              </Link>{" "}
+              </Link>
+              .
             </>
           }
           gridItems={[

@@ -24,7 +24,7 @@ export default function EducationPage() {
         ></PresentationBox>
       </div>
       <div className="grid grid-cols-1 gap-20">
-        {/*<PresentationBox
+        <PresentationBox
           titleRows={[
             [
               { text: "Second" },
@@ -41,7 +41,17 @@ export default function EducationPage() {
           description={
             <>
               I have done my second Cambridge exam in 9th grade and it was level
-              B2.
+              B2. I am waiting for the certificate to be sent to me but I have
+              the statement of{" "}
+              <Link
+                target="_blank"
+                href={
+                  "/docs/2024-12-12-cambridge-first-certificate-in-english- statement-of-results-barbora-kalinová.pdf"
+                }
+              >
+                results
+              </Link>
+              .
             </>
           }
           gridItems={[
@@ -49,11 +59,11 @@ export default function EducationPage() {
               key={0}
               alt=""
               {...coverImageProps}
-              src="/images/cambridge-certificate-b2.jpeg"
+              src="/images/cambridge-vysledky.png"
             />,
             <Image key={1} alt="" {...coverImageProps} src="/images/fce.jpg" />,
           ]}
-        ></PresentationBox>*/}
+        ></PresentationBox>
         <PresentationBox
           titleRows={[
             [
@@ -71,7 +81,14 @@ export default function EducationPage() {
           description={
             <>
               I have done my first Cambridge exam in 5th grade and it was level
-              A2.
+              A2. Here is the{" "}
+              <Link
+                target="_blank"
+                href={"/docs/cambridge-english-certificate-2021-a2.pdf"}
+              >
+                certificate
+              </Link>
+              .
             </>
           }
           gridItems={[
