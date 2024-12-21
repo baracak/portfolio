@@ -111,7 +111,23 @@ export default function EducationPage() {
               </Link>
               , a bilingual school where I’ve developed strong English skills
               and a good accent thanks to native speakers from various
-              English-speaking countries.
+              English-speaking countries. I have participated in various
+              activities in our school. From 8th grade I am a member of{" "}
+              <Link
+                target="_blank"
+                href={"https://www.instagram.com/angel.cheer.team"}
+              >
+                Angel Cheer Team
+              </Link>
+              . I got a{" "}
+              <Link
+                target="_blank"
+                href={"/docs/pochvala-za-tanec-zsangel.pdf"}
+              >
+                praise
+              </Link>{" "}
+              for dancing at the school Christmas play by my class teacher. In
+              6th grade I was presenting our school in the Prague 12 town hall.
             </>
           }
           gridItems={[
@@ -126,6 +142,12 @@ export default function EducationPage() {
               alt=""
               {...coverImageProps}
               src="/images/zsangel-8a.jpeg"
+            />,
+            <Image
+              key={2}
+              alt=""
+              {...coverImageProps}
+              src="/images/radnice-prednaska-2021.jpg"
             />,
           ]}
         ></PresentationBox>

@@ -96,14 +96,11 @@ export default function TechnologyPage() {
           description={
             <>
               I found this online{" "}
-              <Link
-                isExternal
-                href={"https://cs50.harvard.edu/x/2024/"}
-                className="text-lg lg:text-xl"
-              >
+              <Link isExternal href={"https://cs50.harvard.edu/x/2024/"}>
                 course
               </Link>{" "}
-              for programming from Harvard. It is free and it is build very
+              for computer science from Harvard. I watched the videos without
+              going through the exams. It is free and it is build very
               understandably. The teacher is very good at teaching and he knows
               a lot of things about programming and makes it fun.
             </>
@@ -146,7 +143,14 @@ export default function TechnologyPage() {
               Smíchovská Secondary Technical School that I took. We learned IT
               basics, web development, and 3D printing. We engaged with virtual
               technology and Lego robotics. We also took and edited some
-              photograps we made.
+              photograps we made. Here is the{" "}
+              <Link
+                isExternal
+                href="/docs/2024-07-26-ssps-osvedceni-o-absolvování-uvod-do-it-od-divciho-spolku-barbora-kalinova.pdf"
+              >
+                certificate
+              </Link>
+              .
             </>
           }
           gridItems={[
@@ -160,7 +164,7 @@ export default function TechnologyPage() {
               key={1}
               alt=""
               {...coverImageProps}
-              src="/images/ssps1.png"
+              src="/images/ssps-logo.png"
             />,
           ]}
         ></PresentationBox>
@@ -234,6 +238,15 @@ export default function TechnologyPage() {
               exciting activities such as working with robots, virtual reality
               and 3D modeling. We made codes for simple games and web pages, and
               we solved a lot of challenges. I created a web page about yarns.
+              Here is the{" "}
+              <Link
+                isExternal
+                href={
+                  "/docs/2023-07-21-makeittoday-diplom-za-absolvovani-uvod-do-programovani-webu-Barbora-kalinova.pdf"
+                }
+              >
+                certificate
+              </Link>{" "}
             </>
           }
           gridItems={[
