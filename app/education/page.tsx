@@ -135,7 +135,7 @@ export default function EducationPage() {
               key={0}
               alt=""
               {...coverImageProps}
-              src="/images/zsangel-logo3.png"
+              src="/images/zsangel-logo.png"
             />,
             <Image
               key={1}
