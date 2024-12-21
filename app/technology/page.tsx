@@ -275,11 +275,22 @@ export default function TechnologyPage() {
           ]}
           description={
             <>
-              I took this online Javascript course. It is designed to teach you
-              Javascript in a fun and simple way. I learned there different
-              fundimetals of Javascript. I created a lot of fun projects like
-              interactive games and animations. I learned how to solve some
-              simple problems and understand the core prinicipal of programming.
+              I took this online Javascript{" "}
+              <Link
+                isExternal
+                href={"https://www.udemy.com/course/javascript-for-kids/"}
+              >
+                course
+              </Link>{" "}
+              from{" "}
+              <Link isExternal href={"https://www.udemy.com/"}>
+                Udemy
+              </Link>{" "}
+              . It is designed to teach you Javascript in a fun and simple way.
+              I learned there different fundimetals of Javascript. I created a
+              lot of fun projects like interactive games and animations. I
+              learned how to solve some simple problems and understand the core
+              prinicipal of programming.
             </>
           }
           gridItems={[
@@ -319,9 +330,13 @@ export default function TechnologyPage() {
           ]}
           description={
             <>
-              I started with scratch when I was 8 years old. My dad helped me
-              with it. I loved it back in the time and it was very fun to play
-              with. I also made a couple of simple games.
+              I started with{" "}
+              <Link isExternal href={"https://scratch.mit.edu/"}>
+                Scratch
+              </Link>{" "}
+              when I was 8 years old. My dad helped me with it. I loved it back
+              in the time and it was very fun to play with. I also made a couple
+              of simple games.
             </>
           }
           gridItems={[
