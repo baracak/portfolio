@@ -1,9 +1,14 @@
+import { TFunction } from "i18next";
 import { Metadata } from "next";
 
 export function getMetadata({
+  t,
   subTitle,
-}: { subTitle?: string } = {}): Metadata {
-  const title = "Bara's Portfolio";
+}: {
+  t?: TFunction;
+  subTitle?: string;
+} = {}): Metadata {
+  const title = t ? t("title") : "Bara's Portfolio";
   return {
     title: subTitle ? `${subTitle} | ${title}` : title,
   };

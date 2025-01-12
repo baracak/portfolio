@@ -13,14 +13,22 @@ import {
 import { Analytics } from "@vercel/analytics/next";
 import { usePathname } from "next/navigation";
 import { ReactNode, useState } from "react";
-import { BaraLogo } from "./BaraLogo";
-import "./globals.css";
-import { Providers } from "./providers";
+import { BaraLogo } from "./../BaraLogo";
+import "./../globals.css";
+import { Providers } from "./../providers";
+import { LanguageParams } from "../helpers/params.helper";
+import { dir } from "i18next";
 
-export default function RootLayout({ children }: { children: ReactNode }) {
+export default function RootLayout({
+  children,
+  params: { lng },
+}: {
+  children: ReactNode;
+  params: LanguageParams;
+}) {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const menuItems: { name: string; pathname: string }[] = [
-    { name: "Sport", pathname: "/sport" },
+    { name: "Sport", pathname: `/${lng}/sport` },
     { name: "Hobbies", pathname: "/hobbies" },
     { name: "Technology", pathname: "/technology" },
     { name: "Education", pathname: "/education" },
@@ -28,7 +36,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
   const pathname = usePathname();
 
   return (
-    <html lang="en" className="dark">
+    <html lang={lng} dir={dir(lng)} className="dark">
       <body>
         <Providers>
           <div className="flex flex-col items-center">

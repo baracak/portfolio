@@ -1,12 +1,19 @@
 import { Image } from "@nextui-org/react";
-import PresentationBox from "./components/PresentationBox/PresentationBox";
-import { coverImageProps } from "./components/common/cover-image.constants";
+import PresentationBox from "../components/PresentationBox/PresentationBox";
+import { coverImageProps } from "../components/common/cover-image.constants";
 import { Metadata } from "next";
-import { getMetadata } from "./helpers/metadata.helper";
+import { getMetadata } from "../helpers/metadata.helper";
+import { useTranslation } from "../i18n";
+import { LanguageParams } from "../helpers/params.helper";
 
 export const metadata = getMetadata();
 
-export default function HomePage() {
+export default async function HomePage({
+  params: { lng },
+}: {
+  params: LanguageParams;
+}) {
+  const { t } = await useTranslation(lng);
   return (
     <>
       <div className="my-24">
@@ -14,7 +21,7 @@ export default function HomePage() {
           <div className="flex flex-col gap-2 items-start justify-center w-full">
             <div>
               <h1 className="tracking-tight inline font-semibold text-6xl lg:text-7xl ">
-                Hi I&apos;m Barča
+                {t("home.heading")}
               </h1>
             </div>
             <div>

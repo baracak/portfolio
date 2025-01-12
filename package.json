@@ -11,11 +11,15 @@
   "dependencies": {
     "@nextui-org/react": "^2.2.9",
     "@vercel/analytics": "^1.4.1",
+    "accept-language": "^3.0.20",
     "classnames": "^2.5.1",
     "framer-motion": "^10.18.0",
+    "i18next": "^24.2.1",
+    "i18next-resources-to-backend": "^1.2.1",
     "next": "14.0.4",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "react-i18next": "^15.4.0"
   },
   "devDependencies": {
     "@types/node": "^20",
