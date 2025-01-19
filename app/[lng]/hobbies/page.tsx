@@ -1,10 +1,10 @@
 import { Image, Link } from "@nextui-org/react";
 import PresentationBox from "../../components/PresentationBox/PresentationBox";
 import { coverImageProps } from "../../components/common/cover-image.constants";
-import { getMetadata } from "../../helpers/metadata.helper";
+import { prepareGenerateMetadataFn } from "../../helpers/metadata.helper";
 
-export const metadata = getMetadata({
-  subTitle: "Hobbies",
+export const generateMetadata = prepareGenerateMetadataFn({
+  subTitleTKey: "page.hobbies.title",
 });
 
 export default function HobbiesPage() {

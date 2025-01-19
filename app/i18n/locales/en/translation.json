@@ -1,4 +1,43 @@
 {
   "title": "Bara's Portfolio",
-  "home": { "heading": "Hi I'm Barča " }
+  "page": {
+    "home": {
+      "heading": {
+        "title1": "Hi I'm Barča ",
+        "title2": "This is my ",
+        "title3": "Portfolio",
+        "desc": "I engage in sports to improve my health, while programming allows me to solve problems and think. Hobbies help me relax, and connect with others. I believe education is key to personal growth and I am passionate about expanding my knowledge, especially in IT, to tackle real-world challenges."
+      },
+      "sport": {
+        "title": "Sport",
+        "desc": "I do sport because it helps me build my physic and it helps me mentally. It boost my mood and it challenges me to try new things and get sensational in them."
+      },
+      "hobbies": {
+        "title": "Hobbies",
+        "desc": "Hobbies are a way of relaxation and enjoyment for me. It helps me with my creativity and it puts away the stress I have, at least for a while. It also makes new friends that have the same interest as you."
+      },
+      "technology": {
+        "title": "Technology",
+        "desc": "I programm to solve problems, express creativity, and build useful tools. It offers great career opportunities and continuous learning as technology evolves. It empowers me to turn my ideas into reality."
+      },
+      "education": {
+        "title": "Education",
+        "desc": "I believe education is a cornerstone of personal growth and social progress. I would like to expand my knowledge and skills in informational technology. I am passionate about exploring new ideas, trying out different challenges and applying what I learn to real life."
+      }
+    },
+    "sport": {
+      "title": "Sport",
+      "heading": {
+        "title": "Sport",
+        "desc": "I enjoy a variety of activities, including climbing and aerial hoop. From my young age I participated in various sport competitions like running, climbing and cross-country skiing. My parents always led me to sports and we did them together. "
+      },
+      "climbing": {
+        "title": "Climbing",
+        "desc": "I climb in <ddmLink>DDM Modřany</ddmLink>. I have been climbing since I was 12 years old and I even persuaded my dad to climb with me. I enjoy climbing very much and I am even a little bit stronger which is a positive thing about it. "
+      }
+    },
+    "technology": { "title": "Technology" },
+    "hobbies": { "title": "Hobbies" },
+    "education": { "title": "Education" }
+  }
 }

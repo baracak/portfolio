@@ -1,10 +1,10 @@
 import { Image, Link } from "@nextui-org/react";
 import { coverImageProps } from "../../components/common/cover-image.constants";
 import PresentationBox from "../../components/PresentationBox/PresentationBox";
-import { getMetadata } from "../../helpers/metadata.helper";
+import { prepareGenerateMetadataFn } from "../../helpers/metadata.helper";
 
-export const metadata = getMetadata({
-  subTitle: "Technology",
+export const generateMetadata = prepareGenerateMetadataFn({
+  subTitleTKey: "page.technology.title",
 });
 
 export default function TechnologyPage() {
@@ -286,8 +286,11 @@ export default function TechnologyPage() {
               programming skills through fun and interactive pojects. We had
               exciting activities such as working with robots, virtual reality
               and 3D modeling. We made codes for simple games and web pages, and
-              we solved a lot of challenges. I created a web page about yarns.
-              Here is the{" "}
+              we solved a lot of challenges. I created a{" "}
+              <Link isExternal href="/programming/make-it-today-2023/index.htm">
+                web page
+              </Link>{" "}
+              about yarns. Here is the{" "}
               <Link
                 isExternal
                 href={
@@ -353,7 +356,22 @@ export default function TechnologyPage() {
               I learned there different fundimetals of Javascript. I created a
               lot of fun projects like interactive games and animations. I
               learned how to solve some simple problems and understand the core
-              prinicipal of programming.
+              prinicipal of programming. I created couple of games and
+              utilities, for example{" "}
+              <Link
+                isExternal
+                href="/programming/javascript-for-kids/investmentCalculator.html"
+              >
+                Investment Calculator
+              </Link>{" "}
+              or{" "}
+              <Link
+                isExternal
+                href="/programming/javascript-for-kids/dragDraw.html"
+              >
+                Drag and Draw
+              </Link>
+              .
             </>
           }
           gridItems={[
@@ -399,7 +417,15 @@ export default function TechnologyPage() {
               </Link>{" "}
               when I was 8 years old. My dad helped me with it. I loved it back
               in the time and it was very fun to play with. I also made a couple
-              of simple games.
+              of simple games, for example{" "}
+              <Link isExternal href="/programming/scratch/dragon-chase.html">
+                Dragon Chase
+              </Link>{" "}
+              or{" "}
+              <Link isExternal href="/programming/scratch/say-hello.html">
+                Say Hello
+              </Link>
+              .
             </>
           }
           gridItems={[

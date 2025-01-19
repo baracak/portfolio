@@ -1,26 +1,27 @@
 import { Image, Link } from "@nextui-org/react";
 import { coverImageProps } from "../../components/common/cover-image.constants";
 import PresentationBox from "../../components/PresentationBox/PresentationBox";
-import { getMetadata } from "../../helpers/metadata.helper";
+import { prepareGenerateMetadataFn } from "../../helpers/metadata.helper";
+import { getTranslation } from "@/app/i18n";
+import { LanguageParams } from "@/app/helpers/params.helper";
+import { Trans } from "react-i18next";
 
-export const metadata = getMetadata({
-  subTitle: "Sports",
+export const generateMetadata = prepareGenerateMetadataFn({
+  subTitleTKey: "page.sport.title",
 });
 
-export default function SportPage() {
+export default async function SportPage({
+  params: { lng },
+}: {
+  params: LanguageParams;
+}) {
+  const { t } = await getTranslation(lng);
   return (
     <>
       <div className="my-24">
         <PresentationBox
-          titleRows={[[{ text: "Sport" }]]}
-          description={
-            <>
-              I enjoy a variety of activities, including climbing and aerial
-              hoop. From my young age I participated in various sport
-              competitions like running, climbing and cross-country skiing. My
-              parents always led me to sports and we did them together.
-            </>
-          }
+          titleRows={[[{ text: t("page.sport.heading.title") }]]}
+          description={t("page.sport.heading.desc")}
           isPageTitle
         ></PresentationBox>
       </div>
@@ -29,7 +30,7 @@ export default function SportPage() {
           titleRows={[
             [
               {
-                text: "Climbing",
+                text: t("page.sport.climbing.title"),
                 gradient: {
                   fromClassName: "from-[#99C7FB]",
                   toClassName: "to-[#006FEE]",
@@ -38,15 +39,13 @@ export default function SportPage() {
             ],
           ]}
           description={
-            <>
-              I climb in{" "}
-              <Link isExternal href={"https://www.ddmm.cz/"}>
-                DDM in Modřany
-              </Link>
-              . I have been climbing for 4 years now and I even persuaded my dad
-              to climb with me. I enjoy climbing very much and I am even a
-              little bit stronger which is a positive thing about it.
-            </>
+            /*<Trans
+              i18nKey={"page.sport.climbing.desc"}
+              t={t}
+              components={{
+                ddmLink: <Link isExternal href={"https://www.ddmm.cz/"} />,
+              }}
+            />*/ undefined
           }
           gridItems={[
             <Image
