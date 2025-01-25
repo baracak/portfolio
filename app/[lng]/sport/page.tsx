@@ -4,7 +4,7 @@ import PresentationBox from "../../components/PresentationBox/PresentationBox";
 import { prepareGenerateMetadataFn } from "../../helpers/metadata.helper";
 import { getTranslation } from "@/app/i18n";
 import { LanguageParams } from "@/app/helpers/params.helper";
-import { Trans } from "react-i18next";
+import { Trans } from "react-i18next/TransWithoutContext";
 
 export const generateMetadata = prepareGenerateMetadataFn({
   subTitleTKey: "page.sport.title",
@@ -39,13 +39,13 @@ export default async function SportPage({
             ],
           ]}
           description={
-            /*<Trans
-              i18nKey={"page.sport.climbing.desc"}
+            <Trans
               t={t}
+              i18nKey={"page.sport.climbing.desc"}
               components={{
                 ddmLink: <Link isExternal href={"https://www.ddmm.cz/"} />,
               }}
-            />*/ undefined
+            />
           }
           gridItems={[
             <Image
@@ -67,7 +67,7 @@ export default async function SportPage({
           titleRows={[
             [
               {
-                text: "Aerial Hoop",
+                text: t("page.sport.aerial.title"),
                 gradient: {
                   fromClassName: "from-[#AE7EDE]",
                   toClassName: "to-[#610726]",
@@ -75,15 +75,7 @@ export default async function SportPage({
               },
             ],
           ]}
-          description={
-            <>
-              I do Arial Hoop at home. I have been doing Arial Hoop since I was
-              13 years old. At first I did it with my friend from school at an
-              afternoon club but now I have an aerial hoop at home and I train
-              at home. I do this sport just for fun and it&apos;s mostly just
-              about doing some new skills on the hoop.
-            </>
-          }
+          description={t("page.sport.aerial.desc")}
           gridItems={[
             <Image
               key={0}

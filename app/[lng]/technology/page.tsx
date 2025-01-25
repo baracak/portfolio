@@ -2,29 +2,26 @@ import { Image, Link } from "@nextui-org/react";
 import { coverImageProps } from "../../components/common/cover-image.constants";
 import PresentationBox from "../../components/PresentationBox/PresentationBox";
 import { prepareGenerateMetadataFn } from "../../helpers/metadata.helper";
+import { LanguageParams } from "@/app/helpers/params.helper";
+import { getTranslation } from "@/app/i18n";
+import { Trans } from "react-i18next/TransWithoutContext";
 
 export const generateMetadata = prepareGenerateMetadataFn({
   subTitleTKey: "page.technology.title",
 });
 
-export default function TechnologyPage() {
+export default async function TechnologyPage({
+  params: { lng },
+}: {
+  params: LanguageParams;
+}) {
+  const { t } = await getTranslation(lng);
   return (
     <>
       <div className="my-24">
         <PresentationBox
-          titleRows={[[{ text: "Technology" }]]}
-          description={
-            <>
-              I have explored technology through courses like Make IT Today and
-              Úvod do IT, learning coding, web development, 3D printing, and
-              robotics. I attended Mediální tvorba for photography, video
-              production, and podcasts. My programming journey began with
-              Scratch at age 8, followed by JavaScript for Kids and
-              Harvard&apos;s CS50 course, where I created games, animations, and
-              web pages. I also built my portfolio using Next.js, TypeScript,
-              and Tailwind, gaining experience in React and GitHub.
-            </>
-          }
+          titleRows={[[{ text: t("page.technology.heading.title") }]]}
+          description={t("page.technology.heading.desc")}
           isPageTitle
         ></PresentationBox>
       </div>
@@ -33,7 +30,7 @@ export default function TechnologyPage() {
           titleRows={[
             [
               {
-                text: "Portfolio",
+                text: t("page.technology.portfolio.title"),
                 gradient: {
                   fromClassName: "from-[#AE7EDE]",
                   toClassName: "to-[#6020A0]",
@@ -42,34 +39,27 @@ export default function TechnologyPage() {
             ],
           ]}
           description={
-            <>
-              I made this portfolio with my dad&apos;s help. The code is written
-              in{" "}
-              <Link isExternal href={"https://nextjs.org/"}>
-                Next.js
-              </Link>{" "}
-              and the programming language is{" "}
-              <Link isExternal href={"https://www.typescriptlang.org/"}>
-                TypeScript
-              </Link>
-              . Because of Next.js I learned basics of{" "}
-              <Link isExternal href={"https://react.dev/"}>
-                React
-              </Link>
-              . It is styled with{" "}
-              <Link isExternal href={"https://nextui.org/"}>
-                NextUI
-              </Link>{" "}
-              and{" "}
-              <Link isExternal href={"https://tailwindcss.com/"}>
-                Tailwind
-              </Link>
-              . And it is versioned in{" "}
-              <Link isExternal href={"https://github.com/baracak/portfolio"}>
-                GitHub
-              </Link>
-              .
-            </>
+            <Trans
+              t={t}
+              i18nKey={"page.technology.portfolio.desc"}
+              components={{
+                nextJsLink: <Link isExternal href={"https://nextjs.org/"} />,
+                typeScriptLink: (
+                  <Link isExternal href={"https://www.typescriptlang.org/"} />
+                ),
+                reactLink: <Link isExternal href={"https://react.dev/"} />,
+                nextUiLink: <Link isExternal href={"https://nextui.org/"} />,
+                tailwindLink: (
+                  <Link isExternal href={"https://tailwindcss.com/"} />
+                ),
+                githubLink: (
+                  <Link
+                    isExternal
+                    href={"https://github.com/baracak/portfolio"}
+                  />
+                ),
+              }}
+            />
           }
           gridItems={[
             <Image
@@ -83,17 +73,17 @@ export default function TechnologyPage() {
         <PresentationBox
           titleRows={[
             [
-              { text: "Uvod do " },
+              { text: t("page.technology.introIt.title1") },
               {
-                text: "programování",
+                text: t("page.technology.introIt.title2"),
                 gradient: {
                   fromClassName: "from-[#006FEE]",
                   toClassName: "to-[#002E62]",
                 },
               },
-              { text: "a" },
+              { text: t("page.technology.introIt.title3") },
               {
-                text: "IT světa",
+                text: t("page.technology.introIt.title4"),
                 gradient: {
                   fromClassName: "from-[#006FEE]",
                   toClassName: "to-[#002E62]",
@@ -102,23 +92,21 @@ export default function TechnologyPage() {
             ],
           ]}
           description={
-            <>
-              I have attended this programming{" "}
-              <Link
-                isExternal
-                href={
-                  "https://www.ssps.cz/kurz-od-skillify-uvod-do-programovani-a-it-sveta/"
-                }
-              >
-                course
-              </Link>{" "}
-              from{" "}
-              <Link isExternal href={"https://www.ssps.cz/"}>
-                SSPŠ
-              </Link>
-              . We learned there basics of phyton. The teachers were very nice
-              and they made it fun.
-            </>
+            <Trans
+              t={t}
+              i18nKey={"page.technology.introIt.desc"}
+              components={{
+                courseLink: (
+                  <Link
+                    isExternal
+                    href={
+                      "https://www.ssps.cz/kurz-od-skillify-uvod-do-programovani-a-it-sveta/"
+                    }
+                  />
+                ),
+                sspsLink: <Link isExternal href={"https://www.ssps.cz/"} />,
+              }}
+            />
           }
           gridItems={[
             <Image

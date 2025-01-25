@@ -34,10 +34,49 @@
       "climbing": {
         "title": "Climbing",
         "desc": "I climb in <ddmLink>DDM Modřany</ddmLink>. I have been climbing since I was 12 years old and I even persuaded my dad to climb with me. I enjoy climbing very much and I am even a little bit stronger which is a positive thing about it. "
+      },
+      "aerial": {
+        "title": "Aerial Hoop",
+        "desc": "I do Arial Hoop at home. I have been doing Arial Hoop since I was 13 years old. At first I did it with my friend from school at an afternoon club but now I have an aerial hoop at home and I train at home. I do this sport just for fun and it's mostly just about doing some new skills on the hoop. "
       }
     },
-    "technology": { "title": "Technology" },
-    "hobbies": { "title": "Hobbies" },
+    "technology": {
+      "title": "Technology",
+      "heading": {
+        "title": "Technology",
+        "desc": "I have explored technology through courses like Make IT Today and Intro to IT, learning coding, web development, 3D printing, and robotics. I attended Media Creation for photography, video production, and podcasts. My programming journey began with Scratch at age 8, followed by JavaScript for Kids and Harvard's CS50 course, where I created games, animations, and web pages. I also built my portfolio using Next.js, TypeScript, and Tailwind, gaining experience in React and GitHub."
+      },
+      "portfolio": {
+        "title": "Portfolio",
+        "desc": "I made this portfolio with my dad's help. The code is written in <nextJsLink>Next.js</nextJsLink> and the programming language is <typeScriptLink>TypeScript</typeScriptLink>. Because of Next.js I learned basics of <reactLink>React</reactLink>. It is styled with <nextUiLink>HeroUI</nextUiLink> and <tailwindLink>Tailwind</tailwindLink>. And it is versioned in <githubLink>GitHub</githubLink>."
+      },
+      "introIt": {
+        "title1": "Intro to ",
+        "title2": "Programming",
+        "title3": "and",
+        "title4": "IT world",
+        "desc": "I have attended this programming <courseLink>course</courseLink> from <sspsLink>SSPŠ</sspsLink>. We learned there basics of phyton. The teachers were very nice and they made it fun. "
+      }
+    },
+    "hobbies": {
+      "title": "Hobbies",
+      "heading": {
+        "title": "Hobbies",
+        "desc": "I enjoy crocheting, painting, and being part of my band. Crocheting brings me peace and helps me focus, while painting lets me express creativity, even with simple lines. In my band at DDM in Modřany, I write lyrics for our songs, and we perform at events and for our families. "
+      },
+      "crocheting": {
+        "title": "Crocheting",
+        "desc": "I have been crocheting a long time now, something about 5 years and I think I am pretty good at it. I enjoy it because it brings me peace and I can just sit down and do one thing and not worry about other stuff. That is what I love about crocheting. "
+      },
+      "painting": {
+        "title": "Painting",
+        "desc": "I have been painting my whole life, but probably like 3 years ago it started looking good. I like it because you can paint anything you want and even when you don't known how to paint you can paint something because you can just paint some lines on the paper and make it look good."
+      },
+      "band": {
+        "title": "My Band",
+        "desc": "My band is a afternoon course in <ddmLink>DDM in Modřany</ddmLink>. It all started when I once went to a band course and we just played some songs. Now we even write our own <songLink>songs</songLink> and I am usually the one that is writing the lyrics and than someone else from the band writes the music for it. We have some concerts for our parents but we also play at some actions that are in DDM in modřany."
+      }
+    },
     "education": { "title": "Education" }
   }
 }

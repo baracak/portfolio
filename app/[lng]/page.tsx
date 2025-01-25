@@ -40,65 +40,6 @@ export default async function HomePage({
 
       <div className="grid grid-cols-1 gap-20">
         <PresentationBox
-          detailLink="/sport"
-          titleRows={[
-            [
-              {
-                text: t("page.home.sport.title"),
-                gradient: {
-                  fromClassName: "from-[#99C7FB]",
-                  toClassName: "to-[#006FEE]",
-                },
-              },
-            ],
-          ]}
-          description={t("page.home.sport.desc")}
-          gridItems={[
-            <Image
-              key={0}
-              alt=""
-              {...coverImageProps}
-              src="/images/bara.jpg"
-            />,
-            <Image
-              key={1}
-              alt=""
-              {...coverImageProps}
-              src="/images/arial-hoop.jpg"
-            />,
-          ]}
-        ></PresentationBox>
-        <PresentationBox
-          detailLink="/hobbies"
-          titleRows={[
-            [
-              {
-                text: t("page.home.hobbies.title"),
-                gradient: {
-                  fromClassName: "from-[#12A150]",
-                  toClassName: "to-[#002E62]",
-                },
-              },
-            ],
-          ]}
-          description={t("page.home.hobbies.desc")}
-          gridItems={[
-            <Image
-              key={0}
-              alt=""
-              {...coverImageProps}
-              src="/images/piano.jpeg"
-            />,
-            <Image
-              key={1}
-              alt=""
-              {...coverImageProps}
-              src="/images/kytka1.jpeg"
-            />,
-          ]}
-        ></PresentationBox>
-
-        <PresentationBox
           detailLink="/technology"
           titleRows={[
             [
@@ -160,6 +101,64 @@ export default async function HomePage({
               alt=""
               {...coverImageProps}
               src="/images/education1.jpg"
+            />,
+          ]}
+        ></PresentationBox>
+        <PresentationBox
+          detailLink="/sport"
+          titleRows={[
+            [
+              {
+                text: t("page.home.sport.title"),
+                gradient: {
+                  fromClassName: "from-[#99C7FB]",
+                  toClassName: "to-[#006FEE]",
+                },
+              },
+            ],
+          ]}
+          description={t("page.home.sport.desc")}
+          gridItems={[
+            <Image
+              key={0}
+              alt=""
+              {...coverImageProps}
+              src="/images/bara.jpg"
+            />,
+            <Image
+              key={1}
+              alt=""
+              {...coverImageProps}
+              src="/images/arial-hoop.jpg"
+            />,
+          ]}
+        ></PresentationBox>
+        <PresentationBox
+          detailLink="/hobbies"
+          titleRows={[
+            [
+              {
+                text: t("page.home.hobbies.title"),
+                gradient: {
+                  fromClassName: "from-[#12A150]",
+                  toClassName: "to-[#002E62]",
+                },
+              },
+            ],
+          ]}
+          description={t("page.home.hobbies.desc")}
+          gridItems={[
+            <Image
+              key={0}
+              alt=""
+              {...coverImageProps}
+              src="/images/piano.jpeg"
+            />,
+            <Image
+              key={1}
+              alt=""
+              {...coverImageProps}
+              src="/images/kytka1.jpeg"
             />,
           ]}
         ></PresentationBox>

@@ -2,26 +2,26 @@ import { Image, Link } from "@nextui-org/react";
 import PresentationBox from "../../components/PresentationBox/PresentationBox";
 import { coverImageProps } from "../../components/common/cover-image.constants";
 import { prepareGenerateMetadataFn } from "../../helpers/metadata.helper";
+import { LanguageParams } from "@/app/helpers/params.helper";
+import { getTranslation } from "@/app/i18n";
+import { Trans } from "react-i18next/TransWithoutContext";
 
 export const generateMetadata = prepareGenerateMetadataFn({
   subTitleTKey: "page.hobbies.title",
 });
 
-export default function HobbiesPage() {
+export default async function HobbiesPage({
+  params: { lng },
+}: {
+  params: LanguageParams;
+}) {
+  const { t } = await getTranslation(lng);
   return (
     <>
       <div className="my-24">
         <PresentationBox
-          titleRows={[[{ text: "Hobbies" }]]}
-          description={
-            <>
-              I enjoy crocheting, painting, and being part of my band.
-              Crocheting brings me peace and helps me focus, while painting lets
-              me express creativity, even with simple lines. In my band at DDM
-              in Modřany, I write lyrics for our songs, and we perform at events
-              and for our families.
-            </>
-          }
+          titleRows={[[{ text: t("page.hobbies.heading.title") }]]}
+          description={t("page.hobbies.heading.desc")}
           isPageTitle
         ></PresentationBox>
       </div>
@@ -31,7 +31,7 @@ export default function HobbiesPage() {
           titleRows={[
             [
               {
-                text: "Crocheting",
+                text: t("page.hobbies.crocheting.title"),
                 gradient: {
                   fromClassName: "from-[#F871A0]",
                   toClassName: "to-[#C20E4D]",
@@ -39,14 +39,7 @@ export default function HobbiesPage() {
               },
             ],
           ]}
-          description={
-            <>
-              I have been crocheting a long time now, something about 5 years
-              and I think I am pretty good at it. I enjoy it because it brings
-              me peace and I can just sit down and do one thing and not worry
-              about other stuff. That is what I love about crocheting.
-            </>
-          }
+          description={t("page.hobbies.crocheting.desc")}
           gridItems={[
             <Image
               key={0}
@@ -67,7 +60,7 @@ export default function HobbiesPage() {
           titleRows={[
             [
               {
-                text: "Painting",
+                text: t("page.hobbies.painting.title"),
                 gradient: {
                   fromClassName: "from-[#12A150]",
                   toClassName: "to-[#002E62]",
@@ -75,15 +68,7 @@ export default function HobbiesPage() {
               },
             ],
           ]}
-          description={
-            <>
-              I have been painting my whole life, but probably like 3 years ago
-              it started looking good. I like it because you can paint anything
-              you want and even when you don&apos;t known how to paint you can
-              paint something because you can just paint some lines on the paper
-              and make it look good.
-            </>
-          }
+          description={t("page.hobbies.painting.desc")}
           gridItems={[
             <Image
               key={0}
@@ -104,7 +89,7 @@ export default function HobbiesPage() {
           titleRows={[
             [
               {
-                text: "My band",
+                text: t("page.hobbies.band.title"),
                 gradient: {
                   fromClassName: "from-[#301050]",
                   toClassName: "to-[#9353D3]",
@@ -113,26 +98,21 @@ export default function HobbiesPage() {
             ],
           ]}
           description={
-            <>
-              My band is a afternoon course in{" "}
-              <Link target="_blank" href={"https://www.ddmm.cz/"}>
-                DDM in Modřany
-              </Link>
-              . It all started when I once went to a band course and we just
-              played some songs. Now we even write our own{" "}
-              <Link
-                isExternal
-                href={
-                  "https://docs.google.com/document/d/10hpqWInVeC-pcQN-p_qf-11UdD5KBPRNJBopiXYEzpk/edit?usp=sharing"
-                }
-              >
-                songs
-              </Link>{" "}
-              and I am usually the one that is writing the lyrics and than
-              someone else from the band writes the music for it. We have some
-              concerts for our parents but we also play at some actions that are
-              in DDM in modřany.
-            </>
+            <Trans
+              t={t}
+              i18nKey={"page.hobbies.band.desc"}
+              components={{
+                ddmLink: <Link isExternal href={"https://www.ddmm.cz/"} />,
+                songLink: (
+                  <Link
+                    isExternal
+                    href={
+                      "https://docs.google.com/document/d/10hpqWInVeC-pcQN-p_qf-11UdD5KBPRNJBopiXYEzpk/edit?usp=sharing"
+                    }
+                  />
+                ),
+              }}
+            />
           }
           gridItems={[
             <Image

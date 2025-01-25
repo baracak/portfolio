@@ -1,6 +1,11 @@
 "use client";
 
 import {
+  Button,
+  Dropdown,
+  DropdownItem,
+  DropdownMenu,
+  DropdownTrigger,
   Link,
   Navbar,
   NavbarBrand,
@@ -13,18 +18,23 @@ import {
 import { usePathname } from "next/navigation";
 import { useState } from "react";
 import { BaraLogo } from "./../BaraLogo";
+import { useTranslation } from "react-i18next";
+import { GB, CZ } from "country-flag-icons/react/3x2";
+import LanguageSwitcher from "./LanguageSwitcher";
+import { Language } from "../i18n/settings";
+import { getTranslation } from "../i18n";
 
 interface Props {
-  lng: string;
+  lng: Language;
 }
 
 export default function Menu({ lng }: Props) {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const menuItems: { name: string; pathname: string }[] = [
+    { name: "Technology", pathname: `/${lng}/technology` },
+    { name: "Education", pathname: `/${lng}/education` },
     { name: "Sport", pathname: `/${lng}/sport` },
-    { name: "Hobbies", pathname: "/hobbies" },
-    { name: "Technology", pathname: "/technology" },
-    { name: "Education", pathname: "/education" },
+    { name: "Hobbies", pathname: `/${lng}/hobbies` },
   ];
   const pathname = usePathname();
 
@@ -37,7 +47,7 @@ export default function Menu({ lng }: Props) {
     >
       <NavbarContent className="sm:hidden pr-3" justify="start">
         <NavbarBrand>
-          <Link href="/" color="foreground">
+          <Link href={`/${lng}`} color="foreground">
             <BaraLogo />
             <p className=" text-inherit ml-2 text-2xl">Barča</p>
           </Link>
@@ -52,7 +62,7 @@ export default function Menu({ lng }: Props) {
 
       <NavbarContent className="hidden sm:flex gap-4" justify="start">
         <NavbarBrand>
-          <Link href="/" color="foreground">
+          <Link href={`/${lng}`} color="foreground">
             <BaraLogo />
             <p className=" text-inherit ml-2 text-2xl">Barča</p>
           </Link>
@@ -71,6 +81,9 @@ export default function Menu({ lng }: Props) {
             </Link>
           </NavbarItem>
         ))}
+        <NavbarMenuItem key="lang" style={{ width: 30, cursor: "pointer" }}>
+          <LanguageSwitcher lng={lng} />
+        </NavbarMenuItem>
       </NavbarContent>
 
       <NavbarMenu>
@@ -86,6 +99,12 @@ export default function Menu({ lng }: Props) {
             </Link>
           </NavbarMenuItem>
         ))}
+        <NavbarMenuItem
+          key="lang"
+          style={{ width: 30, cursor: "pointer", marginTop: 10 }}
+        >
+          <LanguageSwitcher lng={lng} />
+        </NavbarMenuItem>
       </NavbarMenu>
     </Navbar>
   );

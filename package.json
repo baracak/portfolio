@@ -13,6 +13,7 @@
     "@vercel/analytics": "^1.4.1",
     "accept-language": "^3.0.20",
     "classnames": "^2.5.1",
+    "country-flag-icons": "^1.5.14",
     "framer-motion": "^10.18.0",
     "i18next": "^24.2.1",
     "i18next-resources-to-backend": "^1.2.1",
