@@ -14,6 +14,8 @@ import Link from "next/link";
 
 interface Props {
   lng: Language;
+  flagWidth?: number;
+  fontSize?: number;
 }
 
 interface LanguageInfo {
@@ -23,7 +25,11 @@ interface LanguageInfo {
   targetPathname: string;
 }
 
-export default function LanguageSwitcher({ lng }: Props) {
+export default function LanguageSwitcher({
+  lng,
+  flagWidth = 30,
+  fontSize = 18,
+}: Props) {
   const pathname = usePathname();
   const {
     activeLanguage,
@@ -71,11 +77,16 @@ export default function LanguageSwitcher({ lng }: Props) {
               <DropdownItem key={lang}>
                 <Link href={targetPathname}>
                   <div
-                    style={{ display: "flex", alignItems: "center", gap: 10 }}
+                    style={{
+                      display: "flex",
+                      alignItems: "center",
+                      gap: 10,
+                      fontSize,
+                    }}
                   >
                     <info.flagComponent
                       style={{
-                        width: 30,
+                        width: flagWidth,
                         display: "inline-block",
                         borderRadius: 2,
                       }}

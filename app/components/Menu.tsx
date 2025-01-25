@@ -55,6 +55,12 @@ export default function Menu({ lng }: Props) {
       </NavbarContent>
 
       <NavbarContent className="sm:hidden" justify="center">
+        <NavbarMenuItem
+          key="lang"
+          style={{ width: 40, cursor: "pointer", marginRight: 10 }}
+        >
+          <LanguageSwitcher lng={lng} flagWidth={40} fontSize={20} />
+        </NavbarMenuItem>
         <NavbarMenuToggle
           aria-label={isMenuOpen ? "Close menu" : "Open menu"}
         />
@@ -99,12 +105,6 @@ export default function Menu({ lng }: Props) {
             </Link>
           </NavbarMenuItem>
         ))}
-        <NavbarMenuItem
-          key="lang"
-          style={{ width: 30, cursor: "pointer", marginTop: 10 }}
-        >
-          <LanguageSwitcher lng={lng} />
-        </NavbarMenuItem>
       </NavbarMenu>
     </Navbar>
   );
