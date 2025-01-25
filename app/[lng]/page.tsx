@@ -4,6 +4,7 @@ import { coverImageProps } from "../components/common/cover-image.constants";
 import { prepareGenerateMetadataFn } from "../helpers/metadata.helper";
 import { LanguageParams } from "../helpers/params.helper";
 import { getTranslation } from "../i18n";
+import { Trans } from "react-i18next/TransWithoutContext";
 
 export const generateMetadata = prepareGenerateMetadataFn();
 
@@ -19,7 +20,7 @@ export default async function HomePage({
         <div>
           <div className="flex flex-col gap-2 items-start justify-center w-full">
             <div>
-              <h1 className="tracking-tight inline font-semibold text-6xl lg:text-7xl ">
+              <h1 className="tracking-tight inline font-semibold text-2xl lg:text-3xl ">
                 {t("page.home.heading.title1")}
               </h1>
             </div>
@@ -34,6 +35,9 @@ export default async function HomePage({
           </div>
           <p className="w-full md:w-1/2 my-2 text-lg lg:text-xl font-normal text-default-500 block max-w-full">
             {t("page.home.heading.desc")}
+          </p>
+          <p className="w-full md:w-1/2 mb-2 mt-4 text-lg lg:text-xl font-normal text-default-500 block max-w-full">
+            {t("page.home.heading.desc2")}
           </p>
         </div>
       </div>
@@ -52,20 +56,13 @@ export default async function HomePage({
               },
             ],
           ]}
-          description={
-            <>
-              I programm to solve problems, express creativity, and build useful
-              tools. It offers great career opportunities and continuous
-              learning as technology evolves. It empowers me to turn my ideas
-              into reality.
-            </>
-          }
+          description={t("page.home.technology.desc")}
           gridItems={[
             <Image
               key={0}
               alt=""
               {...coverImageProps}
-              src="/images/programm.jpg"
+              src="/images/coding-pinterest.jpg"
             />,
             <Image
               key={1}
@@ -94,13 +91,13 @@ export default async function HomePage({
               key={0}
               alt=""
               {...coverImageProps}
-              src="/images/education.jpg"
+              src="/images/education-pinterest.jpg"
             />,
             <Image
               key={1}
               alt=""
               {...coverImageProps}
-              src="/images/education1.jpg"
+              src="/images/books-pinterest.jpg"
             />,
           ]}
         ></PresentationBox>
@@ -152,7 +149,7 @@ export default async function HomePage({
               key={0}
               alt=""
               {...coverImageProps}
-              src="/images/piano.jpeg"
+              src="/images/piano-pinterest.jpg"
             />,
             <Image
               key={1}

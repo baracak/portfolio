@@ -3,10 +3,11 @@
   "page": {
     "home": {
       "heading": {
-        "title1": "Hi I'm Barča ",
-        "title2": "This is my ",
-        "title3": "Portfolio",
-        "desc": "I engage in sports to improve my health, while programming allows me to solve problems and think. Hobbies help me relax, and connect with others. I believe education is key to personal growth and I am passionate about expanding my knowledge, especially in IT, to tackle real-world challenges."
+        "title1": "Hello! ",
+        "title2": "I am  ",
+        "title3": "Bára Kalinová ",
+        "desc": "I\u00a0am a\u00a0student of primary english billingual school in 9th grade. I\u00a0am applying to Smíchovská Střední průmyslová Škola. I\u00a0created this portfolio to present myself, what I\u00a0already achieved or I\u00a0like.",
+        "desc2": "I\u00a0have been interested in web development for a while now, so I\u00a0created the portfolio in React to practice more. The portfolio is divided into four parts. Each contains a different topic I\u00a0engage in. This page summarises all of them and you can dive into each part to see more."
       },
       "sport": {
         "title": "Sport",
@@ -56,6 +57,34 @@
         "title3": "and",
         "title4": "IT world",
         "desc": "I have attended this programming <courseLink>course</courseLink> from <sspsLink>SSPŠ</sspsLink>. We learned there basics of phyton. The teachers were very nice and they made it fun. "
+      },
+      "cs50": {
+        "title": "CS50",
+        "desc": "I found this online <courseLink1>course</courseLink1> for computer science from Harvard. I watched the videos without going through the exams. It is free and it is build very understandably. The teacher is very good at teaching and he knows a lot of things about programming and makes it fun."
+      },
+      "girlsGroup": {
+        "title1": "Intro to ",
+        "title2": "IT ",
+        "title3": "from ",
+        "title4": "Girls group ",
+        "desc": "It is a day camp about informational technologies at the Smíchovská Secondary Technical School that I took. We learned IT basics, web development, and 3D printing. We engaged with virtual technology and Lego robotics. We also took and edited some photograps we made. Here is the <certificateLink>certificate</certificateLink>."
+      },
+      "media": {
+        "title1": "Media",
+        "title2": "creation",
+        "desc": "I went on a summer school at the Smíchovská Secondary Technical School. We did things like digital photography, video production, podcast creation and a lot of editing. We also recorded a <podcastLink>podcast</podcastLink> about that school."
+      },
+      "web": {
+        "title1": "Intro to",
+        "title2": "Programming",
+        "title3": "of a web page",
+        "desc": "It is a day camp from <makeItLink>Make IT Today</makeItLink> for basic coding that I took. It is designed to enhance programming skills through fun and interactive pojects. We had exciting activities such as working with robots, virtual reality and 3D modeling. We made codes for simple games and web pages, and we solved a lot of challenges. I created a <webLink>web page</webLink> about yarns. Here is the <certificateLink1>certificate</certificateLink1>."
+      },
+      "javascript": {
+        "title1": "Javascript",
+        "title2": "for",
+        "title3": "Kids",
+        "desc": "I took this online Javascript <courseLink2>course</courseLink2> from <udemyLink>Udemy</udemyLink> . It is designed to teach you Javascript in a fun and simple way. I learned there different fundimetals of Javascript. I created a lot of fun projects like interactive games and animations. I learned how to solve some simple problems and understand the core prinicipal of programming. I created couple of games and utilities, for example <calculatorLink>Investment</calculatorLink> Calculator or <dragDraw>Drag</dragDraw> and Draw."
       }
     },
     "hobbies": {

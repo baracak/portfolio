@@ -71,6 +71,17 @@ export default function PresentationBox({
           </p>
         )}
       </div>
+      {detailLink && (
+        <Button
+          color="primary"
+          variant="ghost"
+          className="mt-1 mb-1"
+          as={Link}
+          href={detailLink}
+        >
+          Read more
+        </Button>
+      )}
       {gridItems && (
         <div className="mt-4">
           {areGridItemsOdd && (
@@ -82,17 +93,6 @@ export default function PresentationBox({
             </div>
           )}
         </div>
-      )}
-      {detailLink && (
-        <Button
-          color="primary"
-          variant="ghost"
-          className="mt-4"
-          as={Link}
-          href={detailLink}
-        >
-          Read more
-        </Button>
       )}
     </div>
   );

@@ -120,9 +120,8 @@ export default async function TechnologyPage({
         <PresentationBox
           titleRows={[
             [
-              { text: "CS" },
               {
-                text: "50",
+                text: t("page.technology.cs50.title"),
                 gradient: {
                   fromClassName: "from-[#F54180]",
                   toClassName: "to-[#920B3A]",
@@ -131,16 +130,15 @@ export default async function TechnologyPage({
             ],
           ]}
           description={
-            <>
-              I found this online{" "}
-              <Link isExternal href={"https://cs50.harvard.edu/x/2024/"}>
-                course
-              </Link>{" "}
-              for computer science from Harvard. I watched the videos without
-              going through the exams. It is free and it is build very
-              understandably. The teacher is very good at teaching and he knows
-              a lot of things about programming and makes it fun.
-            </>
+            <Trans
+              t={t}
+              i18nKey={"page.technology.cs50.desc"}
+              components={{
+                courseLink1: (
+                  <Link isExternal href={"https://cs50.harvard.edu/x/2024/"} />
+                ),
+              }}
+            />
           }
           gridItems={[
             <Image
@@ -153,20 +151,20 @@ export default async function TechnologyPage({
         ></PresentationBox>
         <PresentationBox
           titleRows={[
-            [{ text: "Úvod do " }],
+            [{ text: t("page.technology.girlsGroup.title1") }],
             [
               {
-                text: "IT",
+                text: t("page.technology.girlsGroup.title2"),
                 gradient: {
                   fromClassName: "from-[#45D483]",
                   toClassName: "to-[#0E793C]",
                 },
               },
-              { text: "od " },
+              { text: t("page.technology.girlsGroup.title3") },
             ],
             [
               {
-                text: "dívčího spolku",
+                text: t("page.technology.girlsGroup.title4"),
                 gradient: {
                   fromClassName: "from-[#45D483]",
                   toClassName: "to-[#0E793C]",
@@ -175,20 +173,20 @@ export default async function TechnologyPage({
             ],
           ]}
           description={
-            <>
-              It is a day camp about informational technologies at the
-              Smíchovská Secondary Technical School that I took. We learned IT
-              basics, web development, and 3D printing. We engaged with virtual
-              technology and Lego robotics. We also took and edited some
-              photograps we made. Here is the{" "}
-              <Link
-                isExternal
-                href="/docs/2024-07-26-ssps-osvedceni-o-absolvování-uvod-do-it-od-divciho-spolku-barbora-kalinova.pdf"
-              >
-                certificate
-              </Link>
-              .
-            </>
+            <Trans
+              t={t}
+              i18nKey={"page.technology.girlsGroup.desc"}
+              components={{
+                certificateLink: (
+                  <Link
+                    isExternal
+                    href={
+                      "/docs/2024-07-26-ssps-osvedceni-o-absolvování-uvod-do-it-od-divciho-spolku-barbora-kalinova.pdf"
+                    }
+                  />
+                ),
+              }}
+            />
           }
           gridItems={[
             <Image
@@ -209,28 +207,28 @@ export default async function TechnologyPage({
           titleRows={[
             [
               {
-                text: "Mediální",
+                text: t("page.technology.media.title1"),
                 gradient: {
                   fromClassName: "from-[#7EE7FC]",
                   toClassName: "to-[#06B7DB]",
                 },
               },
-              { text: "tvorba " },
+              { text: t("page.technology.media.title2") },
             ],
           ]}
           description={
-            <>
-              I went on a summer school at the Smíchovská Secondary Technical
-              School. We did things like digital photography, video production,
-              podcast creation and a lot of editing. We also recorded a{" "}
-              <Link
-                isExternal
-                href={"https://www.youtube.com/watch?v=GvglIRTgXnY"}
-              >
-                podcast
-              </Link>{" "}
-              about that school.
-            </>
+            <Trans
+              t={t}
+              i18nKey={"page.technology.media.desc"}
+              components={{
+                podcastLink: (
+                  <Link
+                    isExternal
+                    href={"https://www.youtube.com/watch?v=GvglIRTgXnY"}
+                  />
+                ),
+              }}
+            />
           }
           gridItems={[
             <Image
@@ -249,46 +247,45 @@ export default async function TechnologyPage({
         ></PresentationBox>
         <PresentationBox
           titleRows={[
-            [{ text: "Úvod do" }],
+            [{ text: t("page.technology.web.title1") }],
             [
               {
-                text: "programování",
+                text: t("page.technology.web.title2"),
                 gradient: {
                   fromClassName: "from-[#F9C97C]",
                   toClassName: "to-[#C4841D]",
                 },
               },
-              { text: "webu" },
+              { text: t("page.technology.web.title3") },
             ],
           ]}
           description={
-            <>
-              It is a day camp from{" "}
-              <Link
-                isExternal
-                href={"https://makeittoday.cz/tabory/camp.html?id=15"}
-              >
-                Make IT Today
-              </Link>{" "}
-              for basic coding that I took. It is designed to enhance
-              programming skills through fun and interactive pojects. We had
-              exciting activities such as working with robots, virtual reality
-              and 3D modeling. We made codes for simple games and web pages, and
-              we solved a lot of challenges. I created a{" "}
-              <Link isExternal href="/programming/make-it-today-2023/index.htm">
-                web page
-              </Link>{" "}
-              about yarns. Here is the{" "}
-              <Link
-                isExternal
-                href={
-                  "/docs/2023-07-21-makeittoday-diplom-za-absolvovani-uvod-do-programovani-webu-Barbora-kalinova.pdf"
-                }
-              >
-                certificate
-              </Link>
-              .
-            </>
+            <Trans
+              t={t}
+              i18nKey={"page.technology.web.desc"}
+              components={{
+                makeItLink: (
+                  <Link
+                    isExternal
+                    href={"https://makeittoday.cz/tabory/camp.html?id=15"}
+                  />
+                ),
+                webLink: (
+                  <Link
+                    isExternal
+                    href={"/programming/make-it-today-2023/index.htm"}
+                  />
+                ),
+                certificateLink1: (
+                  <Link
+                    isExternal
+                    href={
+                      "/docs/2023-07-21-makeittoday-diplom-za-absolvovani-uvod-do-programovani-webu-Barbora-kalinova.pdf"
+                    }
+                  />
+                ),
+              }}
+            />
           }
           gridItems={[
             <Link
@@ -309,17 +306,17 @@ export default async function TechnologyPage({
           titleRows={[
             [
               {
-                text: "Javascript",
+                text: t("page.technology.javascript.title1"),
                 gradient: {
                   fromClassName: "from-[#AE7EDE]",
                   toClassName: "to-[#6020A0]",
                 },
               },
-              { text: "for" },
+              { text: t("page.technology.javascript.title2") },
             ],
             [
               {
-                text: "Kids",
+                text: t("page.technology.javascript.title3"),
                 gradient: {
                   fromClassName: "from-[#AE7EDE]",
                   toClassName: "to-[#6020A0]",
@@ -328,39 +325,33 @@ export default async function TechnologyPage({
             ],
           ]}
           description={
-            <>
-              I took this online Javascript{" "}
-              <Link
-                isExternal
-                href={"https://www.udemy.com/course/javascript-for-kids/"}
-              >
-                course
-              </Link>{" "}
-              from{" "}
-              <Link isExternal href={"https://www.udemy.com/"}>
-                Udemy
-              </Link>{" "}
-              . It is designed to teach you Javascript in a fun and simple way.
-              I learned there different fundimetals of Javascript. I created a
-              lot of fun projects like interactive games and animations. I
-              learned how to solve some simple problems and understand the core
-              prinicipal of programming. I created couple of games and
-              utilities, for example{" "}
-              <Link
-                isExternal
-                href="/programming/javascript-for-kids/investmentCalculator.html"
-              >
-                Investment Calculator
-              </Link>{" "}
-              or{" "}
-              <Link
-                isExternal
-                href="/programming/javascript-for-kids/dragDraw.html"
-              >
-                Drag and Draw
-              </Link>
-              .
-            </>
+            <Trans
+              t={t}
+              i18nKey={"page.technology.javascript.desc"}
+              components={{
+                courseLink2: (
+                  <Link
+                    isExternal
+                    href={"https://www.udemy.com/course/javascript-for-kids/"}
+                  />
+                ),
+                udemyLink: <Link isExternal href={"https://www.udemy.com/"} />,
+                calculatorLink: (
+                  <Link
+                    isExternal
+                    href={
+                      "/programming/javascript-for-kids/investmentCalculator.html"
+                    }
+                  />
+                ),
+                dragDrawLink: (
+                  <Link
+                    isExternal
+                    href={"/programming/javascript-for-kids/dragDraw.html"}
+                  />
+                ),
+              }}
+            />
           }
           gridItems={[
             <Link
