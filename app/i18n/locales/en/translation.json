@@ -84,7 +84,11 @@
         "title1": "Javascript",
         "title2": "for",
         "title3": "Kids",
-        "desc": "I took this online Javascript <courseLink2>course</courseLink2> from <udemyLink>Udemy</udemyLink> . It is designed to teach you Javascript in a fun and simple way. I learned there different fundimetals of Javascript. I created a lot of fun projects like interactive games and animations. I learned how to solve some simple problems and understand the core prinicipal of programming. I created couple of games and utilities, for example <calculatorLink>Investment</calculatorLink> Calculator or <dragDraw>Drag</dragDraw> and Draw."
+        "desc": "I took this online Javascript <courseLink2>course</courseLink2> from <udemyLink>Udemy</udemyLink> . It is designed to teach you Javascript in a fun and simple way. I learned there different fundimetals of Javascript. I created a lot of fun projects like interactive games and animations. I learned how to solve some simple problems and understand the core prinicipal of programming. I created couple of games and utilities, for example <calculatorLink>Investment</calculatorLink> Calculator or <dragDrawLink>Drag and Draw</dragDrawLink>."
+      },
+      "scratch": {
+        "title": "Scratch",
+        "desc": "I started with <scratchLink>Scratch</scratchLink> when I was 8 years old. My dad helped me with it. I loved it back in the time and it was very fun to play with. I also made a couple of simple games, for example <dragonChaseLink>Dragon Chase</dragonChaseLink> or <sayHelloLink>Say Hello</sayHelloLink>."
       }
     },
     "hobbies": {
@@ -106,6 +110,29 @@
         "desc": "My band is a afternoon course in <ddmLink>DDM in Modřany</ddmLink>. It all started when I once went to a band course and we just played some songs. Now we even write our own <songLink>songs</songLink> and I am usually the one that is writing the lyrics and than someone else from the band writes the music for it. We have some concerts for our parents but we also play at some actions that are in DDM in modřany."
       }
     },
-    "education": { "title": "Education" }
+    "education": {
+      "title": "Education",
+      "heading": {
+        "title": "Education",
+        "desc": "I study at ZŠ Angel and I have done 2 Cambridge exams. I have competed in several sport competitions organised by my primary school. I have been learning English from a very early age."
+      },
+      "B2": {
+        "title1": "B2",
+        "title2": "Cambridge",
+        "title3": "Exam",
+        "desc": "I have done my second Cambridge exam in 9th grade and it was level B2. I am waiting for the certificate to be sent to me but I have the statement of <resultLink>results</resultLink>."
+      },
+      "A2": {
+        "title1": "A2",
+        "title2": "Cambridge",
+        "title3": "Exam",
+        "desc": "I have done my first Cambridge exam in 5th grade and it was level A2. Here is the <certificateLink1>certificate</certificateLink1>."
+      },
+      "school": {
+        "title1": "Primary",
+        "title2": "school",
+        "desc": "I study at <zsangelLink>ZŠ Angel</zsangelLink>, a bilingual school where I’ve developed strong English skills and a good accent thanks to native speakers from various English-speaking countries. I have participated in various activities in our school. From 8th grade I am a member of <cheerTeamLink>Angel Cheer Team</cheerTeamLink>. I got a <praiseLink>praise</praiseLink> for dancing at the school Christmas play by my class teacher. In 6th grade I was presenting our school in the Prague 12 town hall."
+      }
+    }
   }
 }

@@ -380,7 +380,7 @@ export default async function TechnologyPage({
           titleRows={[
             [
               {
-                text: "Scratch",
+                text: t("page.technology.scratch.title"),
                 gradient: {
                   fromClassName: "from-[#338EF7]",
                   toClassName: "to-[#004493]",
@@ -389,23 +389,27 @@ export default async function TechnologyPage({
             ],
           ]}
           description={
-            <>
-              I started with{" "}
-              <Link isExternal href={"https://scratch.mit.edu/"}>
-                Scratch
-              </Link>{" "}
-              when I was 8 years old. My dad helped me with it. I loved it back
-              in the time and it was very fun to play with. I also made a couple
-              of simple games, for example{" "}
-              <Link isExternal href="/programming/scratch/dragon-chase.html">
-                Dragon Chase
-              </Link>{" "}
-              or{" "}
-              <Link isExternal href="/programming/scratch/say-hello.html">
-                Say Hello
-              </Link>
-              .
-            </>
+            <Trans
+              t={t}
+              i18nKey={"page.technology.scratch.desc"}
+              components={{
+                scratchLink: (
+                  <Link isExternal href={"https://scratch.mit.edu/"} />
+                ),
+                dragonChaseLink: (
+                  <Link
+                    isExternal
+                    href={"/programming/scratch/dragon-chase.html"}
+                  />
+                ),
+                sayHelloLink: (
+                  <Link
+                    isExternal
+                    href={"/programming/scratch/say-hello.html"}
+                  />
+                ),
+              }}
+            />
           }
           gridItems={[
             <Link

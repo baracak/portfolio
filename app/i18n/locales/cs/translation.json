@@ -3,9 +3,134 @@
   "page": {
     "home": {
       "heading": {
-        "title1": "Ahoj, jsem Barča ",
-        "title2": "Tohle je moje ",
-        "title3": "portfolio"
+        "title1": "Zdravím! ",
+        "title2": "Já jsem  ",
+        "title3": "Bára Kalinová",
+        "desc": "Jsem student 9. třídy na anglické bilingvní základní škole a hlásím se na Smíchovskou střední průmyslovou školu.Toto portfolio jsem vytvořila, abych představila své úspěchy, zájmy a dovednosti. Odráží, kdo jsem a co mě baví. Jedním z mých hlavních zájmů je webový vývoj, kterému se již delší dobu věnuji. Abych se posunula dál, vytvořila jsem toto portfolio v Reactu. Je rozděleno do čtyř částí, přičemž každá se zaměřuje na jiné téma, které mě zajímá. Tato stránka nabízí přehled všech částí a umožňuje vám nahlédnout do každé z nich podrobněji."
+      },
+      "sport": {
+        "title": "Sport",
+        "desc": "Sportuji, protože sport mi pomáhá budovat fyzickou kondici a také mě podporuje psychicky. Zlepšuje mi náladu, vyzývá mě k vyzkoušení nových věcí a motivuje mě zdokonalit se v nich."
+      },
+      "hobbies": {
+        "title": "Koníčky",
+        "desc": "Koníčky jsou pro mě způsobem relaxace a zábavy. Pomáhají mi rozvíjet kreativitu a alespoň na chvíli mě zbaví stresu. Také mi umožňují najít nové přátele, kteří mají stejné zájmy jako já."
+      },
+      "technology": {
+        "title": "Technologie",
+        "desc": "Programování mi umožňuje řešit problémy, vyjadřovat svou kreativitu a vytvářet nástroje, které mají smysl. Nabízí skvělé kariérní příležitosti a neustálé učení, protože technologie se neustále vyvíjí. Nejvíce mě však baví, že mi dává možnost proměnit mé nápady ve skutečnost."
+      },
+      "education": {
+        "title": "Vzdělání",
+        "desc": "Věřím, že vzdělání je základním kamenem osobního rozvoje a společenského pokroku. Rád bych si rozšířila své znalosti a dovednosti v oblasti informačních technologií. Jsem nadšená z objevování nových nápadů, zkoušení různých výzev a aplikování toho, co se naučím, do reálného života."
+      }
+    },
+    "sport": {
+      "title": "Sport",
+      "heading": {
+        "title": "Sport",
+        "desc": "Baví mě různé aktivity, včetně lezení a arialhoopu. Už od dětství jsem se účastnila různých sportovních soutěží, jako je běh, lezení a běh na lyžích. Moji rodiče mě vždy vedli ke sportu a sportovali jsme spolu."
+      },
+      "climbing": {
+        "title": "Lezení",
+        "desc": "Lezu v <ddmLink>DDM Modřany</ddmLink>. Lezu od svých 12 let a dokonce jsem přemluvil tátu, aby lezl se mnou. Lezení mě velmi baví a jsem i o něco silnější, což je určitě pozitivní stránka tohoto sportu."
+      },
+      "aerial": {
+        "title": "Aerial Hoop",
+        "desc": "Dělám Aerial Hoop doma. Cvičím Aerial Hoop od 13 let. Na začátku jsem to dělala s kamarádkou ze školy na kroužku, ale teď mám akrobatický kruh doma a trénuji doma. Tento sport dělám hlavně pro zábavu a jde mi především o to, naučit se nové dovednosti na kruhu."
+      }
+    },
+    "technology": {
+      "title": "Technologie",
+      "heading": {
+        "title": "Technologie",
+        "desc": "Technologii jsem prozkoumávala prostřednictvím kurzů, jako je Make IT Today a Intro do IT, kde jsem se učila programování, webový vývoj, 3D tisk a robotiku. Navštěvovala jsem kurz Mediální tvorba zaměřený na fotografii, produkci videí a podcasty. Moje cesta v programování začala ve 8 letech se Scratchem, následoval JavaScript for Kids a kurz CS50 od Harvardské univerzity, kde jsem vytvářela hry, animace a webové stránky. Také jsem vytvořila své portfolio pomocí Next.js, TypeScriptu a Tailwind, čímž jsem získala zkušenosti s Reactem a GitHubem."
+      },
+      "portfolio": {
+        "title": "Portfolio",
+        "desc": "Toto portfolio jsem vytvořila s pomocí svého táty. Kód je napsaný v <nextJsLink>Next.js</nextJsLink> a programovacím jazyce <typeScriptLink>TypeScript</typeScriptLink>. Díky Next.js jsem se naučila základy <reactLink>React</reactLink>. Stylování je vytvořeno pomocí <nextUiLink>HeroUI</nextUiLink> a <tailwindLink>Tailwind</tailwindLink>. A je verzováno na <githubLink>GitHub</githubLink>."
+      },
+      "introIt": {
+        "title1": "Intro to ",
+        "title2": "Programming",
+        "title3": "and",
+        "title4": "IT world",
+        "desc": "I have attended this programming <courseLink>course</courseLink> from <sspsLink>SSPŠ</sspsLink>. We learned there basics of phyton. The teachers were very nice and they made it fun. "
+      },
+      "cs50": {
+        "title": "CS50",
+        "desc": "I found this online <courseLink1>course</courseLink1> for computer science from Harvard. I watched the videos without going through the exams. It is free and it is build very understandably. The teacher is very good at teaching and he knows a lot of things about programming and makes it fun."
+      },
+      "girlsGroup": {
+        "title1": "Intro to ",
+        "title2": "IT ",
+        "title3": "from ",
+        "title4": "Girls group ",
+        "desc": "It is a day camp about informational technologies at the Smíchovská Secondary Technical School that I took. We learned IT basics, web development, and 3D printing. We engaged with virtual technology and Lego robotics. We also took and edited some photograps we made. Here is the <certificateLink>certificate</certificateLink>."
+      },
+      "media": {
+        "title1": "Media",
+        "title2": "creation",
+        "desc": "I went on a summer school at the Smíchovská Secondary Technical School. We did things like digital photography, video production, podcast creation and a lot of editing. We also recorded a <podcastLink>podcast</podcastLink> about that school."
+      },
+      "web": {
+        "title1": "Intro to",
+        "title2": "Programming",
+        "title3": "of a web page",
+        "desc": "It is a day camp from <makeItLink>Make IT Today</makeItLink> for basic coding that I took. It is designed to enhance programming skills through fun and interactive pojects. We had exciting activities such as working with robots, virtual reality and 3D modeling. We made codes for simple games and web pages, and we solved a lot of challenges. I created a <webLink>web page</webLink> about yarns. Here is the <certificateLink1>certificate</certificateLink1>."
+      },
+      "javascript": {
+        "title1": "Javascript",
+        "title2": "for",
+        "title3": "Kids",
+        "desc": "I took this online Javascript <courseLink2>course</courseLink2> from <udemyLink>Udemy</udemyLink> . It is designed to teach you Javascript in a fun and simple way. I learned there different fundimetals of Javascript. I created a lot of fun projects like interactive games and animations. I learned how to solve some simple problems and understand the core prinicipal of programming. I created couple of games and utilities, for example <calculatorLink>Investment</calculatorLink> Calculator or <dragDrawLink>Drag and Draw</dragDrawLink>."
+      },
+      "scratch": {
+        "title": "Scratch",
+        "desc": "I started with <scratchLink>Scratch</scratchLink> when I was 8 years old. My dad helped me with it. I loved it back in the time and it was very fun to play with. I also made a couple of simple games, for example <dragonChaseLink>Dragon Chase</dragonChaseLink> or <sayHelloLink>Say Hello</sayHelloLink>."
+      }
+    },
+    "hobbies": {
+      "title": "Hobbies",
+      "heading": {
+        "title": "Hobbies",
+        "desc": "I enjoy crocheting, painting, and being part of my band. Crocheting brings me peace and helps me focus, while painting lets me express creativity, even with simple lines. In my band at DDM in Modřany, I write lyrics for our songs, and we perform at events and for our families. "
+      },
+      "crocheting": {
+        "title": "Crocheting",
+        "desc": "I have been crocheting a long time now, something about 5 years and I think I am pretty good at it. I enjoy it because it brings me peace and I can just sit down and do one thing and not worry about other stuff. That is what I love about crocheting. "
+      },
+      "painting": {
+        "title": "Painting",
+        "desc": "I have been painting my whole life, but probably like 3 years ago it started looking good. I like it because you can paint anything you want and even when you don't known how to paint you can paint something because you can just paint some lines on the paper and make it look good."
+      },
+      "band": {
+        "title": "My Band",
+        "desc": "My band is a afternoon course in <ddmLink>DDM in Modřany</ddmLink>. It all started when I once went to a band course and we just played some songs. Now we even write our own <songLink>songs</songLink> and I am usually the one that is writing the lyrics and than someone else from the band writes the music for it. We have some concerts for our parents but we also play at some actions that are in DDM in modřany."
+      }
+    },
+    "education": {
+      "title": "Education",
+      "heading": {
+        "title": "Education",
+        "desc": "I study at ZŠ Angel and I have done 2 Cambridge exams. I have competed in several sport competitions organised by my primary school. I have been learning English from a very early age."
+      },
+      "B2": {
+        "title1": "B2",
+        "title2": "Cambridge",
+        "title3": "Exam",
+        "desc": "I have done my second Cambridge exam in 9th grade and it was level B2. I am waiting for the certificate to be sent to me but I have the statement of <resultLink>results</resultLink>."
+      },
+      "A2": {
+        "title1": "A2",
+        "title2": "Cambridge",
+        "title3": "Exam",
+        "desc": "I have done my first Cambridge exam in 5th grade and it was level A2. Here is the <certificateLink1>certificate</certificateLink1>."
+      },
+      "school": {
+        "title1": "Primary",
+        "title2": "school",
+        "desc": "I study at <zsangelLink>ZŠ Angel</zsangelLink>, a bilingual school where I’ve developed strong English skills and a good accent thanks to native speakers from various English-speaking countries. I have participated in various activities in our school. From 8th grade I am a member of <cheerTeamLink>Angel Cheer Team</cheerTeamLink>. I got a <praiseLink>praise</praiseLink> for dancing at the school Christmas play by my class teacher. In 6th grade I was presenting our school in the Prague 12 town hall."
       }
     }
   }
