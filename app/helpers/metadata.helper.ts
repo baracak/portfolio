@@ -1,4 +1,3 @@
-import { TFunction } from "i18next";
 import { Metadata } from "next";
 import { getTranslation } from "../i18n";
 import { LanguageParams } from "./params.helper";

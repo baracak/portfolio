@@ -7,10 +7,10 @@ import {
   DropdownTrigger,
 } from "@nextui-org/react";
 import { CZ, FlagComponent, GB } from "country-flag-icons/react/3x2";
-import { ReactComponentElement, ReactNode, useMemo } from "react";
-import { languages as i18nLanguages, Language } from "../i18n/settings";
-import { usePathname } from "next/navigation";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
+import { useMemo } from "react";
+import { languages as i18nLanguages, Language } from "../i18n/settings";
 
 interface Props {
   lng: Language;

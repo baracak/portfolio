@@ -4,7 +4,6 @@ import { coverImageProps } from "../components/common/cover-image.constants";
 import { prepareGenerateMetadataFn } from "../helpers/metadata.helper";
 import { LanguageParams } from "../helpers/params.helper";
 import { getTranslation } from "../i18n";
-import { Trans } from "react-i18next/TransWithoutContext";
 
 export const generateMetadata = prepareGenerateMetadataFn();
 

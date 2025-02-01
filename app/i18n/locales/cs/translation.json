@@ -51,86 +51,86 @@
         "desc": "Toto portfolio jsem vytvořila s pomocí svého táty. Kód je napsaný v <nextJsLink>Next.js</nextJsLink> a programovacím jazyce <typeScriptLink>TypeScript</typeScriptLink>. Díky Next.js jsem se naučila základy <reactLink>React</reactLink>. Stylování je vytvořeno pomocí <nextUiLink>HeroUI</nextUiLink> a <tailwindLink>Tailwind</tailwindLink>. A je verzováno na <githubLink>GitHub</githubLink>."
       },
       "introIt": {
-        "title1": "Intro to ",
-        "title2": "Programming",
-        "title3": "and",
-        "title4": "IT world",
-        "desc": "I have attended this programming <courseLink>course</courseLink> from <sspsLink>SSPŠ</sspsLink>. We learned there basics of phyton. The teachers were very nice and they made it fun. "
+        "title1": "Úvod do ",
+        "title2": "Programování",
+        "title3": "a",
+        "title4": "IT světa",
+        "desc": "Navštěvovala jsem tento programátorský <courseLink>kurz</courseLink> od <sspsLink>SSPŠ</sspsLink>. Naučili jsme se tam základy Pythonu. Učitelé byli fajn a výuka byla zábavná."
       },
       "cs50": {
         "title": "CS50",
-        "desc": "I found this online <courseLink1>course</courseLink1> for computer science from Harvard. I watched the videos without going through the exams. It is free and it is build very understandably. The teacher is very good at teaching and he knows a lot of things about programming and makes it fun."
+        "desc": "Tento online <courseLink1>kurz</courseLink1> informatiky od Harvardu jsem objevila na internetu. Sledovala jsem videa, aniž bych procházela testy. Je zdarma a velmi srozumitelně zpracovaný. Učitel skvěle vysvětluje, má rozsáhlé znalosti o programování a umí dělat výuku zábavnou."
       },
       "girlsGroup": {
-        "title1": "Intro to ",
+        "title1": "Úvod do ",
         "title2": "IT ",
-        "title3": "from ",
-        "title4": "Girls group ",
-        "desc": "It is a day camp about informational technologies at the Smíchovská Secondary Technical School that I took. We learned IT basics, web development, and 3D printing. We engaged with virtual technology and Lego robotics. We also took and edited some photograps we made. Here is the <certificateLink>certificate</certificateLink>."
+        "title3": "od ",
+        "title4": "Dívčího Spolku ",
+        "desc": "Zúčastnila jsem se příměstského táboru o informačních technologiích na Smíchovské střední průmyslové škole. Naučili jsme se základy IT, webový vývoj a 3D tisk. Pracovali jsme s virtuální realitou a Lego robotikou. Také jsme pořizovali a upravovali fotografie, které jsme vyfotili.Zde je můj <certificateLink>certfikát</certificateLink>."
       },
       "media": {
-        "title1": "Media",
-        "title2": "creation",
-        "desc": "I went on a summer school at the Smíchovská Secondary Technical School. We did things like digital photography, video production, podcast creation and a lot of editing. We also recorded a <podcastLink>podcast</podcastLink> about that school."
+        "title1": "Mediální",
+        "title2": "tvorba",
+        "desc": "Navštěvovala jsem letní školu na Smíchovské střední průmyslové škole. Věnovali jsme se digitální fotografii, tvorbě videí, nahrávání podcastů a spoustě úprav. Také jsme natočili <podcastLink>podcast</podcastLink> o této škole."
       },
       "web": {
-        "title1": "Intro to",
-        "title2": "Programming",
-        "title3": "of a web page",
-        "desc": "It is a day camp from <makeItLink>Make IT Today</makeItLink> for basic coding that I took. It is designed to enhance programming skills through fun and interactive pojects. We had exciting activities such as working with robots, virtual reality and 3D modeling. We made codes for simple games and web pages, and we solved a lot of challenges. I created a <webLink>web page</webLink> about yarns. Here is the <certificateLink1>certificate</certificateLink1>."
+        "title1": "Úvod do",
+        "title2": "Programování",
+        "title3": "webu",
+        "desc": "Zúčastnila jsem se denního kempu od <makeItLink>Make IT Today</makeItLink> zaměřeného na základy programování. Byl navržen tak, aby zlepšil programátorské dovednosti pomocí zábavných a interaktivních projektů. Měli jsme spoustu zajímavých aktivit, jako práci s roboty, virtuální realitou a 3D modelováním. Psali jsme kódy pro jednoduché hry a webové stránky a řešili mnoho výzev. Také jsem vytvořila <webLink>webovou stránku</webLink> o přízích. Zde je můj <certificateLink1>certificate</certificateLink1>."
       },
       "javascript": {
         "title1": "Javascript",
-        "title2": "for",
-        "title3": "Kids",
-        "desc": "I took this online Javascript <courseLink2>course</courseLink2> from <udemyLink>Udemy</udemyLink> . It is designed to teach you Javascript in a fun and simple way. I learned there different fundimetals of Javascript. I created a lot of fun projects like interactive games and animations. I learned how to solve some simple problems and understand the core prinicipal of programming. I created couple of games and utilities, for example <calculatorLink>Investment</calculatorLink> Calculator or <dragDrawLink>Drag and Draw</dragDrawLink>."
+        "title2": "pro",
+        "title3": "děti",
+        "desc": "Absolvovala jsem online <courseLink2>kurz</courseLink2> JavaScriptu na <udemyLink>Udemy</udemyLink>. Je navržen tak, aby učil JavaScript zábavnou a jednoduchou formou. Naučila jsem se zde různé základy JavaScriptu a vytvořila spoustu zábavných projektů, jako jsou interaktivní hry a animace. Získala jsem také schopnost řešit jednoduché problémy a pochopila klíčové principy programování. Vytvořila jsem několik her a užitečných nástrojů, například <calculatorLink>Investiční kalkulačka</calculatorLink> nebo <dragDrawLink>Drag and Draw</dragDrawLink>."
       },
       "scratch": {
         "title": "Scratch",
-        "desc": "I started with <scratchLink>Scratch</scratchLink> when I was 8 years old. My dad helped me with it. I loved it back in the time and it was very fun to play with. I also made a couple of simple games, for example <dragonChaseLink>Dragon Chase</dragonChaseLink> or <sayHelloLink>Say Hello</sayHelloLink>."
+        "desc": "Se <scratchLink>Scratchem</scratchLink> jsem začala, když mi bylo 8 let. Můj táta mi s ním pomáhal. Tehdy jsem ho naprosto milovala a moc mě bavilo si s ním hrát. Také jsem vytvořila několik jednoduchých her, například <dragonChaseLink>Dragon Chase</dragonChaseLink> nebo <sayHelloLink>Say Hello</sayHelloLink>."
       }
     },
     "hobbies": {
-      "title": "Hobbies",
+      "title": "Koníčky",
       "heading": {
-        "title": "Hobbies",
-        "desc": "I enjoy crocheting, painting, and being part of my band. Crocheting brings me peace and helps me focus, while painting lets me express creativity, even with simple lines. In my band at DDM in Modřany, I write lyrics for our songs, and we perform at events and for our families. "
+        "title": "Koníčky",
+        "desc": "Baví mě háčkování, malování a být součástí své kapely. Háčkování mi přináší klid a pomáhá mi se soustředit, zatímco malování mi umožňuje vyjádřit svou kreativitu. V mé kapele píšu texty k našim písním a vystupujeme na akcích a pro naše rodiny."
       },
       "crocheting": {
-        "title": "Crocheting",
-        "desc": "I have been crocheting a long time now, something about 5 years and I think I am pretty good at it. I enjoy it because it brings me peace and I can just sit down and do one thing and not worry about other stuff. That is what I love about crocheting. "
+        "title": "Háčkování",
+        "desc": "Háčkuji už dlouho, asi 5 let, a myslím, že jsem v tom celkem dobrá. Baví mě to, protože mi to přináší klid a můžu si jen sednout, soustředit se na jednu věc a nemuset se starat o ostatní věci. To je to, co na háčkování miluji."
       },
       "painting": {
-        "title": "Painting",
-        "desc": "I have been painting my whole life, but probably like 3 years ago it started looking good. I like it because you can paint anything you want and even when you don't known how to paint you can paint something because you can just paint some lines on the paper and make it look good."
+        "title": "Malování",
+        "desc": "Maluji celý svůj život, ale asi před 3 lety to začalo vypadat dobře. Líbí se mi to, protože můžeš malovat, co chceš, a i když nevíš, jak malovat, můžeš vytvořit něco pěkného, protože stačí nakreslit pár čar na papír a ono to vypadá dobře."
       },
       "band": {
         "title": "My Band",
-        "desc": "My band is a afternoon course in <ddmLink>DDM in Modřany</ddmLink>. It all started when I once went to a band course and we just played some songs. Now we even write our own <songLink>songs</songLink> and I am usually the one that is writing the lyrics and than someone else from the band writes the music for it. We have some concerts for our parents but we also play at some actions that are in DDM in modřany."
+        "desc": "Moje kapela je odpolední kroužek v <ddmLink>DDM v Modřanech</ddmLink>. Všechno to začalo, když jsem jednou šla na kurz kapely a jen jsme si hráli nějaké písničky. Teď už i píšeme vlastní <songLink>písničky</songLink>. Máme koncerty pro naše rodiče, ale také hrajeme na různých akcích."
       }
     },
     "education": {
-      "title": "Education",
+      "title": "Vzdělání",
       "heading": {
-        "title": "Education",
-        "desc": "I study at ZŠ Angel and I have done 2 Cambridge exams. I have competed in several sport competitions organised by my primary school. I have been learning English from a very early age."
+        "title": "Vzdělání",
+        "desc": "Studuji na ZŠ Angel a absolvovala jsem dvě Cambridge zkoušky. Soutěžila jsem v několika sportovních soutěžích organizovaných mojí základní školou. Učím se angličtinu už od raného věku."
       },
       "B2": {
         "title1": "B2",
         "title2": "Cambridge",
-        "title3": "Exam",
-        "desc": "I have done my second Cambridge exam in 9th grade and it was level B2. I am waiting for the certificate to be sent to me but I have the statement of <resultLink>results</resultLink>."
+        "title3": "Test",
+        "desc": "Ve 9. třídě jsem absolvovala svou druhou Cambridge zkoušku na úrovni B2. Zde je <resultLink>certifikát</resultLink>."
       },
       "A2": {
         "title1": "A2",
         "title2": "Cambridge",
-        "title3": "Exam",
-        "desc": "I have done my first Cambridge exam in 5th grade and it was level A2. Here is the <certificateLink1>certificate</certificateLink1>."
+        "title3": "Test",
+        "desc": "Svou první Cambridge zkoušku jsem absolvovala v 5. třídě na úrovni A2. Zde je můj <certificateLink1>certifikát</certificateLink1>."
       },
       "school": {
         "title1": "Primary",
         "title2": "school",
-        "desc": "I study at <zsangelLink>ZŠ Angel</zsangelLink>, a bilingual school where I’ve developed strong English skills and a good accent thanks to native speakers from various English-speaking countries. I have participated in various activities in our school. From 8th grade I am a member of <cheerTeamLink>Angel Cheer Team</cheerTeamLink>. I got a <praiseLink>praise</praiseLink> for dancing at the school Christmas play by my class teacher. In 6th grade I was presenting our school in the Prague 12 town hall."
+        "desc": "Studuji na <zsangelLink>ZŠ Angel</zsangelLink>, bilingvní škole, kde jsem si díky rodilým mluvčím z různých anglicky mluvících zemí rozvinula silné dovednosti v angličtině a dobrý přízvuk. Účastnila jsem se různých aktivit na naší škole. Od 8. třídy jsem členkou <cheerTeamLink>Angel Cheer Týmu</cheerTeamLink>. Za tanec na školní vánoční besídce jsem dostala <praiseLink>pochvalu</praiseLink> od třídní učitelky. V 6. třídě jsem reprezentovala naši školu na radnici Prahy 12."
       }
     }
   }

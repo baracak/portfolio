@@ -1,11 +1,6 @@
 "use client";
 
 import {
-  Button,
-  Dropdown,
-  DropdownItem,
-  DropdownMenu,
-  DropdownTrigger,
   Link,
   Navbar,
   NavbarBrand,
@@ -17,12 +12,10 @@ import {
 } from "@nextui-org/react";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
-import { BaraLogo } from "./../BaraLogo";
-import { useTranslation } from "react-i18next";
-import { GB, CZ } from "country-flag-icons/react/3x2";
-import LanguageSwitcher from "./LanguageSwitcher";
+import { useClientTranslation } from "../i18n/client";
 import { Language } from "../i18n/settings";
-import { getTranslation } from "../i18n";
+import { BaraLogo } from "./../BaraLogo";
+import LanguageSwitcher from "./LanguageSwitcher";
 
 interface Props {
   lng: Language;
@@ -30,11 +23,12 @@ interface Props {
 
 export default function Menu({ lng }: Props) {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const { t } = useClientTranslation(lng);
   const menuItems: { name: string; pathname: string }[] = [
-    { name: "Technology", pathname: `/${lng}/technology` },
-    { name: "Education", pathname: `/${lng}/education` },
-    { name: "Sport", pathname: `/${lng}/sport` },
-    { name: "Hobbies", pathname: `/${lng}/hobbies` },
+    { name: t("page.technology.title"), pathname: `/${lng}/technology` },
+    { name: t("page.education.title"), pathname: `/${lng}/education` },
+    { name: t("page.sport.title"), pathname: `/${lng}/sport` },
+    { name: t("page.hobbies.title"), pathname: `/${lng}/hobbies` },
   ];
   const pathname = usePathname();
 

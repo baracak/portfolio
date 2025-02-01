@@ -1,11 +1,10 @@
+import { LanguageParams } from "@/app/helpers/params.helper";
+import { getTranslation } from "@/app/i18n";
 import { Image, Link } from "@nextui-org/react";
+import { Trans } from "react-i18next/TransWithoutContext";
 import PresentationBox from "../../components/PresentationBox/PresentationBox";
 import { coverImageProps } from "../../components/common/cover-image.constants";
 import { prepareGenerateMetadataFn } from "../../helpers/metadata.helper";
-import { t } from "i18next";
-import { Trans } from "react-i18next/TransWithoutContext";
-import { LanguageParams } from "@/app/helpers/params.helper";
-import { getTranslation } from "@/app/i18n";
 
 export const generateMetadata = prepareGenerateMetadataFn({
   subTitleTKey: "page.education.title",
@@ -52,25 +51,33 @@ export default async function EducationPage({
               t={t}
               i18nKey={"page.education.B2.desc"}
               components={{
-                resultsLink: (
+                resultLink: (
                   <Link
                     isExternal
-                    href={
-                      "/docs/2024-12-12-cambridge-first-certificate-in-english- statement-of-results-barbora-kalinová.pdf"
-                    }
+                    href={"/docs/cambridge-english-certificate-2024-b2.pdf"}
                   />
                 ),
               }}
             />
           }
           gridItems={[
-            <Image
+            <Link
               key={0}
+              isExternal
+              href="/docs/cambridge-english-certificate-2024-b2.pdf"
+            >
+              <Image
+                alt=""
+                {...coverImageProps}
+                src="/images/cambridge-certificate-b2.jpeg"
+              />
+            </Link>,
+            <Image
+              key={1}
               alt=""
               {...coverImageProps}
-              src="/images/cambridge-vysledky.png"
+              src="/images/cambridge-certificate-b2-logo.webp"
             />,
-            <Image key={1} alt="" {...coverImageProps} src="/images/fce.jpg" />,
           ]}
         ></PresentationBox>
         <PresentationBox
@@ -116,11 +123,16 @@ export default async function EducationPage({
               <Image
                 alt=""
                 {...coverImageProps}
-                src="/images/cambridge-certificate-b2.jpeg"
+                src="/images/cambridge-certificate-a2.jpeg"
               />
             </Link>,
 
-            <Image key={1} alt="" {...coverImageProps} src="/images/ket.jpg" />,
+            <Image
+              key={1}
+              alt=""
+              {...coverImageProps}
+              src="/images/cambridge-certificate-a2-logo.webp"
+            />,
           ]}
         ></PresentationBox>
         <PresentationBox
@@ -168,7 +180,7 @@ export default async function EducationPage({
               key={1}
               alt=""
               {...coverImageProps}
-              src="/images/samba1.png"
+              src="/images/samba1.jpeg"
             />,
             <Image
               key={2}

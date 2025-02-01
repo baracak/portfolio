@@ -52,7 +52,7 @@
         "desc": "I made this portfolio with my dad's help. The code is written in <nextJsLink>Next.js</nextJsLink> and the programming language is <typeScriptLink>TypeScript</typeScriptLink>. Because of Next.js I learned basics of <reactLink>React</reactLink>. It is styled with <nextUiLink>HeroUI</nextUiLink> and <tailwindLink>Tailwind</tailwindLink>. And it is versioned in <githubLink>GitHub</githubLink>."
       },
       "introIt": {
-        "title1": "Intro to ",
+        "title1": "Intro into ",
         "title2": "Programming",
         "title3": "and",
         "title4": "IT world",
