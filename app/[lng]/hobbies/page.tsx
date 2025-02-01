@@ -1,10 +1,11 @@
-import { Image, Link } from "@nextui-org/react";
+import CommonLink from "@/app/components/common/CommonLink";
+import { LanguageParams } from "@/app/helpers/params.helper";
+import { getTranslation } from "@/app/i18n";
+import { Image } from "@nextui-org/react";
+import { Trans } from "react-i18next/TransWithoutContext";
 import PresentationBox from "../../components/PresentationBox/PresentationBox";
 import { coverImageProps } from "../../components/common/cover-image.constants";
 import { prepareGenerateMetadataFn } from "../../helpers/metadata.helper";
-import { LanguageParams } from "@/app/helpers/params.helper";
-import { getTranslation } from "@/app/i18n";
-import { Trans } from "react-i18next/TransWithoutContext";
 
 export const generateMetadata = prepareGenerateMetadataFn({
   subTitleTKey: "page.hobbies.title",
@@ -102,9 +103,11 @@ export default async function HobbiesPage({
               t={t}
               i18nKey={"page.hobbies.band.desc"}
               components={{
-                ddmLink: <Link isExternal href={"https://www.ddmm.cz/"} />,
+                ddmLink: (
+                  <CommonLink isExternal href={"https://www.ddmm.cz/"} />
+                ),
                 songLink: (
-                  <Link
+                  <CommonLink
                     isExternal
                     href={
                       "https://docs.google.com/document/d/10hpqWInVeC-pcQN-p_qf-11UdD5KBPRNJBopiXYEzpk/edit?usp=sharing"

@@ -32,10 +32,10 @@ export default async function HomePage({
               </h1>
             </div>
           </div>
-          <p className="w-full md:w-1/2 my-2 text-lg lg:text-xl font-normal text-default-500 block max-w-full">
+          <p className="w-full md:w-2/3 lg:w-1/2 my-2 text-lg lg:text-xl font-normal text-default-500 block max-w-full">
             {t("page.home.heading.desc")}
           </p>
-          <p className="w-full md:w-1/2 mb-2 mt-4 text-lg lg:text-xl font-normal text-default-500 block max-w-full">
+          <p className="w-full md:w-2/3 lg:w-1/2 mb-2 mt-4 text-lg lg:text-xl font-normal text-default-500 block max-w-full">
             {t("page.home.heading.desc2")}
           </p>
         </div>

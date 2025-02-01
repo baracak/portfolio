@@ -5,6 +5,7 @@ import { Trans } from "react-i18next/TransWithoutContext";
 import PresentationBox from "../../components/PresentationBox/PresentationBox";
 import { coverImageProps } from "../../components/common/cover-image.constants";
 import { prepareGenerateMetadataFn } from "../../helpers/metadata.helper";
+import CommonLink from "@/app/components/common/CommonLink";
 
 export const generateMetadata = prepareGenerateMetadataFn({
   subTitleTKey: "page.education.title",
@@ -52,7 +53,7 @@ export default async function EducationPage({
               i18nKey={"page.education.B2.desc"}
               components={{
                 resultLink: (
-                  <Link
+                  <CommonLink
                     isExternal
                     href={"/docs/cambridge-english-certificate-2024-b2.pdf"}
                   />
@@ -106,7 +107,7 @@ export default async function EducationPage({
               i18nKey={"page.education.A2.desc"}
               components={{
                 certificateLink1: (
-                  <Link
+                  <CommonLink
                     isExternal
                     href={"/docs/cambridge-english-certificate-2021-a2.pdf"}
                   />
@@ -153,15 +154,17 @@ export default async function EducationPage({
               t={t}
               i18nKey={"page.education.school.desc"}
               components={{
-                zsangelLink: <Link isExternal href={"//www.zsangel.cz/"} />,
+                zsangelLink: (
+                  <CommonLink isExternal href={"//www.zsangel.cz/"} />
+                ),
                 cheerTeamLink: (
-                  <Link
+                  <CommonLink
                     isExternal
                     href={"https://www.instagram.com/angel.cheer.team"}
                   />
                 ),
                 praiseLink: (
-                  <Link
+                  <CommonLink
                     isExternal
                     href={"/docs/pochvala-za-tanec-zsangel.pdf"}
                   />

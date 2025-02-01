@@ -66,7 +66,7 @@ export default function PresentationBox({
           ))}
         </div>
         {description && (
-          <p className="w-full md:w-1/2 my-2 text-lg lg:text-xl font-normal text-default-500 block max-w-full [&>a]:text-lg [&>a]:lg:text-xl">
+          <p className="w-full md:w-2/3 lg:w-1/2 my-2 text-lg lg:text-xl font-normal text-default-500 block max-w-full [&>a]:text-lg [&>a]:lg:text-xl">
             {description}
           </p>
         )}

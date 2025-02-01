@@ -1,10 +1,11 @@
-import { Image, Link } from "@nextui-org/react";
+import CommonLink from "@/app/components/common/CommonLink";
+import { LanguageParams } from "@/app/helpers/params.helper";
+import { getTranslation } from "@/app/i18n";
+import { Image } from "@nextui-org/react";
+import { Trans } from "react-i18next/TransWithoutContext";
 import { coverImageProps } from "../../components/common/cover-image.constants";
 import PresentationBox from "../../components/PresentationBox/PresentationBox";
 import { prepareGenerateMetadataFn } from "../../helpers/metadata.helper";
-import { getTranslation } from "@/app/i18n";
-import { LanguageParams } from "@/app/helpers/params.helper";
-import { Trans } from "react-i18next/TransWithoutContext";
 
 export const generateMetadata = prepareGenerateMetadataFn({
   subTitleTKey: "page.sport.title",
@@ -43,7 +44,9 @@ export default async function SportPage({
               t={t}
               i18nKey={"page.sport.climbing.desc"}
               components={{
-                ddmLink: <Link isExternal href={"https://www.ddmm.cz/"} />,
+                ddmLink: (
+                  <CommonLink isExternal href={"https://www.ddmm.cz/"} />
+                ),
               }}
             />
           }

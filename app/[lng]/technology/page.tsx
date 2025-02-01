@@ -5,6 +5,7 @@ import { prepareGenerateMetadataFn } from "../../helpers/metadata.helper";
 import { LanguageParams } from "@/app/helpers/params.helper";
 import { getTranslation } from "@/app/i18n";
 import { Trans } from "react-i18next/TransWithoutContext";
+import CommonLink from "@/app/components/common/CommonLink";
 
 export const generateMetadata = prepareGenerateMetadataFn({
   subTitleTKey: "page.technology.title",
@@ -43,17 +44,26 @@ export default async function TechnologyPage({
               t={t}
               i18nKey={"page.technology.portfolio.desc"}
               components={{
-                nextJsLink: <Link isExternal href={"https://nextjs.org/"} />,
-                typeScriptLink: (
-                  <Link isExternal href={"https://www.typescriptlang.org/"} />
+                nextJsLink: (
+                  <CommonLink isExternal href={"https://nextjs.org/"} />
                 ),
-                reactLink: <Link isExternal href={"https://react.dev/"} />,
-                nextUiLink: <Link isExternal href={"https://nextui.org/"} />,
+                typeScriptLink: (
+                  <CommonLink
+                    isExternal
+                    href={"https://www.typescriptlang.org/"}
+                  />
+                ),
+                reactLink: (
+                  <CommonLink isExternal href={"https://react.dev/"} />
+                ),
+                nextUiLink: (
+                  <CommonLink isExternal href={"https://nextui.org/"} />
+                ),
                 tailwindLink: (
-                  <Link isExternal href={"https://tailwindcss.com/"} />
+                  <CommonLink isExternal href={"https://tailwindcss.com/"} />
                 ),
                 githubLink: (
-                  <Link
+                  <CommonLink
                     isExternal
                     href={"https://github.com/baracak/portfolio"}
                   />
@@ -97,14 +107,16 @@ export default async function TechnologyPage({
               i18nKey={"page.technology.introIt.desc"}
               components={{
                 courseLink: (
-                  <Link
+                  <CommonLink
                     isExternal
                     href={
                       "https://www.ssps.cz/kurz-od-skillify-uvod-do-programovani-a-it-sveta/"
                     }
                   />
                 ),
-                sspsLink: <Link isExternal href={"https://www.ssps.cz/"} />,
+                sspsLink: (
+                  <CommonLink isExternal href={"https://www.ssps.cz/"} />
+                ),
               }}
             />
           }
@@ -135,7 +147,10 @@ export default async function TechnologyPage({
               i18nKey={"page.technology.cs50.desc"}
               components={{
                 courseLink1: (
-                  <Link isExternal href={"https://cs50.harvard.edu/x/2024/"} />
+                  <CommonLink
+                    isExternal
+                    href={"https://cs50.harvard.edu/x/2024/"}
+                  />
                 ),
               }}
             />
@@ -151,8 +166,9 @@ export default async function TechnologyPage({
         ></PresentationBox>
         <PresentationBox
           titleRows={[
-            [{ text: t("page.technology.girlsGroup.title1") }],
             [
+              { text: t("page.technology.girlsGroup.title1") },
+
               {
                 text: t("page.technology.girlsGroup.title2"),
                 gradient: {
@@ -161,8 +177,6 @@ export default async function TechnologyPage({
                 },
               },
               { text: t("page.technology.girlsGroup.title3") },
-            ],
-            [
               {
                 text: t("page.technology.girlsGroup.title4"),
                 gradient: {
@@ -178,7 +192,7 @@ export default async function TechnologyPage({
               i18nKey={"page.technology.girlsGroup.desc"}
               components={{
                 certificateLink: (
-                  <Link
+                  <CommonLink
                     isExternal
                     href={
                       "/docs/2024-07-26-ssps-osvedceni-o-absolvování-uvod-do-it-od-divciho-spolku-barbora-kalinova.pdf"
@@ -222,7 +236,7 @@ export default async function TechnologyPage({
               i18nKey={"page.technology.media.desc"}
               components={{
                 podcastLink: (
-                  <Link
+                  <CommonLink
                     isExternal
                     href={"https://www.youtube.com/watch?v=GvglIRTgXnY"}
                   />
@@ -247,8 +261,8 @@ export default async function TechnologyPage({
         ></PresentationBox>
         <PresentationBox
           titleRows={[
-            [{ text: t("page.technology.web.title1") }],
             [
+              { text: t("page.technology.web.title1") },
               {
                 text: t("page.technology.web.title2"),
                 gradient: {
@@ -265,19 +279,19 @@ export default async function TechnologyPage({
               i18nKey={"page.technology.web.desc"}
               components={{
                 makeItLink: (
-                  <Link
+                  <CommonLink
                     isExternal
                     href={"https://makeittoday.cz/tabory/camp.html?id=15"}
                   />
                 ),
                 webLink: (
-                  <Link
+                  <CommonLink
                     isExternal
                     href={"/programming/make-it-today-2023/index.htm"}
                   />
                 ),
                 certificateLink1: (
-                  <Link
+                  <CommonLink
                     isExternal
                     href={
                       "/docs/2023-07-21-makeittoday-diplom-za-absolvovani-uvod-do-programovani-webu-Barbora-kalinova.pdf"
@@ -313,8 +327,6 @@ export default async function TechnologyPage({
                 },
               },
               { text: t("page.technology.javascript.title2") },
-            ],
-            [
               {
                 text: t("page.technology.javascript.title3"),
                 gradient: {
@@ -330,14 +342,16 @@ export default async function TechnologyPage({
               i18nKey={"page.technology.javascript.desc"}
               components={{
                 courseLink2: (
-                  <Link
+                  <CommonLink
                     isExternal
                     href={"https://www.udemy.com/course/javascript-for-kids/"}
                   />
                 ),
-                udemyLink: <Link isExternal href={"https://www.udemy.com/"} />,
+                udemyLink: (
+                  <CommonLink isExternal href={"https://www.udemy.com/"} />
+                ),
                 calculatorLink: (
-                  <Link
+                  <CommonLink
                     isExternal
                     href={
                       "/programming/javascript-for-kids/investmentCalculator.html"
@@ -345,7 +359,7 @@ export default async function TechnologyPage({
                   />
                 ),
                 dragDrawLink: (
-                  <Link
+                  <CommonLink
                     isExternal
                     href={"/programming/javascript-for-kids/dragDraw.html"}
                   />
@@ -394,16 +408,16 @@ export default async function TechnologyPage({
               i18nKey={"page.technology.scratch.desc"}
               components={{
                 scratchLink: (
-                  <Link isExternal href={"https://scratch.mit.edu/"} />
+                  <CommonLink isExternal href={"https://scratch.mit.edu/"} />
                 ),
                 dragonChaseLink: (
-                  <Link
+                  <CommonLink
                     isExternal
                     href={"/programming/scratch/dragon-chase.html"}
                   />
                 ),
                 sayHelloLink: (
-                  <Link
+                  <CommonLink
                     isExternal
                     href={"/programming/scratch/say-hello.html"}
                   />
