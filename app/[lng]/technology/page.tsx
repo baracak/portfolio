@@ -31,7 +31,10 @@ export default async function TechnologyPage({
           titleRows={[
             [
               {
-                text: t("page.technology.portfolio.title"),
+                text: t("page.technology.portfolio.title1"),
+              },
+              {
+                text: t("page.technology.portfolio.title2"),
                 gradient: {
                   fromClassName: "from-[#AE7EDE]",
                   toClassName: "to-[#6020A0]",
@@ -117,6 +120,17 @@ export default async function TechnologyPage({
                 sspsLink: (
                   <CommonLink isExternal href={"https://www.ssps.cz/"} />
                 ),
+                guessingGameLink: (
+                  <CommonLink
+                    isExternal
+                    href={
+                      "https://github.com/baracak/ssps-programming-course-python/blob/main/guessingGame.py"
+                    }
+                  />
+                ),
+                pythonLink: (
+                  <CommonLink isExternal href={"https://www.python.org/"} />
+                ),
               }}
             />
           }
@@ -199,6 +213,15 @@ export default async function TechnologyPage({
                     }
                   />
                 ),
+                sspsLink: (
+                  <CommonLink isExternal href={"https://www.ssps.cz/"} />
+                ),
+                googleAlbum: (
+                  <CommonLink
+                    isExternal
+                    href={"https://photos.app.goo.gl/YmB766Li1TGd9gyp8"}
+                  />
+                ),
               }}
             />
           }
@@ -207,7 +230,7 @@ export default async function TechnologyPage({
               key={0}
               alt=""
               {...coverImageProps}
-              src="/images/uvod-do-it-od-divciho-spolku.jpg"
+              src="/images/fotka-medialni-tvorba.jpg"
             />,
             <Image
               key={1}
@@ -241,6 +264,15 @@ export default async function TechnologyPage({
                     href={"https://www.youtube.com/watch?v=GvglIRTgXnY"}
                   />
                 ),
+                googleAlbum: (
+                  <CommonLink
+                    isExternal
+                    href={"https://photos.app.goo.gl/jcBtHqWkPndFt7xt6"}
+                  />
+                ),
+                sspsLink: (
+                  <CommonLink isExternal href={"https://www.ssps.cz/"} />
+                ),
               }}
             />
           }
@@ -249,7 +281,7 @@ export default async function TechnologyPage({
               key={0}
               alt=""
               {...coverImageProps}
-              src="/images/fotka-medialni-tvorba.jpg"
+              src="/images/bmw-medialni-tvorba.jpg"
             />,
             <Image
               key={1}
