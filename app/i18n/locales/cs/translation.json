@@ -23,22 +23,22 @@
       },
       "education": {
         "title": "Vzdělání",
-        "desc": "Věřím, že vzdělání je základním kamenem osobního rozvoje a společenského pokroku. Ráda bych si rozšířila své znalosti a dovednosti v oblasti informačních technologií. Jsem nadšená z objevování nových nápadů, zkoušení různých výzev a aplikování toho, co se naučím, do reálného života."
+        "desc": "Věřím, že vzdělání je základním kamenem osobního rozvoje a společenského pokroku. Ráda bych si rozšířila své znalosti a dovednosti v oblasti informačních technologií. Jsem nadšená z objevování nových nápadů, zkoušení různých výzev a aplikování toho, co se naučím do reálného života."
       }
     },
     "sport": {
       "title": "Sport",
       "heading": {
         "title": "Sport",
-        "desc": "Baví mě různé aktivity, včetně lezení a arialhoopu. Už od dětství jsem se účastnila různých sportovních soutěží, jako je běh, lezení a běh na lyžích. Moji rodiče mě vždy vedli ke sportu a sportovali jsme spolu."
+        "desc": "Ze sportu se nejvíce věnuji lezení na umělé stěně a aerial hoopu. Od dětství jsem se účastnila různých sportovních soutěží, jako je běh, lezení a běh na lyžích. Moji rodiče mě vždy vedli ke sportu a sportovali jsme spolu. Mým cílem není sportovat profesionálně, ale sportem se bavit a psychicky si odpočinout."
       },
       "climbing": {
         "title": "Lezení",
-        "desc": "Lezu v <ddmLink>DDM Modřany</ddmLink>. Lezu od svých 12 let a dokonce jsem přemluvil tátu, aby lezl se mnou. Lezení mě velmi baví a jsem i o něco silnější, což je určitě pozitivní stránka tohoto sportu."
+        "desc": "Nejčaštěji lezu na lezeckém kroužku v <ddmLink>DDM Modřany</ddmLink>. Občas lezu i v jiných lezeckých centrech. Byla jsem v několika, ale mým nejoblíbenějším je <bigWallLink>Big wall</bigWallLink>. Lezu od svých 12 let a dokonce jsem přemluvila tátu, aby lezl se mnou. Lezení mě velmi baví a jsem i o něco silnější, což je určitě pozitivní stránka tohoto sportu."
       },
       "aerial": {
         "title": "Aerial Hoop",
-        "desc": "Dělám Aerial Hoop doma. Cvičím Aerial Hoop od 13 let. Na začátku jsem to dělala s kamarádkou ze školy na kroužku, ale teď mám akrobatický kruh doma a trénuji doma. Tento sport dělám hlavně pro zábavu a jde mi především o to, naučit se nové dovednosti na kruhu."
+        "desc": "S aerial hoopem jsem začala ve 13-ti letech na kroužku ve <cvicitLink>cvič.it</cvicitLink>, kam jsem chodila s kamarádkou ze školy. Teď mám aerial hoop doma, takže si trénuji sama. Tento sport dělám hlavně pro zábavu a jde mi především o to, abych se naučila nové dovednosti na kruhu."
       }
     },
     "technology": {
@@ -104,18 +104,18 @@
       },
       "painting": {
         "title": "Malování",
-        "desc": "Maluji celý svůj život, ale asi před 3 lety to začalo vypadat dobře. Líbí se mi to, protože můžeš malovat, co chceš, a i když nevíš, jak malovat, můžeš vytvořit něco pěkného, protože stačí nakreslit pár čar na papír a ono to vypadá dobře."
+        "desc": "Maluji celý svůj život, ale asi před 3 lety to začalo vypadat dobře. Malování mě baví protože je nekonečně mnoho věcí které můžete namalovat. Nejraději maluji podle předlohy a moc nemám ráda malování podle zátiší."
       },
       "band": {
-        "title": "My Band",
-        "desc": "Moje kapela je odpolední kroužek v <ddmLink>DDM v Modřanech</ddmLink>. Všechno to začalo, když jsem jednou šla na kurz kapely a jen jsme si hráli nějaké písničky. Teď už i píšeme vlastní <songLink>písničky</songLink>. Máme koncerty pro naše rodiče, ale také hrajeme na různých akcích."
+        "title": "Piano",
+        "desc": "Na piano hraji od té doby, co jsme ho dostala k mým 12. narozeninám. Piano mě začalo moc bavit, takže jsem se zapsala do odpoledního kroužku kapely v <ddmLink>DDM v Modřanech</ddmLink>.  Na začátku jsme na kroužku hráli písničky jiných autorů, ale teď si již píšeme <songLink>vlastní</songLink>. Máme koncerty pro naše rodiče, ale také hrajeme na různých akcích."
       }
     },
     "education": {
       "title": "Vzdělání",
       "heading": {
         "title": "Vzdělání",
-        "desc": "Studuji na ZŠ Angel a absolvovala jsem dvě Cambridge zkoušky. Soutěžila jsem v několika sportovních soutěžích organizovaných mojí základní školou. Učím se angličtinu už od raného věku."
+        "desc": "Studuji na ZŠ Angel s bilingvní výukou anglického jazyka. Všechny ročníky jsem zatím prospěla s vyznamenáním. Anglický jazyk se učím už od 2 let a především díky mé základní škole jsem již dosáhla úrovně B2 postupným absolvováním dvou Cambridge zkoušek. "
       },
       "B2": {
         "title1": "B2",
@@ -132,7 +132,7 @@
       "school": {
         "title1": "Primary",
         "title2": "school",
-        "desc": "Studuji na <zsangelLink>ZŠ Angel</zsangelLink>, bilingvní škole, kde jsem si díky rodilým mluvčím z různých anglicky mluvících zemí rozvinula silné dovednosti v angličtině a dobrý přízvuk. Účastnila jsem se různých aktivit na naší škole. Od 8. třídy jsem členkou <cheerTeamLink>Angel Cheer Týmu</cheerTeamLink>. Za tanec na školní vánoční besídce jsem dostala <praiseLink>pochvalu</praiseLink> od třídní učitelky. V 6. třídě jsem reprezentovala naši školu na radnici Prahy 12."
+        "desc": "Studuji na <zsangelLink>ZŠ Angel</zsangelLink>, bilingvní škole s výukou anglického jazyka. Díky rodilým mluvčím z různých anglicky mluvících zemí jsme si rozvinula silné dovednosti v angličtině a dobrý přízvuk. Účastnila jsem se různých aktivit na naší škole. Od 8. třídy jsem členkou <cheerTeamLink>Angel Cheer Týmu</cheerTeamLink>. Za tanec na školní vánoční besídce jsem dostala <praiseLink>pochvalu</praiseLink> od třídní učitelky. V 6. třídě jsem prezentovala naši školu na radnici Prahy 12."
       }
     }
   }

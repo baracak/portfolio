@@ -1,4 +1,4 @@
-import { Button, Link } from "@nextui-org/react";
+import { Button, Chip, Link } from "@nextui-org/react";
 import classNames from "classnames";
 import { ReactNode } from "react";
 
@@ -21,6 +21,7 @@ interface Props {
   titleClassName?: string | undefined;
   isPageTitle?: boolean;
   detailLink?: string;
+  chipContent?: ReactNode;
 }
 
 export default function PresentationBox({
@@ -31,6 +32,7 @@ export default function PresentationBox({
   titleClassName,
   isPageTitle = false,
   detailLink,
+  chipContent,
 }: Props) {
   const areGridItemsOdd = !!(gridItems && gridItems.length % 2);
   return (
@@ -65,6 +67,7 @@ export default function PresentationBox({
             </div>
           ))}
         </div>
+        {chipContent && (<Chip color="default" variant="bordered" className="mt-2 mb-1">{chipContent}</Chip>)}
         {description && (
           <p className="w-full md:w-2/3 lg:w-1/2 my-2 text-lg lg:text-xl font-normal text-default-500 block max-w-full [&>a]:text-lg [&>a]:lg:text-xl">
             {description}

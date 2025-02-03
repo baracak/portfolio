@@ -47,6 +47,9 @@ export default async function SportPage({
                 ddmLink: (
                   <CommonLink isExternal href={"https://www.ddmm.cz/"} />
                 ),
+                bigWallLink: (
+                  <CommonLink isExternal href={"https://www.big-wall.cz/"} />
+                ),
               }}
             />
           }
@@ -78,7 +81,16 @@ export default async function SportPage({
               },
             ],
           ]}
-          description={t("page.sport.aerial.desc")}
+          description=<Trans
+          t={t}
+          i18nKey={"page.sport.aerial.desc"}
+          components={{
+            cvicitLink: (
+              <CommonLink isExternal href={"https://detem.cvic.it/aerial-hoop/"} />
+            ),
+            
+          }}
+        />
           gridItems={[
             <Image
               key={0}

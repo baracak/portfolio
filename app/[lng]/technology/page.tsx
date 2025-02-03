@@ -42,6 +42,7 @@ export default async function TechnologyPage({
               },
             ],
           ]}
+          chipContent={"Leden 2024 - Únor 2025"}
           description={
             <Trans
               t={t}
@@ -104,6 +105,7 @@ export default async function TechnologyPage({
               },
             ],
           ]}
+          chipContent={"Listopad 2024"}
           description={
             <Trans
               t={t}
