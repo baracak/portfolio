@@ -7,7 +7,7 @@
         "title2": "Já jsem  ",
         "title3": "Bára Kalinová",
         "desc": "Jsem student 9. třídy na anglické bilingvní základní škole a hlásím se na Smíchovskou střední průmyslovou školu. Toto portfolio jsem vytvořila, abych představila své úspěchy, zájmy a dovednosti. Odráží, kdo jsem a co mě baví.",
-        "desc2": "Jedním z mých hlavních zájmů je webový vývoj, kterému se již delší dobu věnuji. Abych se posunula dál, vytvořila jsem toto portfolio v Reactu. Je rozděleno do čtyř částí, přičemž každá se zaměřuje na jiné téma, které mě zajímá. Tato stránka nabízí přehled všech částí a umožňuje vám nahlédnout do každé z nich podrobněji."
+        "desc2": "Jedním z mých hlavních zájmů je webový vývoj, kterému se již delší dobu věnuji. Abych se posunula dál, vytvořila jsem toto portfolio v Reactu. Je rozděleno do čtyř částí, přičemž každá se zaměřuje na jiné téma. Tato stránka nabízí přehled všech částí a umožňuje vám nahlédnout do každé z nich podrobněji."
       },
       "sport": {
         "title": "Sport",
@@ -15,11 +15,11 @@
       },
       "hobbies": {
         "title": "Koníčky",
-        "desc": "Koníčky jsou pro mě relaxací a zábavou. Pomáhají mi rozvíjet kreativitu a alespoň na chvíli mě zbaví stresu. Také mi umožňují najít nové přátele, kteří mají stejné zájmy jako já."
+        "desc": "Koníčky jsou pro mě relaxací a zábavou. Pomáhají mi rozvíjet kreativitu a dokáží perfektně vyčistit hlavu. Také mi umožňují najít nové přátele, kteří mají stejné zájmy jako já."
       },
       "technology": {
         "title": "Technologie",
-        "desc": "Technologie a programování mi umožňují řešit problémy, vyjadřovat svou kreativitu a vytvářet nástroje, které mají smysl. Nabízí skvělé kariérní příležitosti a neustálé učení, protože technologie se neustále vyvíjí. Nejvíce mě však baví, že mi dává možnost proměnit mé nápady ve skutečnost."
+        "desc": "Technologie a programování mi umožňují řešit problémy, vyjadřovat svou kreativitu a vytvářet nástroje, které mají smysl. Nabízí skvělé kariérní příležitosti a postupné učení, protože technologie se neustále vyvíjí. Nejvíce mě však baví, že mi dává možnost proměnit mé nápady ve skutečnost."
       },
       "education": {
         "title": "Vzdělání",
@@ -50,45 +50,53 @@
       "portfolio": {
         "title1": "Toto",
         "title2": "Portfolio",
-        "desc": "Jedním z požadavků přijímacího řízení na SSPŠ je sestavení vlastního portfolia. Rozhodla jsem se ho vytvořit jako webovou stránku. Díky tomu, se toto portfolio stalo pro mě zatím nejsložitější a nejzajímavější věcí, na které jsem mohla pokračovat v rozširování mých znalostí webového vývoje. Věnovala jsem se mu ve volných chvílích skoro celý rok 2024 a to především díky tomu, že jsem se ho snažila stále vylepšovat a doplňovat. Pomáhal mi s ním můj táta, který se programováním živí. Kód je napsaný v <nextJsLink>Next.js</nextJsLink> a programovacím jazyce <typeScriptLink>TypeScript</typeScriptLink>. Díky Next.js jsem se naučila základy <reactLink>Reactu</reactLink>. Stylování je vytvořeno pomocí <nextUiLink>HeroUI</nextUiLink> a <tailwindLink>Tailwindu</tailwindLink>. Celý projekt je verzován na <githubLink>GitHubu</githubLink>."
+        "date": "Leden 2024 - Únor 2025",
+        "desc": "Jedním z požadavků přijímacího řízení na SSPŠ je sestavení vlastního portfolia. Rozhodla jsem se ho vytvořit jako webovou stránku. Díky tomu, se toto portfolio stalo pro mě zatím nejsložitější a nejzajímavější věcí, na které jsem mohla pokračovat v rozširování mých znalostí webového vývoje. Věnovala jsem se mu ve volných chvílích skoro celý rok a to především díky tomu, že jsem se ho snažila stále vylepšovat a doplňovat. Pomáhal mi s ním můj táta, který se programováním živí. Kód je napsaný v <nextJsLink>Next.js</nextJsLink> a programovacím jazyce <typeScriptLink>TypeScript</typeScriptLink>. Díky Next.js jsem se naučila základy <reactLink>Reactu</reactLink>. Stylování je vytvořeno pomocí <nextUiLink>HeroUI</nextUiLink> a <tailwindLink>Tailwindu</tailwindLink>. Celý projekt je verzován na <githubLink>GitHubu</githubLink> a hostován na <vercelLink>Vercel</vercelLink>."
       },
       "introIt": {
         "title1": "Úvod do ",
         "title2": "Programování",
         "title3": "a",
         "title4": "IT světa",
-        "desc": "Na konci roku 2024 jsem se zůčastnila výkendového <courseLink>kurzu programování</courseLink> v <pythonLink>Pythonu</pythonLink> od Skillify na <sspsLink>SSPŠ</sspsLink>. Postupně jsme se s jazykem Python seznámili na jednoduchých příkladech. Druhý den jsme zakončili vytvořením vlastního Python scriptu, pro který jsem si zvolila hru <guessingGameLink>Guessing Game</guessingGameLink>. Učitelé byli příjemní a výuka byla zábavná."
+        "date": "Listopad 2024",
+        "desc": "Zůčastnila jsem se víkendového <courseLink>kurzu programování</courseLink> v <pythonLink>Pythonu</pythonLink> od Skillify na <sspsLink>SSPŠ</sspsLink>. Postupně jsme se s jazykem Python seznámili na jednoduchých příkladech. Druhý den jsme zakončili vytvořením vlastního Python scriptu, pro který jsem si zvolila hru <guessingGameLink>Guessing Game</guessingGameLink>. Učitelé byli příjemní a výuka byla zábavná."
       },
       "cs50": {
         "title": "CS50",
-        "desc": "Tento online <courseLink1>kurz</courseLink1> informatiky od Harvardu jsem objevila na internetu. Je zdarma a velmi srozumitelně zpracovaný. Učitel skvěle vysvětluje, má rozsáhlé znalosti o programování a umí dělat výuku zábavnou. O letních prázdninách v roce 2024 jsem se zájmem zhlédla všechny přednášky."
+        "date": "Léto 2024",
+        "desc": "Tento online <courseLink1>kurz</courseLink1> informatiky od Harvardu jsem objevila na internetu. Je zdarma a velmi srozumitelně zpracovaný. Učitel skvěle vysvětluje, má rozsáhlé znalosti o programování a umí dělat výuku zábavnou. Se zájmem jsem zhlédla všechny přednášky."
       },
       "girlsGroup": {
         "title1": "Úvod do ",
         "title2": "IT ",
         "title3": "od ",
         "title4": "Dívčího Spolku ",
-        "desc": "O letních prázdninách v roce 2024 jsem se zúčastnila týdenní letní školy o informačních technologiích na <sspsLink>SSPŠ</sspsLink>. Učili jsme se základy IT, webového vývoje a 3D tisku. Pracovali jsme s virtuální realitou a Lego robotikou. Také jsme pořizovali a upravovali <googleAlbum>fotografie</googleAlbum>. Zde je mé <certificateLink>osvědčení</certificateLink> o absolvování."
+        "date": "Léto 2024",
+        "desc": "Zúčastnila jsem se týdenní letní školy o informačních technologiích na <sspsLink>SSPŠ</sspsLink>. Učili jsme se základy IT, webového vývoje a 3D tisku. Pracovali jsme s virtuální realitou a Lego robotikou. Také jsme pořizovali a upravovali <googleAlbum>fotografie</googleAlbum>. Zde je mé <certificateLink>osvědčení</certificateLink> o absolvování."
       },
       "media": {
         "title1": "Mediální",
         "title2": "tvorba",
-        "desc": "V létě v roce 2024 jsem absolvovala týdenní letní školu na <sspsLink>SSPŠ</sspsLink>. Věnovali jsme se digitální <googleAlbum>fotografii</googleAlbum>, tvorbě videí, nahrávání podcastů a spoustě úprav pořízených materiálů. Také jsme natočili <podcastLink>podcast</podcastLink> o této škole."
+        "date": "Léto 2024",
+        "desc": "Absolvovala jsem týdenní letní školu na <sspsLink>SSPŠ</sspsLink>. Věnovali jsme se digitální <googleAlbum>fotografii</googleAlbum>, tvorbě videí, nahrávání podcastů a spoustě úprav pořízených materiálů. Také jsme natočili <podcastLink>podcast</podcastLink> o této škole."
       },
       "web": {
         "title1": "Úvod do",
         "title2": "Programování",
         "title3": "webu",
-        "desc": "O letních prázdninách v roce 2023 jsem se zúčastnila týdenního příměstského táboru pořádaného <makeItLink>Make IT Today</makeItLink> zaměřeného na základy webového programování. Kurz byl navržen tak, aby seznámil se základy wbové tvorby pomocí zábavných a interaktivních projektů. Psali jsme kódy pro jednoduché hry, webové stránky a řešili mnoho výzev. Také jsem vytvořila <webLink>webovou stránku</webLink> o přízích. Zde je můj <certificateLink1>diplom</certificateLink1> o absolvování kurzu."
+        "date": "Léto 2023",
+        "desc": "Zúčastnila jsem se týdenního příměstského táboru pořádaného <makeItLink>Make IT Today</makeItLink> zaměřeného na základy webového programování. Kurz byl navržen tak, aby seznámil se základy wbové tvorby pomocí zábavných a interaktivních projektů. Psali jsme kódy pro jednoduché hry, webové stránky a řešili mnoho výzev. Také jsem vytvořila <webLink>webovou stránku</webLink> o přízích. Zde je můj <certificateLink1>diplom</certificateLink1> o absolvování kurzu."
       },
       "javascript": {
         "title1": "Javascript",
         "title2": "pro",
         "title3": "děti",
-        "desc": "Na konci roku 2023 jsem absolvovala online <courseLink2>kurz</courseLink2> JavaScriptu na <udemyLink>Udemy</udemyLink>. Je navržen tak, aby učil JavaScript zábavnou a jednoduchou formou. Naučila jsem se základy JavaScriptu a vytvořila spoustu zábavných projektů, jako jsou interaktivní hry a animace. Řešili jsme jednoduché problémy, tvořili jsme několik her a užitečných nástrojů. Příkladem je <calculatorLink>Investiční kalkulačka</calculatorLink> nebo <dragDrawLink>Drag and Draw</dragDrawLink>."
+        "date": "Listopad - Prosinec 2023",
+        "desc": "Absolvovala jsem online <courseLink2>kurz</courseLink2> JavaScriptu na <udemyLink>Udemy</udemyLink>. Je navržen tak, aby učil JavaScript zábavnou a jednoduchou formou. Naučila jsem se základy JavaScriptu a vytvořila spoustu zábavných projektů, jako jsou interaktivní hry a animace. Řešili jsme jednoduché problémy, tvořili jsme několik her a užitečných nástrojů. Příkladem je <calculatorLink>Investiční kalkulačka</calculatorLink> nebo <dragDrawLink>Drag and Draw</dragDrawLink>."
       },
       "scratch": {
         "title": "Scratch",
+        "date": "2018 - 2021",
         "desc": "Se <scratchLink>Scratchem</scratchLink> jsem začala, když mi bylo 8 let. Byla to moje vůbec první zkušenost s programováním, ke které mě přivedl můj táta. Scratch jsem tehdy naprosto milovala a moc mě bavilo si s ním hrát. Vytvořila jsem několik jednoduchých her, například <dragonChaseLink>Dragon Chase</dragonChaseLink> nebo <sayHelloLink>Say Hello</sayHelloLink>."
       }
     },
@@ -121,17 +129,20 @@
         "title1": "B2",
         "title2": "Cambridge",
         "title3": "Test",
+        "date": "Prosinec 2024",
         "desc": "Ve 9. třídě jsem absolvovala svou druhou Cambridge zkoušku na úrovni B2. Zde je <resultLink>certifikát</resultLink>."
       },
       "A2": {
         "title1": "A2",
         "title2": "Cambridge",
         "title3": "Test",
+        "date": "Květen 2021",
         "desc": "Svou první Cambridge zkoušku jsem absolvovala v 5. třídě na úrovni A2. Zde je můj <certificateLink1>certifikát</certificateLink1>."
       },
       "school": {
         "title1": "Primary",
         "title2": "school",
+        "date": "2016 - současnost",
         "desc": "Studuji na <zsangelLink>ZŠ Angel</zsangelLink>, bilingvní škole s výukou anglického jazyka. Díky rodilým mluvčím z různých anglicky mluvících zemí jsme si rozvinula silné dovednosti v angličtině a dobrý přízvuk. Účastnila jsem se různých aktivit na naší škole. Od 8. třídy jsem členkou <cheerTeamLink>Angel Cheer Týmu</cheerTeamLink>. Za tanec na školní vánoční besídce jsem dostala <praiseLink>pochvalu</praiseLink> od třídní učitelky. V 6. třídě jsem prezentovala naši školu na radnici Prahy 12."
       }
     }

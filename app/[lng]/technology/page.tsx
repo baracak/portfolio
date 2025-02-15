@@ -42,7 +42,7 @@ export default async function TechnologyPage({
               },
             ],
           ]}
-          chipContent={"Leden 2024 - Únor 2025"}
+          chipContent={t("page.technology.portfolio.date")}
           description={
             <Trans
               t={t}
@@ -70,6 +70,12 @@ export default async function TechnologyPage({
                   <CommonLink
                     isExternal
                     href={"https://github.com/baracak/portfolio"}
+                  />
+                ),
+                vercelLink: (
+                  <CommonLink
+                    isExternal
+                    href={"https://vercel.com/"}
                   />
                 ),
               }}
@@ -105,7 +111,7 @@ export default async function TechnologyPage({
               },
             ],
           ]}
-          chipContent={"Listopad 2024"}
+          chipContent={t("page.technology.introIt.date")}
           description={
             <Trans
               t={t}
@@ -157,6 +163,7 @@ export default async function TechnologyPage({
               },
             ],
           ]}
+          chipContent={t("page.technology.cs50.date")}
           description={
             <Trans
               t={t}
@@ -202,6 +209,7 @@ export default async function TechnologyPage({
               },
             ],
           ]}
+          chipContent={t("page.technology.girlsGroup.date")}
           description={
             <Trans
               t={t}
@@ -255,6 +263,7 @@ export default async function TechnologyPage({
               { text: t("page.technology.media.title2") },
             ],
           ]}
+          chipContent={t("page.technology.media.date")}
           description={
             <Trans
               t={t}
@@ -293,62 +302,6 @@ export default async function TechnologyPage({
             />,
           ]}
         ></PresentationBox>
-        <PresentationBox
-          titleRows={[
-            [
-              { text: t("page.technology.web.title1") },
-              {
-                text: t("page.technology.web.title2"),
-                gradient: {
-                  fromClassName: "from-[#F9C97C]",
-                  toClassName: "to-[#C4841D]",
-                },
-              },
-              { text: t("page.technology.web.title3") },
-            ],
-          ]}
-          description={
-            <Trans
-              t={t}
-              i18nKey={"page.technology.web.desc"}
-              components={{
-                makeItLink: (
-                  <CommonLink
-                    isExternal
-                    href={"https://makeittoday.cz/tabory/camp.html?id=15"}
-                  />
-                ),
-                webLink: (
-                  <CommonLink
-                    isExternal
-                    href={"/programming/make-it-today-2023/index.htm"}
-                  />
-                ),
-                certificateLink1: (
-                  <CommonLink
-                    isExternal
-                    href={
-                      "/docs/2023-07-21-makeittoday-diplom-za-absolvovani-uvod-do-programovani-webu-Barbora-kalinova.pdf"
-                    }
-                  />
-                ),
-              }}
-            />
-          }
-          gridItems={[
-            <Link
-              key={0}
-              isExternal
-              href="/programming/make-it-today-2023/index.htm"
-            >
-              <Image
-                alt=""
-                {...coverImageProps}
-                src="/images/lets-crochet.jpeg"
-              />
-            </Link>,
-          ]}
-        ></PresentationBox>
 
         <PresentationBox
           titleRows={[
@@ -370,6 +323,7 @@ export default async function TechnologyPage({
               },
             ],
           ]}
+          chipContent={t("page.technology.javascript.date")}
           description={
             <Trans
               t={t}
@@ -424,6 +378,65 @@ export default async function TechnologyPage({
             </Link>,
           ]}
         ></PresentationBox>
+
+        <PresentationBox
+          titleRows={[
+            [
+              { text: t("page.technology.web.title1") },
+              {
+                text: t("page.technology.web.title2"),
+                gradient: {
+                  fromClassName: "from-[#F9C97C]",
+                  toClassName: "to-[#C4841D]",
+                },
+              },
+              { text: t("page.technology.web.title3") },
+            ],
+          ]}
+          chipContent={t("page.technology.web.date")}
+          description={
+            <Trans
+              t={t}
+              i18nKey={"page.technology.web.desc"}
+              components={{
+                makeItLink: (
+                  <CommonLink
+                    isExternal
+                    href={"https://makeittoday.cz/tabory/camp.html?id=15"}
+                  />
+                ),
+                webLink: (
+                  <CommonLink
+                    isExternal
+                    href={"/programming/make-it-today-2023/index.htm"}
+                  />
+                ),
+                certificateLink1: (
+                  <CommonLink
+                    isExternal
+                    href={
+                      "/docs/2023-07-21-makeittoday-diplom-za-absolvovani-uvod-do-programovani-webu-Barbora-kalinova.pdf"
+                    }
+                  />
+                ),
+              }}
+            />
+          }
+          gridItems={[
+            <Link
+              key={0}
+              isExternal
+              href="/programming/make-it-today-2023/index.htm"
+            >
+              <Image
+                alt=""
+                {...coverImageProps}
+                src="/images/lets-crochet.jpeg"
+              />
+            </Link>,
+          ]}
+        ></PresentationBox>
+
         <PresentationBox
           titleRows={[
             [
@@ -436,6 +449,7 @@ export default async function TechnologyPage({
               },
             ],
           ]}
+          chipContent={t("page.technology.scratch.date")}
           description={
             <Trans
               t={t}

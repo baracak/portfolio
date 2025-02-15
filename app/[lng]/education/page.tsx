@@ -47,6 +47,7 @@ export default async function EducationPage({
               },
             ],
           ]}
+          chipContent={t("page.education.B2.date")}
           description={
             <Trans
               t={t}
@@ -101,6 +102,7 @@ export default async function EducationPage({
               },
             ],
           ]}
+          chipContent={t("page.education.A2.date")}
           description={
             <Trans
               t={t}
@@ -149,6 +151,7 @@ export default async function EducationPage({
               { text: t("page.education.school.title2") },
             ],
           ]}
+          chipContent={t("page.education.school.date")}
           description={
             <Trans
               t={t}
