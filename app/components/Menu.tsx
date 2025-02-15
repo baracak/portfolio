@@ -55,9 +55,7 @@ export default function Menu({ lng }: Props) {
         >
           <LanguageSwitcher lng={lng} flagWidth={40} fontSize={20} />
         </NavbarMenuItem>
-        <NavbarMenuToggle
-          aria-label={isMenuOpen ? "Close menu" : "Open menu"}
-        />
+        <NavbarMenuToggle />
       </NavbarContent>
 
       <NavbarContent className="hidden sm:flex gap-4" justify="start">

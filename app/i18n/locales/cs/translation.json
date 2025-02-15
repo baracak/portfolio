@@ -19,7 +19,7 @@
       },
       "technology": {
         "title": "Technologie",
-        "desc": "Technologie a\u00a0programování mi umožňují řešit problémy, vyjadřovat svou kreativitu a\u00a0vytvářet nástroje, které mají smysl. Nabízí skvělé kariérní příležitosti a\u00a0postupné učení, protože technologie se neustále vyvíjí. Nejvíce mě však baví, že mi dává možnost proměnit mé nápady ve skutečnost."
+        "desc": "Technologie a\u00a0programování mi umožňují řešit problémy, vyjadřovat svou kreativitu a\u00a0vytvářet nástroje, které mají smysl. Nabízí skvělé kariérní příležitosti a\u00a0postupné vzdělávání, protože technologie se neustále vyvíjí. Nejvíce mě však baví, že mi dává možnost proměnit mé nápady ve skutečnost."
       },
       "education": {
         "title": "Vzdělání",
@@ -146,5 +146,8 @@
         "desc": "Studuji na <zsangelLink>ZŠ Angel</zsangelLink>, bilingvní škole s\u00a0výukou anglického jazyka. Díky rodilým mluvčím z\u00a0různých anglicky mluvících zemí jsme si rozvinula silné dovednosti v\u00a0angličtině a\u00a0dobrý přízvuk. Účastnila jsem se různých aktivit na naší škole. Od 8. třídy jsem členkou <cheerTeamLink>Angel Cheer Týmu</cheerTeamLink>. Za tanec na školní vánoční besídce jsem dostala <praiseLink>pochvalu</praiseLink> od třídní učitelky. V\u00a06. třídě jsem prezentovala naši školu na radnici Prahy 12."
       }
     }
+  },
+  "languageMenu": {
+    "title": "Volba jazyka"
   }
 }

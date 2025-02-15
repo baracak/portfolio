@@ -147,5 +147,8 @@
         "desc": "I\u00a0study at <zsangelLink>ZŠ Angel</zsangelLink>, a\u00a0bilingual school with English language instruction. Thanks to native speakers from various English-speaking countries, I\u00a0have developed strong English skills and a\u00a0good accent. I\u00a0have participated in various activities at our school. Since the\u00a08th grade, I\u00a0have been a\u00a0member of the\u00a0<cheerTeamLink>Angel Cheer Team</cheerTeamLink>. I\u00a0received a\u00a0<praiseLink>commendation</praiseLink> from my class teacher for dancing at the\u00a0school Christmas play. In the\u00a06th grade, I\u00a0represented our school at the\u00a0Prague 12 town hall."
       }
     }
+  },
+  "languageMenu": {
+    "title": "Language selection"
   }
 }

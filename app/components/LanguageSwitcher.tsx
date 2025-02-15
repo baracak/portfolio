@@ -11,6 +11,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useMemo } from "react";
 import { languages as i18nLanguages, Language } from "../i18n/settings";
+import { useClientTranslation } from "../i18n/client";
 
 interface Props {
   lng: Language;
@@ -30,6 +31,7 @@ export default function LanguageSwitcher({
   flagWidth = 30,
   fontSize = 18,
 }: Props) {
+  const { t } = useClientTranslation(lng);
   const pathname = usePathname();
   const {
     activeLanguage,
@@ -68,13 +70,13 @@ export default function LanguageSwitcher({
           <activeLanguage.flagComponent style={{ borderRadius: 2 }} />
         </div>
       </DropdownTrigger>
-      <DropdownMenu>
+      <DropdownMenu aria-label={t("languageMenu.title")}>
         {languages
           .filter(({ lang }) => lang !== lng)
           .map((info) => {
             const { lang, label, targetPathname } = info;
             return (
-              <DropdownItem key={lang}>
+              <DropdownItem key={lang} textValue={label}>
                 <Link href={targetPathname}>
                   <div
                     style={{
