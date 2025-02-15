@@ -4,54 +4,54 @@
     "home": {
       "heading": {
         "title1": "Zdravím! ",
-        "title2": "Já jsem  ",
+        "title2": "Jsem  ",
         "title3": "Bára Kalinová",
-        "desc": "Jsem student 9. třídy na anglické bilingvní základní škole a hlásím se na Smíchovskou střední průmyslovou školu. Toto portfolio jsem vytvořila, abych představila své úspěchy, zájmy a dovednosti. Odráží, kdo jsem a co mě baví.",
-        "desc2": "Jedním z mých hlavních zájmů je webový vývoj, kterému se již delší dobu věnuji. Abych se posunula dál, vytvořila jsem toto portfolio v Reactu. Je rozděleno do čtyř částí, přičemž každá se zaměřuje na jiné téma. Tato stránka nabízí přehled všech částí a umožňuje vám nahlédnout do každé z nich podrobněji."
+        "desc": "Jsem student 9. třídy na anglické bilingvní základní škole a\u00a0hlásím se na Smíchovskou střední průmyslovou školu. Toto portfolio jsem vytvořila, abych představila své úspěchy, zájmy a\u00a0dovednosti. Odráží, kdo jsem a\u00a0co mě baví.",
+        "desc2": "Jedním z\u00a0mých hlavních zájmů je webový vývoj, kterému se již delší dobu věnuji. Abych se posunula dál, vytvořila jsem toto portfolio v\u00a0Reactu. Je rozděleno do čtyř částí, přičemž každá se zaměřuje na jiné téma. Tato stránka nabízí přehled všech částí a\u00a0umožňuje vám nahlédnout do každé z\u00a0nich podrobněji."
       },
       "sport": {
         "title": "Sport",
-        "desc": "Sportuji, protože sport mi pomáhá budovat fyzickou kondici a také mě podporuje psychicky. Zlepšuje mi náladu, vyzývá mě k vyzkoušení nových věcí a motivuje mě k zlepšení."
+        "desc": "Sportuji, protože sport mi pomáhá budovat fyzickou kondici a\u00a0také mě podporuje psychicky. Zlepšuje mi náladu, vyzývá mě k\u00a0vyzkoušení nových věcí a\u00a0motivuje mě k\u00a0zlepšení."
       },
       "hobbies": {
         "title": "Koníčky",
-        "desc": "Koníčky jsou pro mě relaxací a zábavou. Pomáhají mi rozvíjet kreativitu a dokáží perfektně vyčistit hlavu. Také mi umožňují najít nové přátele, kteří mají stejné zájmy jako já."
+        "desc": "Koníčky jsou pro mě relaxací a\u00a0zábavou. Pomáhají mi rozvíjet kreativitu a\u00a0dokáží perfektně vyčistit hlavu. Také mi umožňují najít nové přátele, kteří mají stejné zájmy jako já."
       },
       "technology": {
         "title": "Technologie",
-        "desc": "Technologie a programování mi umožňují řešit problémy, vyjadřovat svou kreativitu a vytvářet nástroje, které mají smysl. Nabízí skvělé kariérní příležitosti a postupné učení, protože technologie se neustále vyvíjí. Nejvíce mě však baví, že mi dává možnost proměnit mé nápady ve skutečnost."
+        "desc": "Technologie a\u00a0programování mi umožňují řešit problémy, vyjadřovat svou kreativitu a\u00a0vytvářet nástroje, které mají smysl. Nabízí skvělé kariérní příležitosti a\u00a0postupné učení, protože technologie se neustále vyvíjí. Nejvíce mě však baví, že mi dává možnost proměnit mé nápady ve skutečnost."
       },
       "education": {
         "title": "Vzdělání",
-        "desc": "Věřím, že vzdělání je základním kamenem osobního rozvoje a společenského pokroku. Ráda bych si rozšířila své znalosti a dovednosti v oblasti informačních technologií. Jsem nadšená z objevování nových nápadů, zkoušení různých výzev a aplikování toho, co se naučím do reálného života."
+        "desc": "Věřím, že vzdělání je základním kamenem osobního rozvoje a\u00a0společenského pokroku. Ráda bych si rozšířila své znalosti a\u00a0dovednosti v\u00a0oblasti informačních technologií. Jsem nadšená z\u00a0objevování nových nápadů, zkoušení různých výzev a\u00a0aplikování toho, co se naučím do reálného života."
       }
     },
     "sport": {
       "title": "Sport",
       "heading": {
         "title": "Sport",
-        "desc": "Ze sportu se nejvíce věnuji lezení na umělé stěně a aerial hoopu. Od dětství jsem se účastnila různých sportovních soutěží, jako je běh, lezení a běh na lyžích. Moji rodiče mě vždy vedli ke sportu a sportovali jsme spolu. Mým cílem není sportovat profesionálně, ale sportem se bavit a psychicky si odpočinout."
+        "desc": "Ze sportu se nejvíce věnuji lezení na umělé stěně a\u00a0aerial hoopu. Od dětství jsem se účastnila různých sportovních soutěží, jako je běh, lezení a\u00a0běh na lyžích. Moji rodiče mě vždy vedli ke sportu a\u00a0sportovali jsme spolu. Mým cílem není sportovat profesionálně, ale sportem se bavit a\u00a0psychicky si odpočinout."
       },
       "climbing": {
         "title": "Lezení",
-        "desc": "Nejčaštěji lezu na lezeckém kroužku v <ddmLink>DDM Modřany</ddmLink>. Občas lezu i v jiných lezeckých centrech. Byla jsem v několika, ale mým nejoblíbenějším je <bigWallLink>Big wall</bigWallLink>. Lezu od svých 12 let a dokonce jsem přemluvila tátu, aby lezl se mnou. Lezení mě velmi baví a jsem i o něco silnější, což je určitě pozitivní stránka tohoto sportu."
+        "desc": "Nejčaštěji lezu na lezeckém kroužku v\u00a0<ddmLink>DDM Modřany</ddmLink>. Občas lezu i\u00a0v\u00a0jiných lezeckých centrech. Byla jsem v\u00a0několika, ale mým nejoblíbenějším je <bigWallLink>Big wall</bigWallLink>. Lezu od svých 12 let a\u00a0dokonce jsem přemluvila tátu, aby lezl se mnou. Lezení mě velmi baví a\u00a0jsem i\u00a0o\u00a0něco silnější, což je určitě pozitivní stránka tohoto sportu."
       },
       "aerial": {
         "title": "Aerial Hoop",
-        "desc": "S aerial hoopem jsem začala ve 13-ti letech na kroužku ve <cvicitLink>cvič.it</cvicitLink>, kam jsem chodila s kamarádkou ze školy. Teď mám aerial hoop doma, takže si trénuji sama. Tento sport dělám hlavně pro zábavu a jde mi především o to, abych se naučila nové dovednosti na kruhu."
+        "desc": "S\u00a0aerial hoopem jsem začala ve 13-ti letech na kroužku ve <cvicitLink>cvič.it</cvicitLink>, kam jsem chodila s\u00a0kamarádkou ze školy. Teď mám aerial hoop doma, takže si trénuji sama. Tento sport dělám hlavně pro zábavu a\u00a0jde mi především o\u00a0to, abych se naučila nové dovednosti na kruhu."
       }
     },
     "technology": {
       "title": "Technologie",
       "heading": {
         "title": "Technologie",
-        "desc": "Již od dětství mám blízko k technologiím, zejména k programování, ke kterému mě přivedl můj otec. Jeho nadšení a podpora mě inspirovaly k tomu, abych se už v raném věku pustila do prvních projektů. Postupně jsem se začala účastnit různých programátorských kurzů, kde jsem si osvojila základní principy kódování a objevila, jak fascinující je vytvářet nové věci pomocí technologií. Na této stránce jsou chronologicky seřazeny všechny zajímavé aktivity a kurzy, které jsem doposud absolvovala."
+        "desc": "Již od dětství mám blízko k\u00a0technologiím, zejména k\u00a0programování, ke kterému mě přivedl můj otec. Jeho nadšení a\u00a0podpora mě inspirovaly k\u00a0tomu, abych se už v\u00a0raném věku pustila do prvních projektů. Postupně jsem se začala účastnit různých programátorských kurzů, kde jsem si osvojila základní principy kódování a\u00a0objevila, jak fascinující je vytvářet nové věci pomocí technologií. Na této stránce jsou chronologicky seřazeny všechny zajímavé aktivity a\u00a0kurzy, které jsem doposud absolvovala."
       },
       "portfolio": {
         "title1": "Toto",
         "title2": "Portfolio",
         "date": "Leden 2024 - Únor 2025",
-        "desc": "Jedním z požadavků přijímacího řízení na SSPŠ je sestavení vlastního portfolia. Rozhodla jsem se ho vytvořit jako webovou stránku. Díky tomu, se toto portfolio stalo pro mě zatím nejsložitější a nejzajímavější věcí, na které jsem mohla pokračovat v rozširování mých znalostí webového vývoje. Věnovala jsem se mu ve volných chvílích skoro celý rok a to především díky tomu, že jsem se ho snažila stále vylepšovat a doplňovat. Pomáhal mi s ním můj táta, který se programováním živí. Kód je napsaný v <nextJsLink>Next.js</nextJsLink> a programovacím jazyce <typeScriptLink>TypeScript</typeScriptLink>. Díky Next.js jsem se naučila základy <reactLink>Reactu</reactLink>. Stylování je vytvořeno pomocí <nextUiLink>HeroUI</nextUiLink> a <tailwindLink>Tailwindu</tailwindLink>. Celý projekt je verzován na <githubLink>GitHubu</githubLink> a hostován na <vercelLink>Vercel</vercelLink>."
+        "desc": "Jedním z\u00a0požadavků přijímacího řízení na SSPŠ je sestavení vlastního portfolia. Rozhodla jsem se ho vytvořit jako webovou stránku. Díky tomu, se toto portfolio stalo pro mě zatím nejsložitější a\u00a0nejzajímavější věcí, na které jsem mohla pokračovat v\u00a0rozširování mých znalostí webového vývoje. Věnovala jsem se mu ve volných chvílích skoro celý rok a\u00a0to především díky tomu, že jsem se ho snažila stále vylepšovat a\u00a0doplňovat. Pomáhal mi s\u00a0ním můj táta, který se programováním živí. Kód je napsaný v\u00a0<nextJsLink>Next.js</nextJsLink> a\u00a0programovacím jazyce <typeScriptLink>TypeScript</typeScriptLink>. Díky Next.js jsem se naučila základy <reactLink>Reactu</reactLink>. Stylování je vytvořeno pomocí <nextUiLink>HeroUI</nextUiLink> a\u00a0<tailwindLink>Tailwindu</tailwindLink>. Celý projekt je verzován na <githubLink>GitHubu</githubLink> a\u00a0hostován na <vercelLink>Vercel</vercelLink>."
       },
       "introIt": {
         "title1": "Úvod do ",
@@ -59,12 +59,12 @@
         "title3": "a",
         "title4": "IT světa",
         "date": "Listopad 2024",
-        "desc": "Zůčastnila jsem se víkendového <courseLink>kurzu programování</courseLink> v <pythonLink>Pythonu</pythonLink> od Skillify na <sspsLink>SSPŠ</sspsLink>. Postupně jsme se s jazykem Python seznámili na jednoduchých příkladech. Druhý den jsme zakončili vytvořením vlastního Python scriptu, pro který jsem si zvolila hru <guessingGameLink>Guessing Game</guessingGameLink>. Učitelé byli příjemní a výuka byla zábavná."
+        "desc": "Zůčastnila jsem se víkendového <courseLink>kurzu programování</courseLink> v\u00a0<pythonLink>Pythonu</pythonLink> od Skillify na <sspsLink>SSPŠ</sspsLink>. Postupně jsme se s\u00a0jazykem Python seznámili na jednoduchých příkladech. Druhý den jsme zakončili vytvořením vlastního Python scriptu, pro který jsem si zvolila hru <guessingGameLink>Guessing Game</guessingGameLink>. Učitelé byli příjemní a\u00a0výuka byla zábavná."
       },
       "cs50": {
         "title": "CS50",
         "date": "Léto 2024",
-        "desc": "Tento online <courseLink1>kurz</courseLink1> informatiky od Harvardu jsem objevila na internetu. Je zdarma a velmi srozumitelně zpracovaný. Učitel skvěle vysvětluje, má rozsáhlé znalosti o programování a umí dělat výuku zábavnou. Se zájmem jsem zhlédla všechny přednášky."
+        "desc": "Tento online <courseLink1>kurz</courseLink1> informatiky od Harvardu jsem objevila na internetu. Je zdarma a\u00a0velmi srozumitelně zpracovaný. Učitel skvěle vysvětluje, má rozsáhlé znalosti o\u00a0programování a\u00a0umí dělat výuku zábavnou. Se zájmem jsem zhlédla všechny přednášky."
       },
       "girlsGroup": {
         "title1": "Úvod do ",
@@ -72,58 +72,58 @@
         "title3": "od ",
         "title4": "Dívčího Spolku ",
         "date": "Léto 2024",
-        "desc": "Zúčastnila jsem se týdenní letní školy o informačních technologiích na <sspsLink>SSPŠ</sspsLink>. Učili jsme se základy IT, webového vývoje a 3D tisku. Pracovali jsme s virtuální realitou a Lego robotikou. Také jsme pořizovali a upravovali <googleAlbum>fotografie</googleAlbum>. Zde je mé <certificateLink>osvědčení</certificateLink> o absolvování."
+        "desc": "Zúčastnila jsem se týdenní letní školy o\u00a0informačních technologiích na <sspsLink>SSPŠ</sspsLink>. Učili jsme se základy IT, webového vývoje a\u00a03D tisku. Pracovali jsme s\u00a0virtuální realitou a\u00a0Lego robotikou. Také jsme pořizovali a\u00a0upravovali <googleAlbum>fotografie</googleAlbum>. Zde je mé <certificateLink>osvědčení</certificateLink> o\u00a0absolvování."
       },
       "media": {
         "title1": "Mediální",
         "title2": "tvorba",
         "date": "Léto 2024",
-        "desc": "Absolvovala jsem týdenní letní školu na <sspsLink>SSPŠ</sspsLink>. Věnovali jsme se digitální <googleAlbum>fotografii</googleAlbum>, tvorbě videí, nahrávání podcastů a spoustě úprav pořízených materiálů. Také jsme natočili <podcastLink>podcast</podcastLink> o této škole."
+        "desc": "Absolvovala jsem týdenní letní školu na <sspsLink>SSPŠ</sspsLink>. Věnovali jsme se digitální <googleAlbum>fotografii</googleAlbum>, tvorbě videí, nahrávání podcastů a\u00a0spoustě úprav pořízených materiálů. Také jsme natočili <podcastLink>podcast</podcastLink> o\u00a0této škole."
       },
       "web": {
         "title1": "Úvod do",
         "title2": "Programování",
         "title3": "webu",
         "date": "Léto 2023",
-        "desc": "Zúčastnila jsem se týdenního příměstského táboru pořádaného <makeItLink>Make IT Today</makeItLink> zaměřeného na základy webového programování. Kurz byl navržen tak, aby seznámil se základy wbové tvorby pomocí zábavných a interaktivních projektů. Psali jsme kódy pro jednoduché hry, webové stránky a řešili mnoho výzev. Také jsem vytvořila <webLink>webovou stránku</webLink> o přízích. Zde je můj <certificateLink1>diplom</certificateLink1> o absolvování kurzu."
+        "desc": "Zúčastnila jsem se týdenního příměstského táboru pořádaného <makeItLink>Make IT Today</makeItLink> zaměřeného na základy webového programování. Kurz byl navržen tak, aby seznámil se základy wbové tvorby pomocí zábavných a\u00a0interaktivních projektů. Psali jsme kódy pro jednoduché hry, webové stránky a\u00a0řešili mnoho výzev. Také jsem vytvořila <webLink>webovou stránku</webLink> o\u00a0přízích. Zde je můj <certificateLink1>diplom</certificateLink1> o\u00a0absolvování kurzu."
       },
       "javascript": {
         "title1": "Javascript",
         "title2": "pro",
         "title3": "děti",
         "date": "Listopad - Prosinec 2023",
-        "desc": "Absolvovala jsem online <courseLink2>kurz</courseLink2> JavaScriptu na <udemyLink>Udemy</udemyLink>. Je navržen tak, aby učil JavaScript zábavnou a jednoduchou formou. Naučila jsem se základy JavaScriptu a vytvořila spoustu zábavných projektů, jako jsou interaktivní hry a animace. Řešili jsme jednoduché problémy, tvořili jsme několik her a užitečných nástrojů. Příkladem je <calculatorLink>Investiční kalkulačka</calculatorLink> nebo <dragDrawLink>Drag and Draw</dragDrawLink>."
+        "desc": "Absolvovala jsem online <courseLink2>kurz</courseLink2> JavaScriptu na <udemyLink>Udemy</udemyLink>. Je navržen tak, aby učil JavaScript zábavnou a\u00a0jednoduchou formou. Naučila jsem se základy JavaScriptu a\u00a0vytvořila spoustu zábavných projektů, jako jsou interaktivní hry a\u00a0animace. Řešili jsme jednoduché problémy, tvořili jsme několik her a\u00a0užitečných nástrojů. Příkladem je <calculatorLink>Investiční kalkulačka</calculatorLink> nebo <dragDrawLink>Drag and Draw</dragDrawLink>."
       },
       "scratch": {
         "title": "Scratch",
         "date": "2018 - 2021",
-        "desc": "Se <scratchLink>Scratchem</scratchLink> jsem začala, když mi bylo 8 let. Byla to moje vůbec první zkušenost s programováním, ke které mě přivedl můj táta. Scratch jsem tehdy naprosto milovala a moc mě bavilo si s ním hrát. Vytvořila jsem několik jednoduchých her, například <dragonChaseLink>Dragon Chase</dragonChaseLink> nebo <sayHelloLink>Say Hello</sayHelloLink>."
+        "desc": "Se <scratchLink>Scratchem</scratchLink> jsem začala, když mi bylo 8 let. Byla to moje vůbec první zkušenost s\u00a0programováním, ke které mě přivedl můj táta. Scratch jsem tehdy naprosto milovala a\u00a0moc mě bavilo si s\u00a0ním hrát. Vytvořila jsem několik jednoduchých her, například <dragonChaseLink>Dragon Chase</dragonChaseLink> nebo <sayHelloLink>Say Hello</sayHelloLink>."
       }
     },
     "hobbies": {
       "title": "Koníčky",
       "heading": {
         "title": "Koníčky",
-        "desc": "Mezi mé koníčky patří háčkování, malování a hraní na piano. Háčkování mi přináší klid a pomáhá mi se soustředěním. Malování mi umožňuje vyjádřit mou kreativitu. Hraní na piano mě přivedlo do kapely, se kterou si vymýšlíme písničky a hrajeme na akcích."
+        "desc": "Mezi mé koníčky patří háčkování, malování a\u00a0hraní na piano. Háčkování mi přináší klid a\u00a0pomáhá mi se soustředěním. Malování mi umožňuje vyjádřit mou kreativitu. Hraní na piano mě přivedlo do kapely, se kterou si vymýšlíme písničky a\u00a0hrajeme na akcích."
       },
       "crocheting": {
         "title": "Háčkování",
-        "desc": "Háčkuji již dlouho, přibližně od mých 8 let. Háčkování mě baví, protože mi to přináší klid. Můžu si jen sednout, soustředit se na jednu věc a nestarat o ostatní. To je to, co na háčkování miluji. Zde se můžete podívat na několik mých <productsLink>výrobků</productsLink>."
+        "desc": "Háčkuji již dlouho, přibližně od mých 8 let. Háčkování mě baví, protože mi to přináší klid. Můžu si jen sednout, soustředit se na jednu věc a\u00a0nestarat o\u00a0ostatní. To je to, co na háčkování miluji. Zde se můžete podívat na několik mých <productsLink>výrobků</productsLink>."
       },
       "painting": {
         "title": "Malování",
-        "desc": "Maluji celý svůj život a kolem mých 12 let jsem se začala zlepšovat. Od 9 do 11 let jsem chodila na kroužek do ateliéru. Malování mě baví protože je nekonečně mnoho věcí které můžete namalovat. Nejraději maluji podle předlohy, například auta nebo abstraktní umění. Několik mých obrazů si můžete prohlédnout v tomto <albumLink>albu</albumLink>."
+        "desc": "Maluji celý svůj život a\u00a0kolem mých 12 let jsem se začala zlepšovat. Od 9 do 11 let jsem chodila na kroužek do ateliéru. Malování mě baví protože je nekonečně mnoho věcí které můžete namalovat. Nejraději maluji podle předlohy, například auta nebo abstraktní umění. Několik mých obrazů si můžete prohlédnout v\u00a0tomto <albumLink>albu</albumLink>."
       },
       "band": {
         "title": "Piano",
-        "desc": "Na piano hraji od té doby, co jsme ho dostala k mým 12. narozeninám. Piano mě začalo moc bavit, takže jsem se zapsala do odpoledního kroužku kapely v <ddmLink>DDM v Modřanech</ddmLink>.  Na začátku jsme na kroužku hráli písničky jiných autorů, ale teď si již píšeme <songLink>vlastní</songLink>. Máme koncerty pro naše rodiče, ale také hrajeme na různých akcích."
+        "desc": "Na piano hraji od té doby, co jsme ho dostala k\u00a0mým 12. narozeninám. Piano mě začalo moc bavit, takže jsem se zapsala do odpoledního kroužku kapely v\u00a0<ddmLink>DDM v\u00a0Modřanech</ddmLink>.  Na začátku jsme na kroužku hráli písničky jiných autorů, ale teď si již píšeme <songLink>vlastní</songLink>. Máme koncerty pro naše rodiče, ale také hrajeme na různých akcích."
       }
     },
     "education": {
       "title": "Vzdělání",
       "heading": {
         "title": "Vzdělání",
-        "desc": "Studuji na ZŠ Angel s bilingvní výukou anglického jazyka. Všechny ročníky jsem zatím prospěla s vyznamenáním. Anglický jazyk se učím už od 2 let a především díky mé základní škole jsem již dosáhla úrovně B2 postupným absolvováním dvou Cambridge zkoušek. "
+        "desc": "Studuji na ZŠ Angel s\u00a0bilingvní výukou anglického jazyka. Všechny ročníky jsem zatím prospěla s\u00a0vyznamenáním. Anglický jazyk se učím už od 2 let a\u00a0především díky mé základní škole jsem již dosáhla úrovně B2 postupným absolvováním dvou Cambridge zkoušek. "
       },
       "B2": {
         "title1": "B2",
@@ -137,13 +137,13 @@
         "title2": "Cambridge",
         "title3": "Test",
         "date": "Květen 2021",
-        "desc": "Svou první Cambridge zkoušku jsem absolvovala v 5. třídě na úrovni A2. Zde je můj <certificateLink1>certifikát</certificateLink1>."
+        "desc": "Svou první Cambridge zkoušku jsem absolvovala v\u00a05. třídě na úrovni A2. Zde je můj <certificateLink1>certifikát</certificateLink1>."
       },
       "school": {
         "title1": "Primary",
         "title2": "school",
         "date": "2016 - současnost",
-        "desc": "Studuji na <zsangelLink>ZŠ Angel</zsangelLink>, bilingvní škole s výukou anglického jazyka. Díky rodilým mluvčím z různých anglicky mluvících zemí jsme si rozvinula silné dovednosti v angličtině a dobrý přízvuk. Účastnila jsem se různých aktivit na naší škole. Od 8. třídy jsem členkou <cheerTeamLink>Angel Cheer Týmu</cheerTeamLink>. Za tanec na školní vánoční besídce jsem dostala <praiseLink>pochvalu</praiseLink> od třídní učitelky. V 6. třídě jsem prezentovala naši školu na radnici Prahy 12."
+        "desc": "Studuji na <zsangelLink>ZŠ Angel</zsangelLink>, bilingvní škole s\u00a0výukou anglického jazyka. Díky rodilým mluvčím z\u00a0různých anglicky mluvících zemí jsme si rozvinula silné dovednosti v\u00a0angličtině a\u00a0dobrý přízvuk. Účastnila jsem se různých aktivit na naší škole. Od 8. třídy jsem členkou <cheerTeamLink>Angel Cheer Týmu</cheerTeamLink>. Za tanec na školní vánoční besídce jsem dostala <praiseLink>pochvalu</praiseLink> od třídní učitelky. V\u00a06. třídě jsem prezentovala naši školu na radnici Prahy 12."
       }
     }
   }
