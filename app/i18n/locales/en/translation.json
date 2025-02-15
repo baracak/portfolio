@@ -1,137 +1,139 @@
 {
-  "title": "Bara's Portfolio",
+  "title": "Bára's Portfolio",
   "page": {
     "home": {
       "heading": {
         "title1": "Hello! ",
-        "title2": "I am  ",
-        "title3": "Bára Kalinová ",
-        "desc": "I\u00a0am a\u00a0student of primary english billingual school in 9th grade. I\u00a0am applying to Smíchovská Střední průmyslová Škola. I\u00a0created this portfolio to present myself, what I\u00a0already achieved or I\u00a0like.",
-        "desc2": "I\u00a0have been interested in web development for a while now, so I\u00a0created the portfolio in React to practice more. The portfolio is divided into four parts. Each contains a different topic I\u00a0engage in. This page summarises all of them and you can dive into each part to see more."
+        "title2": "I am ",
+        "title3": "Bára Kalinová",
+        "desc": "I am a 9th-grade student at an English bilingual elementary school, and I am applying to Smíchovská Secondary Industrial School. I created this portfolio to present my achievements, interests, and skills. It reflects who I am and what I enjoy.",
+        "desc2": "One of my main interests is web development, which I have been focusing on for quite some time. To improve my skills, I created this portfolio using React. It is divided into four sections, each focusing on a different topic that interests me. This page provides an overview of all sections and allows you to explore each one in more detail."
       },
       "sport": {
         "title": "Sport",
-        "desc": "I do sport because it helps me build my physic and it helps me mentally. It boost my mood and it challenges me to try new things and get sensational in them."
+        "desc": "I do sports because they help me build physical fitness and also support me mentally. They improve my mood, challenge me to try new things, and motivate me to improve."
       },
       "hobbies": {
         "title": "Hobbies",
-        "desc": "Hobbies are a way of relaxation and enjoyment for me. It helps me with my creativity and it puts away the stress I have, at least for a while. It also makes new friends that have the same interest as you."
+        "desc": "Hobbies are a source of relaxation and fun for me. They help me develop creativity and relieve stress, even if just for a moment. They also allow me to connect with new friends who share my interests."
       },
       "technology": {
         "title": "Technology",
-        "desc": "I programm to solve problems, express creativity, and build useful tools. It offers great career opportunities and continuous learning as technology evolves. It empowers me to turn my ideas into reality."
+        "desc": "Technology and programming enable me to solve problems, express my creativity, and create meaningful tools. It offers great career opportunities and continuous learning, as technology is constantly evolving. However, what excites me most is the ability to turn my ideas into reality."
       },
       "education": {
         "title": "Education",
-        "desc": "I believe education is a cornerstone of personal growth and social progress. I would like to expand my knowledge and skills in informational technology. I am passionate about exploring new ideas, trying out different challenges and applying what I learn to real life."
+        "desc": "I believe that education is the cornerstone of personal development and societal progress. I want to expand my knowledge and skills in the field of information technology. I am excited about discovering new ideas, taking on different challenges, and applying what I learn in real life."
       }
     },
     "sport": {
       "title": "Sport",
       "heading": {
         "title": "Sport",
-        "desc": "I enjoy a variety of activities, including climbing and aerial hoop. From my young age I participated in various sport competitions like running, climbing and cross-country skiing. My parents always led me to sports and we did them together. "
+        "desc": "The sports I focus on the most are indoor climbing and aerial hoop. Since childhood, I have participated in various sports competitions such as running, climbing, and cross-country skiing. My parents always encouraged me to do sports, and we often exercised together. My goal is not to do sports professionally but to enjoy them and use them as a mental break."
       },
       "climbing": {
         "title": "Climbing",
-        "desc": "I climb in <ddmLink>DDM Modřany</ddmLink>. I have been climbing since I was 12 years old and I even persuaded my dad to climb with me. I enjoy climbing very much and I am even a little bit stronger which is a positive thing about it. "
+        "desc": "I usually climb at a climbing club in <ddmLink>DDM Modřany</ddmLink>. Sometimes, I also climb in different climbing centers. I've visited several, but my favorite is <bigWallLink>Big Wall</bigWallLink>. I started climbing at the age of 12, and I even convinced my dad to start climbing with me. I really enjoy climbing, and it has also made me stronger, which is definitely a positive aspect of this sport."
       },
       "aerial": {
         "title": "Aerial Hoop",
-        "desc": "I do Arial Hoop at home. I have been doing Arial Hoop since I was 13 years old. At first I did it with my friend from school at an afternoon club but now I have an aerial hoop at home and I train at home. I do this sport just for fun and it's mostly just about doing some new skills on the hoop. "
+        "desc": "I started aerial hoop at the age of 13 at a club in <cvicitLink>cvič.it</cvicitLink>, where I went with a friend from school. Now, I have an aerial hoop at home, so I practice on my own. I do this sport mainly for fun, and my goal is to learn new tricks on the hoop."
       }
     },
     "technology": {
       "title": "Technology",
       "heading": {
         "title": "Technology",
-        "desc": "I have explored technology through courses like Make IT Today and Intro to IT, learning coding, web development, 3D printing, and robotics. I attended Media Creation for photography, video production, and podcasts. My programming journey began with Scratch at age 8, followed by JavaScript for Kids and Harvard's CS50 course, where I created games, animations, and web pages. I also built my portfolio using Next.js, TypeScript, and Tailwind, gaining experience in React and GitHub."
+        "desc": "Since childhood, I have had a close connection to technology, especially programming, which my father introduced me to. His enthusiasm and support inspired me to start working on my first projects at an early age. Over time, I began participating in various programming courses, where I learned the basic principles of coding and discovered how fascinating it is to create new things using technology. This page chronologically lists all the interesting activities and courses I have attended so far."
       },
       "portfolio": {
-        "title": "Portfolio",
-        "desc": "I made this portfolio with my dad's help. The code is written in <nextJsLink>Next.js</nextJsLink> and the programming language is <typeScriptLink>TypeScript</typeScriptLink>. Because of Next.js I learned basics of <reactLink>React</reactLink>. It is styled with <nextUiLink>HeroUI</nextUiLink> and <tailwindLink>Tailwind</tailwindLink>. And it is versioned in <githubLink>GitHub</githubLink>."
+        "title1": "This",
+        "title2": "Portfolio",
+        "desc": "One of the requirements for the SSPŠ admission process is to create a personal portfolio. I decided to make it as a website. As a result, this portfolio became the most complex and exciting project I have worked on to expand my web development knowledge. I spent almost the entire year of 2024 working on it in my free time, continuously improving and expanding it. My dad, who is a professional programmer, helped me with it. The code is written in <nextJsLink>Next.js</nextJsLink> and the programming language <typeScriptLink>TypeScript</typeScriptLink>. Through Next.js, I learned the basics of <reactLink>React</reactLink>. The styling is done using <nextUiLink>HeroUI</nextUiLink> and <tailwindLink>Tailwind</tailwindLink>. The entire project is version-controlled on <githubLink>GitHub</githubLink>."
       },
       "introIt": {
-        "title1": "Intro into ",
+        "title1": "Introduction to",
         "title2": "Programming",
         "title3": "and",
-        "title4": "IT world",
-        "desc": "I have attended this programming <courseLink>course</courseLink> from <sspsLink>SSPŠ</sspsLink>. We learned there basics of phyton. The teachers were very nice and they made it fun. "
+        "title4": "the IT World",
+        "desc": "At the end of 2024, I attended a weekend <courseLink>programming course</courseLink> in <pythonLink>Python</pythonLink> by Skillify at <sspsLink>SSPŠ</sspsLink>. We gradually got familiar with Python through simple examples. On the second day, we finished by creating our own Python script, for which I chose the game <guessingGameLink>Guessing Game</guessingGameLink>. The teachers were friendly, and the lessons were engaging."
       },
       "cs50": {
         "title": "CS50",
-        "desc": "I found this online <courseLink1>course</courseLink1> for computer science from Harvard. I watched the videos without going through the exams. It is free and it is build very understandably. The teacher is very good at teaching and he knows a lot of things about programming and makes it fun."
+        "desc": "I discovered this online <courseLink1>computer science course</courseLink1> from Harvard on the internet. It is free and very well-structured. The instructor explains everything excellently, has extensive knowledge of programming, and makes the concent fun. During the summer holidays of 2024, I watched all the lectures with great interest."
       },
       "girlsGroup": {
-        "title1": "Intro to ",
-        "title2": "IT ",
-        "title3": "from ",
-        "title4": "Girls group ",
-        "desc": "It is a day camp about informational technologies at the Smíchovská Secondary Technical School that I took. We learned IT basics, web development, and 3D printing. We engaged with virtual technology and Lego robotics. We also took and edited some photograps we made. Here is the <certificateLink>certificate</certificateLink>."
+        "title1": "Introduction to",
+        "title2": "IT",
+        "title3": "by",
+        "title4": "the Girls' Club",
+        "desc": "During the summer holidays of 2024, I attended a week-long summer school about information technology at <sspsLink>SSPŠ</sspsLink>. We learned the basics of IT, web development, and 3D printing. We worked with virtual reality and Lego robotics. We also took and edited <googleAlbum>photographs</googleAlbum>. Here is my <certificateLink>certificate</certificateLink> of completion."
       },
       "media": {
         "title1": "Media",
-        "title2": "creation",
-        "desc": "I went on a summer school at the Smíchovská Secondary Technical School. We did things like digital photography, video production, podcast creation and a lot of editing. We also recorded a <podcastLink>podcast</podcastLink> about that school."
+        "title2": "Production",
+        "desc": "In the summer of 2024, I completed a week-long summer school at <sspsLink>SSPŠ</sspsLink>. We focused on digital <googleAlbum>photography</googleAlbum>, video production, podcast recording, and a lot of editing work on the materials we captured. We also recorded a <podcastLink>podcast</podcastLink> about that school."
       },
       "web": {
-        "title1": "Intro to",
-        "title2": "Programming",
-        "title3": "of a web page",
-        "desc": "It is a day camp from <makeItLink>Make IT Today</makeItLink> for basic coding that I took. It is designed to enhance programming skills through fun and interactive pojects. We had exciting activities such as working with robots, virtual reality and 3D modeling. We made codes for simple games and web pages, and we solved a lot of challenges. I created a <webLink>web page</webLink> about yarns. Here is the <certificateLink1>certificate</certificateLink1>."
+        "title1": "Introduction to",
+        "title2": "Web",
+        "title3": "Programming",
+        "desc": "During the summer holidays of 2023, I attended a week-long day camp organized by <makeItLink>Make IT Today</makeItLink>, focused on the basics of web programming. The course was designed to introduce web development fundamentals through fun and interactive projects. We wrote code for simple games, web pages, and solved various challenges. I also created a <webLink>website</webLink> about yarns. Here is my <certificateLink1>diploma</certificateLink1> of completion."
       },
       "javascript": {
-        "title1": "Javascript",
+        "title1": "JavaScript",
         "title2": "for",
         "title3": "Kids",
-        "desc": "I took this online Javascript <courseLink2>course</courseLink2> from <udemyLink>Udemy</udemyLink> . It is designed to teach you Javascript in a fun and simple way. I learned there different fundimetals of Javascript. I created a lot of fun projects like interactive games and animations. I learned how to solve some simple problems and understand the core prinicipal of programming. I created couple of games and utilities, for example <calculatorLink>Investment</calculatorLink> Calculator or <dragDrawLink>Drag and Draw</dragDrawLink>."
+        "desc": "At the end of 2023, I completed an online <courseLink2>JavaScript course</courseLink2> on <udemyLink>Udemy</udemyLink>. It is designed to teach JavaScript in a fun and simple way. I learned the basics of JavaScript and created many fun projects, such as interactive games and animations. We solved simple problems, developed several games, and built useful tools. Examples include the <calculatorLink>Investment Calculator</calculatorLink> and <dragDrawLink>Drag and Draw</dragDrawLink>."
       },
       "scratch": {
         "title": "Scratch",
-        "desc": "I started with <scratchLink>Scratch</scratchLink> when I was 8 years old. My dad helped me with it. I loved it back in the time and it was very fun to play with. I also made a couple of simple games, for example <dragonChaseLink>Dragon Chase</dragonChaseLink> or <sayHelloLink>Say Hello</sayHelloLink>."
+        "desc": "I started working with <scratchLink>Scratch</scratchLink> when I was 8 years old. It was my very first experience with programming, introduced to me by my dad. I absolutely loved Scratch and enjoyed playing with it. I created several simple games, such as <dragonChaseLink>Dragon Chase</dragonChaseLink> and <sayHelloLink>Say Hello</sayHelloLink>."
       }
     },
+
     "hobbies": {
       "title": "Hobbies",
       "heading": {
         "title": "Hobbies",
-        "desc": "I enjoy crocheting, painting, and being part of my band. Crocheting brings me peace and helps me focus, while painting lets me express creativity, even with simple lines. In my band at DDM in Modřany, I write lyrics for our songs, and we perform at events and for our families. "
+        "desc": "My hobbies include crocheting, painting, and playing the piano. Crocheting brings me peace and helps me focus. Painting allows me to express my creativity. Playing the piano led me to join a band, where we create our own songs and perform at events."
       },
       "crocheting": {
         "title": "Crocheting",
-        "desc": "I have been crocheting a long time now, something about 5 years and I think I am pretty good at it. I enjoy it because it brings me peace and I can just sit down and do one thing and not worry about other stuff. That is what I love about crocheting. "
+        "desc": "I have been crocheting for a long time, since I was about 8 years old. I love crocheting because it brings me peace. I can just sit down, focus on one thing, and not worry about anything else. That’s what I love about it. Here, you can check out some of my <productsLink>creations</productsLink>."
       },
       "painting": {
         "title": "Painting",
-        "desc": "I have been painting my whole life, but probably like 3 years ago it started looking good. I like it because you can paint anything you want and even when you don't known how to paint you can paint something because you can just paint some lines on the paper and make it look good."
+        "desc": "I have been painting my whole life, but around the age of 12, I started improving. From 9 to 11 years old, I attended an art club. I love painting because there are endless things you can create. I prefer painting from references, such as cars or abstract art. You can view some of my paintings in this <albumLink>album</albumLink>."
       },
       "band": {
-        "title": "My Band",
-        "desc": "My band is a afternoon course in <ddmLink>DDM in Modřany</ddmLink>. It all started when I once went to a band course and we just played some songs. Now we even write our own <songLink>songs</songLink> and I am usually the one that is writing the lyrics and than someone else from the band writes the music for it. We have some concerts for our parents but we also play at some actions that are in DDM in modřany."
+        "title": "Piano",
+        "desc": "I started playing the piano when I got it for my 12th birthday. I enjoyed it so much that I joined an afternoon band club at <ddmLink>DDM in Modřany</ddmLink>. At first, we played songs by other artists, but now we write our <songLink>own songs</songLink>. We perform for our parents, and we also play at various events."
       }
     },
     "education": {
       "title": "Education",
       "heading": {
         "title": "Education",
-        "desc": "I study at ZŠ Angel and I have done 2 Cambridge exams. I have competed in several sport competitions organised by my primary school. I have been learning English from a very early age."
+        "desc": "I study at ZŠ Angel, a bilingual school with English language teaching. I have passed all my school years with honors. I have been learning English since I was 2 years old, and thanks to my elementary school, I have reached the B2 level by gradually completing two Cambridge exams."
       },
       "B2": {
         "title1": "B2",
         "title2": "Cambridge",
-        "title3": "Exam",
-        "desc": "I have done my second Cambridge exam in 9th grade and it was level B2. Here is the <resultLink>certificate</resultLink>."
+        "title3": "Test",
+        "desc": "In the 9th grade, I took my second Cambridge exam at the B2 level. Here is my <resultLink>certificate</resultLink>."
       },
       "A2": {
         "title1": "A2",
         "title2": "Cambridge",
-        "title3": "Exam",
-        "desc": "I have done my first Cambridge exam in 5th grade and it was level A2. Here is the <certificateLink1>certificate</certificateLink1>."
+        "title3": "Test",
+        "desc": "I took my first Cambridge exam in the 5th grade at the A2 level. Here is my <certificateLink1>certificate</certificateLink1>."
       },
       "school": {
         "title1": "Primary",
-        "title2": "school",
-        "desc": "I study at <zsangelLink>ZŠ Angel</zsangelLink>, a bilingual school where I’ve developed strong English skills and a good accent thanks to native speakers from various English-speaking countries. I have participated in various activities in our school. From 8th grade I am a member of <cheerTeamLink>Angel Cheer Team</cheerTeamLink>. I got a <praiseLink>praise</praiseLink> for dancing at the school Christmas play by my class teacher. In 6th grade I was presenting our school in the Prague 12 town hall."
+        "title2": "School",
+        "desc": "I study at <zsangelLink>ZŠ Angel</zsangelLink>, a bilingual school with English language instruction. Thanks to native speakers from various English-speaking countries, I have developed strong English skills and a good accent. I have participated in various activities at our school. Since the 8th grade, I have been a member of the <cheerTeamLink>Angel Cheer Team</cheerTeamLink>. I received a <praiseLink>commendation</praiseLink> from my class teacher for dancing at the school Christmas play. In the 6th grade, I represented our school at the Prague 12 town hall."
       }
     }
   }

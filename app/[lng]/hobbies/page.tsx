@@ -40,7 +40,22 @@ export default async function HobbiesPage({
               },
             ],
           ]}
-          description={t("page.hobbies.crocheting.desc")}
+          description={
+            <Trans
+              t={t}
+              i18nKey={"page.hobbies.crocheting.desc"}
+              components={{
+                productsLink: (
+                  <CommonLink
+                    isExternal
+                    href={
+                      "https://photos.google.com/album/AF1QipNzASaJ5muQCzJEUDa445hBkH5do9pskhngrnxx"
+                    }
+                  />
+                ),
+              }}
+            />
+          }
           gridItems={[
             <Image
               key={0}
@@ -69,19 +84,32 @@ export default async function HobbiesPage({
               },
             ],
           ]}
-          description={t("page.hobbies.painting.desc")}
+          description={
+            <Trans
+              t={t}
+              i18nKey={"page.hobbies.painting.desc"}
+              components={{
+                albumLink: (
+                  <CommonLink
+                    isExternal
+                    href={"https://photos.app.goo.gl/tA7wVbnnwKQN9D487"}
+                  />
+                ),
+              }}
+            />
+          }
           gridItems={[
             <Image
               key={0}
               alt=""
               {...coverImageProps}
-              src="/images/nebe.jpg"
+              src="/images/butterfly.jpg"
             />,
             <Image
               key={1}
               alt=""
               {...coverImageProps}
-              src="/images/butterfly.jpg"
+              src="/images/nebe.jpg"
             />,
           ]}
         ></PresentationBox>
