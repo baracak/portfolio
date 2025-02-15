@@ -48,9 +48,7 @@ export default async function HobbiesPage({
                 productsLink: (
                   <CommonLink
                     isExternal
-                    href={
-                      "https://photos.google.com/album/AF1QipNzASaJ5muQCzJEUDa445hBkH5do9pskhngrnxx"
-                    }
+                    href={"https://photos.app.goo.gl/roinpAofEbEwZH7J7"}
                   />
                 ),
               }}

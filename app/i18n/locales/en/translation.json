@@ -7,7 +7,7 @@
         "title2": "I\u00a0am ",
         "title3": "Bára Kalinová",
         "desc": "I\u00a0am a\u00a09th-grade student at an\u00a0English bilingual elementary school, and I\u00a0am applying to Smíchovská Secondary Technology School. I\u00a0created this portfolio to present my achievements, interests, and skills. It reflects who I\u00a0am and what I\u00a0enjoy.",
-        "desc2": "One of my main interests is web development, which I\u00a0have been focusing on for quite some time. To improve my skills, I\u00a0created this portfolio using React. It is divided into four sections, each focusing on a\u00a0different topic. This page provides an\u00a0overview of all sections and allows you to explore each one in more detail."
+        "desc2": "One of my main interests is web development, which I\u00a0have been focusing on for quite some time. To improve my skills, I\u00a0created this portfolio in Next.js. It is divided into four sections, each focusing on a\u00a0different topic. This page provides an\u00a0overview of all sections and allows you to explore each one in more detail."
       },
       "sport": {
         "title": "Sport",
@@ -45,7 +45,7 @@
       "title": "Technology",
       "heading": {
         "title": "Technology",
-        "desc": "Since childhood, I\u00a0have had a\u00a0close connection to technology, especially programming, which my father introduced me to. His enthusiasm and support inspired me to start working on my first projects at an\u00a0early age. Over time, I\u00a0began participating in various programming courses, where I\u00a0learned the\u00a0basic principles of coding and discovered how fascinating it is to create new things using technology. This page chronologically lists all the\u00a0interesting activities and courses I\u00a0have attended so far."
+        "desc": "Since childhood, I\u00a0like modern technology, especially programming, which my father introduced me to. His enthusiasm and support inspired me to start working on my first projects at an\u00a0early age. Over time, I\u00a0began participating in various programming courses, where I\u00a0learned the\u00a0basic principles of coding and discovered how fascinating it is to create new things using technology. This page chronologically lists all the\u00a0interesting activities and courses I\u00a0have attended so far."
       },
       "portfolio": {
         "title1": "This",
