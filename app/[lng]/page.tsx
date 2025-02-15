@@ -44,6 +44,7 @@ export default async function HomePage({
       <div className="grid grid-cols-1 gap-20">
         <PresentationBox
           detailLink={`/${lng}/technology`}
+          t={t}
           titleRows={[
             [
               {
@@ -73,6 +74,7 @@ export default async function HomePage({
         ></PresentationBox>
         <PresentationBox
           detailLink={`/${lng}/education`}
+          t={t}
           titleRows={[
             [
               {
@@ -102,6 +104,7 @@ export default async function HomePage({
         ></PresentationBox>
         <PresentationBox
           detailLink={`/${lng}/sport`}
+          t={t}
           titleRows={[
             [
               {
@@ -131,6 +134,7 @@ export default async function HomePage({
         ></PresentationBox>
         <PresentationBox
           detailLink={`/${lng}/hobbies`}
+          t={t}
           titleRows={[
             [
               {

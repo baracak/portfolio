@@ -1,5 +1,6 @@
 import { Button, Chip, Link } from "@nextui-org/react";
 import classNames from "classnames";
+import { TFunction } from "i18next";
 import { ReactNode } from "react";
 
 interface Title {
@@ -13,16 +14,15 @@ interface Title {
 
 type TitleRow = Title[];
 
-interface Props {
+type Props = {
   titleRows: TitleRow[];
   description?: ReactNode;
   gridItems?: ReactNode[];
   className?: string | undefined;
   titleClassName?: string | undefined;
   isPageTitle?: boolean;
-  detailLink?: string;
   chipContent?: ReactNode;
-}
+} & ({ detailLink?: never; t?: never } | { detailLink: string; t: TFunction });
 
 export default function PresentationBox({
   description,
@@ -31,8 +31,9 @@ export default function PresentationBox({
   className,
   titleClassName,
   isPageTitle = false,
-  detailLink,
   chipContent,
+  detailLink,
+  t,
 }: Props) {
   const areGridItemsOdd = !!(gridItems && gridItems.length % 2);
   return (
@@ -67,7 +68,11 @@ export default function PresentationBox({
             </div>
           ))}
         </div>
-        {chipContent && (<Chip color="default" variant="bordered" className="mt-2 mb-1">{chipContent}</Chip>)}
+        {chipContent && (
+          <Chip color="default" variant="bordered" className="mt-2 mb-1">
+            {chipContent}
+          </Chip>
+        )}
         {description && (
           <p className="w-full md:w-2/3 lg:w-1/2 my-2 text-lg lg:text-xl font-normal text-default-500 block max-w-full [&>a]:text-lg [&>a]:lg:text-xl">
             {description}
@@ -82,7 +87,7 @@ export default function PresentationBox({
           as={Link}
           href={detailLink}
         >
-          Read more
+          {t("readMore")}
         </Button>
       )}
       {gridItems && (
